@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/science-model-dashboard/static/css/main.4f7c349c.css",
-    "main.js": "/science-model-dashboard/static/js/main.997ded2d.js",
+    "main.css": "/science-model-dashboard/static/css/main.30cf2b07.css",
+    "main.js": "/science-model-dashboard/static/js/main.e9ca767f.js",
+    "static/js/23.4c163a42.chunk.js": "/science-model-dashboard/static/js/23.4c163a42.chunk.js",
+    "static/js/765.2f6d51a8.chunk.js": "/science-model-dashboard/static/js/765.2f6d51a8.chunk.js",
     "index.html": "/science-model-dashboard/index.html",
-    "main.4f7c349c.css.map": "/science-model-dashboard/static/css/main.4f7c349c.css.map",
-    "main.997ded2d.js.map": "/science-model-dashboard/static/js/main.997ded2d.js.map"
+    "main.30cf2b07.css.map": "/science-model-dashboard/static/css/main.30cf2b07.css.map",
+    "main.e9ca767f.js.map": "/science-model-dashboard/static/js/main.e9ca767f.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f7c349c.css",
-    "static/js/main.997ded2d.js"
+    "static/css/main.30cf2b07.css",
+    "static/js/main.e9ca767f.js"
   ]
 }
