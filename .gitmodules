@@ -1,6 +1,3 @@
 [submodule "LLM_paper_analytics"]
 	path = LLM_paper_analytics
 	url = https://github.com/yunks128/LLM_paper_analytics
-[submodule "pubclassifier"]
-	path = pubclassifier
-	url = https://github.com/yunks128/pubclassifier
