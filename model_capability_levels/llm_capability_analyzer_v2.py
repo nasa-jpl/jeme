@@ -788,38 +788,46 @@ def generate_report(model_name, final_scores, total_papers, sample_size, output_
 
 ## Assessment Process
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                              📥 INPUTS                                      │
-├─────────────────────┬─────────────────────┬─────────────────────────────────┤
-│  📄 {model_name} Citation    │  📋 MCL Framework     │  👤 Expert Feedback           │
-│  Papers             │  (14 Capability     │  (Domain Knowledge)           │
-│  ({total_papers:,} papers)   │   Dimensions)        │                               │
-└──────────┬──────────┴──────────┬──────────┴───────────────┬───────────────────┘
-           │                     │                          │
-           ▼                     ▼                          ▼
-┌─────────────────────────────────────────┐  ┌─────────────────────────────────┐
-│         🤖 LLM ANALYSIS (Gemini)        │  │      👨‍🔬 EXPERT REVIEW            │
-├─────────────────────────────────────────┤  ├─────────────────────────────────┤
-│  1. Stratified Sampling                 │  │  1. Override Incorrect          │
-│     ({sample_size} papers across domains)        │  │     LLM Assessments             │
-│                                         │  │                                 │
-│  2. Evidence Extraction                 │  │  2. Add Authoritative           │
-│     ({model_name}-specific filtering)          │  │     Evidence                    │
-│                                         │  │                                 │
-│  3. Categorical Classification          │  │  3. Mark N/A for                │
-│     (Low/Moderate/High/Very High)       │  │     Non-applicable Metrics      │
-└──────────────────┬──────────────────────┘  └───────────────┬─────────────────┘
-                   │                                         │
-                   └──────────────────┬──────────────────────┘
-                                      ▼
-                   ┌─────────────────────────────────────────┐
-                   │            📊 OUTPUT                    │
-                   ├─────────────────────────────────────────┤
-                   │     Combined Assessment (LLM + Expert)  │
-                   │                  ▼                      │
-                   │       📑 {model_name} Capability Report        │
-                   └─────────────────────────────────────────┘
+```mermaid
+flowchart TB
+    subgraph Inputs["📥 Inputs"]
+        A[("📄 {model_name} Citation Papers<br/>({total_papers:,} papers)")]
+        B[("📋 MCL Framework<br/>(14 Capability Dimensions)")]
+        C[("👤 Expert Feedback<br/>(Domain Knowledge)")]
+    end
+
+    subgraph LLM_Analysis["🤖 LLM Analysis (Gemini)"]
+        D["Stratified Sampling<br/>({sample_size} papers across domains)"]
+        E["Evidence Extraction<br/>({model_name}-specific filtering)"]
+        F["Categorical Classification<br/>(Low/Moderate/High/Very High)"]
+    end
+
+    subgraph Expert_Review["👨‍🔬 Expert Review"]
+        G["Override Incorrect<br/>LLM Assessments"]
+        H["Add Authoritative<br/>Evidence"]
+        I["Mark N/A for<br/>Non-applicable Metrics"]
+    end
+
+    subgraph Output["📊 Output"]
+        J["Combined Assessment<br/>(LLM + Expert)"]
+        K[("📑 {model_name} Capability Report")]
+    end
+
+    A --> D
+    B --> E
+    D --> E
+    E --> F
+    F --> J
+    C --> G
+    G --> H
+    H --> I
+    I --> J
+    J --> K
+
+    style A fill:#e1f5fe
+    style B fill:#fff3e0
+    style C fill:#f3e5f5
+    style K fill:#e8f5e9
 ```
 
 ---
