@@ -74,6 +74,20 @@ Removes spam and metadata noise from citation JSON files. Three filter categorie
 
 Supports `--model NAME`, `--all`, and `--dry-run` flags. Idempotent.
 
+### Venue Enrichment (`scripts/fetch_ecco_venues.py`)
+
+Fetches missing journal/venue info for citation papers using external APIs:
+- **Crossref API** for entries with DOIs (`https://api.crossref.org/works/{doi}`)
+- **Semantic Scholar batch API** for entries with only `paper_id`
+- Caches results in `scripts/ecco_venue_cache.json` for incremental reruns
+- Run with: `python3 scripts/fetch_ecco_venues.py`
+
+### Data Quality Notes
+
+Citation data is collected from Semantic Scholar via `citing_team_paper` / `team_paper_id` links. Team papers must be verified as actually belonging to the model project — not just authored by team members on unrelated topics. ECCO data was cleaned to remove ~3,900 entries citing non-ECCO team papers (e.g., EGM2008 geodesy, island biogeography, PFAS chemistry).
+
+The `GenericCitationsPage` handles both Crossref and simplified data formats, normalizing field name differences (e.g., `DOI` vs `doi`, `URL` vs `url`, `container-title` vs `venue`).
+
 ## Development Patterns
 
 **Adding New Models:**
