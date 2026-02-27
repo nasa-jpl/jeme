@@ -125,5 +125,5 @@ The `GenericCitationsPage` handles both Crossref and simplified data formats, no
 
 ## Deployment
 
-- GitHub Pages at `https://yunks128.github.io/science-model-dashboard`
-- `npm run deploy` runs build then `gh-pages -d build`
+- Production site: `http://34.31.165.25:3000/science-model-dashboard/`
+- GitHub Pages is NOT used
