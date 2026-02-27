@@ -119,6 +119,10 @@ The `GenericCitationsPage` handles both Crossref and simplified data formats, no
 
 **Styling:** Tailwind CSS v2.2.19, Lucide React icons, Recharts charts, D3/TopoJSON for maps. Model-specific colors from `modelConfig.color`.
 
+## Git Commit Rules
+
+- Do NOT include `Co-Authored-By` lines in commit messages
+
 ## Deployment
 
 - GitHub Pages at `https://yunks128.github.io/science-model-dashboard`
