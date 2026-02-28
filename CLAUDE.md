@@ -13,20 +13,27 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Architecture Overview
 
-React-based dashboard (CRA) for visualizing citation metrics across 8 scientific models. Uses a modular, multi-model architecture with both generic and model-specific implementations.
+React-based dashboard (CRA) for visualizing citation metrics across scientific models and NASA missions. Split into two sites:
 
-**Supported Models:** RAPID, CARDAMOM, CMS-Flux, ECCO, ISSM, MOMO-CHEM, LES, EDMF
+- **JEME** (JPL's Earth Modeling Enterprise) — 8 science models at `/science-model-dashboard/`
+- **JEOE** (JPL Earth Observation Enterprise) — NASA missions at `/science-model-dashboard/JEOE`
+
+Each site has its own branding, favicon, browser tab title, and context-aware NavBar that links to the other.
+
+**Supported Models (JEME):** RAPID, CARDAMOM, CMS-Flux, ECCO, ISSM, MOMO-CHEM, LES, EDMF
+**Supported Missions (JEOE):** GRACE, SWOT
 
 ### Model Configuration (`src/config/modelConfig.js`)
 
-Centralized config for all models. Each entry has: name, displayName, description, dataPath, color, domain, github, website, fullDescription.
+Centralized config for all models and missions. Each entry has: name, displayName, description, dataPath, color, domain, github, website, fullDescription. Missions additionally have `type: 'mission'`.
 - `getModelConfig(modelName)` - Retrieve model-specific settings
 - `getModelList()` - Get array of all model names
 
 ### Routing (`src/AppWithRouting.js`)
 
-- `/science-model-dashboard` - Main multi-model dashboard
-- `/science-model-dashboard/{modelName}` - Model-specific dashboard
+- `/science-model-dashboard` - JEME main dashboard (8 models)
+- `/science-model-dashboard/JEOE` - JEOE main dashboard (missions)
+- `/science-model-dashboard/{modelName}` - Model/mission-specific dashboard
 - `/science-model-dashboard/{modelName}/citations` - Citations page
 - `/science-model-dashboard/{modelName}/geographic-impact` - Geographic impact
 - `/science-model-dashboard/{modelName}/research-domains` - Research domains
@@ -34,10 +41,19 @@ Centralized config for all models. Each entry has: name, displayName, descriptio
 - Some models (CMS-Flux, ECCO, ISSM, CARDAMOM, MOMO-CHEM) have model-specific research-domains routes
 - Legacy routes maintained for backward compatibility
 
+### JEME/JEOE Navigation (`src/components/NavBar.js`)
+
+The NavBar is context-aware based on the `activeItem` prop:
+- **JEME context** (models): Shows `Dashboard | Models | JEOE | How It Works`
+- **JEOE context** (missions): Shows `Dashboard | Missions | JEME | How It Works`
+- Logo, title, subtitle, favicon (`public/favicon.svg` vs `public/favicon-jeoe.svg`), and browser tab title all swap dynamically
+- `isJEOE` is true when `activeItem` is `'JEOE Dashboard'` or a mission name (GRACE, SWOT)
+
 ### Generic vs Model-Specific Components
 
 - Generic components (`GenericDashboard.js`, `GenericCitationsPage.js`, etc.) work with any model via `modelName` route param
-- Model-specific overrides live in `src/views/{MODEL_NAME}/` directories
+- Model-specific overrides live in `src/views/{MODEL_NAME}/` directories (including `src/views/GRACE/` and `src/views/SWOT/` for missions)
+- `src/views/JEOEDashboard.js` is the JEOE main dashboard
 - Generic components dynamically import `src/data/{MODEL_NAME}_analyzed.json`
 
 ### Data Processing (`src/utils/dataUtils.js`)
@@ -103,14 +119,24 @@ The `GenericCitationsPage` handles both Crossref and simplified data formats, no
 
 ## Development Patterns
 
-**Adding New Models:**
+**Adding New Models (JEME):**
 1. Add config to `src/config/modelConfig.js` MODELS object
 2. Add route in MODEL_ROUTES and in `src/AppWithRouting.js`
 3. Add `src/data/{MODEL_NAME}_analyzed.json`
 4. Add dynamic import case in `src/utils/networkAnalysis.js` `loadAllModelData()`
 5. Add dynamic import case in `src/views/Dashboard.js` data loading
 6. Add model to MODELS array in `scripts/clean_citation_data.js`
-7. Use generic components or create model-specific ones in `src/views/{MODEL_NAME}/`
+7. Add color to `modelColors` in `ModelComparisonChart.js` and `MultiModelCitationTrendsChart.js`
+8. Use generic components or create model-specific ones in `src/views/{MODEL_NAME}/`
+
+**Adding New Missions (JEOE):**
+1. Add config to `src/config/modelConfig.js` MODELS object with `type: 'mission'`
+2. Add route in `src/AppWithRouting.js`
+3. Add `src/data/{MISSION_NAME}_analyzed.json`
+4. Add mission to MISSION_LINKS in `src/components/NavBar.js`
+5. Add mission card to `src/views/JEOEDashboard.js` missions array
+6. Add color to `modelColors` in `ModelComparisonChart.js` and `MultiModelCitationTrendsChart.js`
+7. Create dashboard in `src/views/{MISSION_NAME}/Dashboard.js`
 
 **Data Loading Pattern:**
 - Pages dynamically import JSON via switch/case on model name
@@ -125,5 +151,6 @@ The `GenericCitationsPage` handles both Crossref and simplified data formats, no
 
 ## Deployment
 
-- Production site: `http://34.31.165.25:3000/science-model-dashboard/`
+- Production site (JEME): `http://34.31.165.25:3000/science-model-dashboard/`
+- Production site (JEOE): `http://34.31.165.25:3000/science-model-dashboard/JEOE`
 - GitHub Pages is NOT used
