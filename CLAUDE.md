@@ -10,6 +10,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - `npm run deploy` - Build and deploy to GitHub Pages
 - `node scripts/clean_citation_data.js --all --dry-run` - Preview citation data cleanup across all models
 - `node scripts/clean_citation_data.js --model ECCO` - Clean a specific model's data
+- `python scripts/compute_uncertainty.py --model RAPID` - Compute Phase 1 uncertainty scores
+- `python scripts/phase2_llm_confidence.py --model RAPID --sample 10` - Phase 2 multi-temperature LLM sampling
+- `python scripts/phase3_skeptic_agent.py --model RAPID` - Phase 3 skeptic agent review
 
 ## Architecture Overview
 
@@ -116,6 +119,34 @@ Citation data is collected from Semantic Scholar via `citing_team_paper` / `team
 **Uncertainty estimates:** ~8-12% false removal rate among removed entries; ~3-5% false retention rate among kept entries. Primary uncertainty source is the 50% of ECCO entries lacking abstracts (title-only verification).
 
 The `GenericCitationsPage` handles both Crossref and simplified data formats, normalizing field name differences (e.g., `DOI` vs `doi`, `URL` vs `url`, `container-title` vs `venue`).
+
+### Uncertainty Quantification Pipeline
+
+Three-phase pipeline for quantifying classification confidence. Each phase adds data to the `uncertainty` block on each citation entry.
+
+**Phase 1 — Deterministic scoring (`scripts/compute_uncertainty.py`):**
+- Evidence confidence from metadata completeness (abstract, DOI, venue, authors, keyword matches)
+- Pipeline variance from keyword classifier vs LLM label disagreement
+- Heuristic reasoning confidence (0.85 with abstract, 0.5 without)
+- Composite: `0.45 * evidence + 0.45 * reasoning - 0.10 * pipeline_variance`
+
+**Phase 2 — Multi-temperature LLM sampling (`scripts/phase2_llm_confidence.py`):**
+- Calls Gemini 3x at temperatures [0.1, 0.5, 1.0] per entry
+- `stochastic_variance`: fraction of runs disagreeing with majority label (0.0-0.67)
+- `reasoning_confidence`: average of Gemini's self-assessed confidence (1-5), normalized to 0-1
+- Updated composite: `0.35 * evidence + 0.35 * reasoning + 0.20 * (1 - stochastic_variance) - 0.10 * pipeline_variance`
+- Requires `GEMINI_API_KEY` env var (available in `.bashrc`), caches in `scripts/phase2_cache.json`
+
+**Phase 3 — Skeptic agent (`scripts/phase3_skeptic_agent.py`):**
+- Reviews high-risk entries: `miscalibration_risk == "high"`, `stochastic_variance > 0.3`, or high engagement with low confidence
+- Asks Gemini to challenge existing classification, rates agreement (1-5)
+- `override_flag: true` when skeptic agreement <= 2/5
+- Adds `skeptic_review` block with agreement score, alternative classifications, and review reason
+- Requires `GEMINI_API_KEY`, caches in `scripts/phase3_cache.json`
+
+**Run order:** Phase 1 → Phase 2 → Phase 1 (recompute with Phase 2 data) → Phase 3
+
+**UI:** Uncertainty page at `/{modelName}/uncertainty` (`GenericUncertaintyPage.js`). Phase 2/3 sections (`StochasticVarianceCard`, `SkepticReviewCard`) render conditionally when data exists.
 
 ## Development Patterns
 
