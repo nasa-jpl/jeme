@@ -15,9 +15,9 @@ JPL has developed a unified, AI-powered dashboard that tracks scientific impact,
 ### Task 1 — Remaining Quality Control (Months 1–2)
 
 - Finalize verification of citation data across all 8 JEME models (address ~8–12% false-removal rate, ~3–5% false-retention rate)
-- Improve abstract coverage for ECCO dataset (~50% currently lacking abstracts; title-only verification)
+- Improve abstract coverage for ECCO dataset (~50% of entries were verified using title-only matching; enriching with full abstracts will strengthen classification confidence)
 - Refine keyword-based relevance thresholds to reduce ~5–10% estimated miss rate for indirect model usage
-- Complete Phase 2/3 uncertainty quantification runs for models not yet processed
+- Complete Phase 2 (multi-temperature LLM sampling) and Phase 3 (skeptic agent review) uncertainty quantification runs for all 8 JEME models and integrate results into analyzed JSON data files
 - Update Model Capability Level (MCL) scores with model-team feedback
 
 ### Task 2 — Inclusion of NASA Models in IMVI (Months 2–6)
@@ -57,8 +57,8 @@ JPL has developed a unified, AI-powered dashboard that tracks scientific impact,
 | Role | FY26 (Apr–Sep) | FY27 (Oct–Sep) | Notes |
 |------|---------------|----------------|-------|
 | **Kyongsik Yun** (lead developer) | **0.3 FTE** (~6 months at 30%) | **0.2 FTE** (sustainment + expansion) | Pipeline development, dashboard engineering, LLM/UQ work, integration of new models |
-| **Model-team POCs** (Eric Larour, Derek Posselt, Kevin Bowman, others) | ~0.05 FTE each, intermittent | ~0.02 FTE each | Seed paper identification, MCL score review, validation of results |
-| **External model leads** (partner center contacts) | ~0.05 FTE each, intermittent | As needed | Coordination for non-JPL model onboarding |
+| **Model-team POCs** (Eric Larour, Derek Posselt, Kevin Bowman, others) | ~0.05 FTE each (~2 hrs/wk, intermittent; max 0.1 FTE at peak) | ~0.02 FTE each | Seed paper identification, MCL score review, validation of results |
+| **External model leads** (partner center contacts) | ~0.05 FTE each (~2 hrs/wk, intermittent; max 0.1 FTE at peak) | As needed | Coordination for non-JPL model onboarding |
 | **IT / hosting support** | ~2 weeks | As needed | If migration to NASA-accessible hosting is required |
 
 **Total estimated effort:**
