@@ -168,17 +168,17 @@ Figure 1 and Table 1 summarize the citation datasets across the 10 entities anal
 
 | Entity | Type | Papers | Citations | Domain |
 |--------|------|--------|-----------|--------|
-| ECCO | Model | 27,456 | 820,748 | Oceanography |
-| ISSM | Model | 5,668 | 165,963 | Cryosphere |
-| MOMO-CHEM | Model | 1,658 | 50,986 | Atmospheric Chemistry |
-| EDMF | Model | 1,178 | 43,527 | Atmospheric Physics |
-| CMS-Flux | Model | 955 | 21,108 | Carbon Flux |
-| CARDAMOM | Model | 773 | 22,117 | Terrestrial Ecosystems |
-| RAPID | Model | 488 | 11,129 | Hydrology |
+| ECCO | Model | 27,366 | 819,685 | Oceanography |
+| ISSM | Model | 5,613 | 165,320 | Cryosphere |
+| MOMO-CHEM | Model | 1,650 | 50,697 | Atmospheric Chemistry |
+| EDMF | Model | 1,171 | 43,521 | Atmospheric Physics |
+| CMS-Flux | Model | 946 | 21,095 | Carbon Flux |
+| CARDAMOM | Model | 737 | 20,280 | Terrestrial Ecosystems |
+| RAPID | Model | 483 | 11,126 | Hydrology |
 | LES | Model | 255 | 3,763 | Cloud / Turbulence |
-| GRACE | Mission | 5,455 | 179,779 | Geophysics & Geodesy |
+| GRACE | Mission | 5,449 | 179,771 | Geophysics & Geodesy |
 | SWOT | Mission | 782 | 12,106 | Ocean & Inland Water |
-| **Total** | | **44,668** | **1,331,226** | |
+| **Total** | | **44,452** | **1,327,364** | |
 
 ### 4.2 Data Verification Results
 
@@ -188,15 +188,15 @@ The multi-agent verification pipeline achieved 91–96% keyword relevance match 
 
 | Model | Original | Verified | Removed | Keyword Match | Primary Issue |
 |-------|----------|----------|---------|---------------|---------------|
-| ECCO | 31,452 | 27,456 | 3,996 | Variable | EGM2008 contamination, tangential team papers |
-| ISSM | 5,950 | 5,938 | 12 | 96% | Broken metadata (1,904 titles repaired) |
-| All others | — | — | 0 | 91–96% | Clean datasets |
+| ECCO | 31,452 | 27,366 | 4,086 | Variable | EGM2008 contamination, tangential team papers, junk entries |
+| ISSM | 5,950 | 5,613 | 337 | 96% | Broken metadata (1,904 titles repaired), junk entries |
+| All others | — | — | 80 | 91–96% | Book chapters, editorial/reviewer content, errata |
 
 Overall estimated error rates: false removal 8–12%, false retention 3–5%. The primary uncertainty source is the ~50% of ECCO entries lacking abstracts, requiring title-only verification.
 
 ### 4.3 Uncertainty Quantification
 
-The three-phase UQ pipeline assigns calibrated confidence scores to each of the 44,668 classification decisions. Phase 1 deterministic scoring provides the baseline. Phase 2 multi-temperature LLM sampling (3 passes at temperatures 0.1, 0.5, 1.0) captures stochastic variance in classification. Phase 3 skeptic review targets high-risk entries for adversarial challenge. The combined pipeline reduces miscalibration risk and flags entries requiring human review.
+The three-phase UQ pipeline assigns calibrated confidence scores to each of the 44,452 classification decisions. Phase 1 deterministic scoring provides the baseline. Phase 2 multi-temperature LLM sampling (3 passes at temperatures 0.1, 0.5, 1.0) captures stochastic variance in classification. Phase 3 skeptic review targets high-risk entries for adversarial challenge. The combined pipeline reduces miscalibration risk and flags entries requiring human review.
 
 ### 4.4 Cross-Model Network Analysis
 
@@ -310,7 +310,7 @@ The integration of these methods into a single pipeline—deterministic scoring,
 
 We have presented an integrated platform that combines AI-powered citation analytics, multi-agent data verification, uncertainty quantification, network analysis, and capability maturity assessment for NASA Earth system models. The key contributions are:
 
-1. A five-stage citation analytics pipeline processing 44,668 publications across 10 NASA models and missions.
+1. A five-stage citation analytics pipeline processing 44,452 publications across 10 NASA models and missions.
 2. A three-phase Bayesian uncertainty quantification system providing calibrated confidence for every classification.
 3. The Model Capability Level framework—a 14-dimension, evidence-based assessment adapted from NASA TRL and Sandia PCMM heritage.
 4. Identification of ML/AI integration (mean 1.1/3) and stakeholder adoption (mean 1.3/3) as the most significant cross-cutting capability gaps across JEME.
