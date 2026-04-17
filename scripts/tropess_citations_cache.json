@@ -67058,5 +67058,2681 @@
       ],
       "abstract": "Abstract. Herein, we describe an approach to retrieve free tropospheric columns of peroxyacyl nitrates (PANs) from radiances observed by the Atmospheric Infrared Sounder (AIRS). AIRS has provided daily global coverage since its launch in 2002, making the AIRS data a valuable long term record. Although the instrument is very radiometrically stable, the radiance noise level is large enough to present a challenge when retrieving a weak absorber such as PAN. To address this, spectral windows were selected to minimize interference from other species as much as possible and a set of filters was developed to predict whether a PAN value retrieved from AIRS is within 0.2 ppb or 50 % of what would be retrieved from the Cross-track Infrared Sounder (CrIS) and to remove spurious signals caused by specific surface features or clouds. We show that AIRS is capable of retrieving PAN plumes with very high concentrations of PAN (such as those from significant wildfires) that have similar spatial extent as seen by CrIS and that PAN retrieved from AIRS has good correlation with CrIS given sufficient averaging. We conclude with recommendations for users to help ensure that these data are used appropriately."
     }
-  ]
+  ],
+  "10.5194/amt-17-5341-2024": [
+    {
+      "paperId": "77d6b86da0e11d9e8947e5ea540c8c61543f6018",
+      "externalIds": {
+        "DOI": "10.5194/amt-19-249-2026",
+        "CorpusId": 284740597
+      },
+      "title": "An algorithm to retrieve peroxyacetyl nitrate from AIRS",
+      "venue": "Atmospheric Measurement Techniques",
+      "year": 2026,
+      "citationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.5194/amt-19-249-2026?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.5194/amt-19-249-2026, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "40864515",
+          "name": "J. Laughner"
+        },
+        {
+          "authorId": "2842010",
+          "name": "S. Kulawik"
+        },
+        {
+          "authorId": "2356472633",
+          "name": "Vivienne H. Payne"
+        }
+      ],
+      "abstract": "Abstract. Herein, we describe an approach to retrieve free tropospheric columns of peroxyacyl nitrates (PANs) from radiances observed by the Atmospheric Infrared Sounder (AIRS). AIRS has provided daily global coverage since its launch in 2002, making the AIRS data a valuable long term record. Although the instrument is very radiometrically stable, the radiance noise level is large enough to present a challenge when retrieving a weak absorber such as PAN. To address this, spectral windows were selected to minimize interference from other species as much as possible and a set of filters was developed to predict whether a PAN value retrieved from AIRS is within 0.2 ppb or 50 % of what would be retrieved from the Cross-track Infrared Sounder (CrIS) and to remove spurious signals caused by specific surface features or clouds. We show that AIRS is capable of retrieving PAN plumes with very high concentrations of PAN (such as those from significant wildfires) that have similar spatial extent as seen by CrIS and that PAN retrieved from AIRS has good correlation with CrIS given sufficient averaging. We conclude with recommendations for users to help ensure that these data are used appropriately."
+    },
+    {
+      "paperId": "1adfd11096a2f362d16a502d8f19380edf692114",
+      "externalIds": {
+        "DOI": "10.1016/j.rse.2025.115106",
+        "CorpusId": 282731664
+      },
+      "title": "First global twice-daily ozone profiles from Chinese UV–vis satellites via synergistic spectral calibration and retrieval",
+      "venue": "Remote Sensing of Environment",
+      "year": 2026,
+      "citationCount": 1,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.rse.2025.115106?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.rse.2025.115106, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2188265119",
+          "name": "Xiaohan Wang"
+        },
+        {
+          "authorId": "11012084",
+          "name": "Q. Hu"
+        },
+        {
+          "authorId": "51105232",
+          "name": "Chengxin Zhang"
+        },
+        {
+          "authorId": "50193323",
+          "name": "Wenjing Su"
+        },
+        {
+          "authorId": "2108416409",
+          "name": "Qihua Li"
+        },
+        {
+          "authorId": "2301518890",
+          "name": "Hongri Hou"
+        },
+        {
+          "authorId": "2264777267",
+          "name": "Cheng Liu"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "07370835e2b2b10fbe15196786db18a3de19b7b7",
+      "externalIds": {
+        "DOI": "10.5194/acp-25-11719-2025",
+        "CorpusId": 281811592
+      },
+      "title": "Assessment of 16-year tropospheric ozone trends from the IASI Climate Data Record",
+      "venue": "Atmospheric Chemistry and Physics",
+      "year": 2025,
+      "citationCount": 3,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.5194/acp-25-11719-2025?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.5194/acp-25-11719-2025, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "11544017",
+          "name": "A. Boynard"
+        },
+        {
+          "authorId": "69330499",
+          "name": "C. Wespes"
+        },
+        {
+          "authorId": "1456701319",
+          "name": "J. Hadji-Lazaro"
+        },
+        {
+          "authorId": "2334411489",
+          "name": "Selviga Sinnathamby"
+        },
+        {
+          "authorId": "15861387",
+          "name": "D. Hurtmans"
+        },
+        {
+          "authorId": "91088992",
+          "name": "P. Coheur"
+        },
+        {
+          "authorId": "2379768549",
+          "name": "Marie Doutriaux-Boucher"
+        },
+        {
+          "authorId": "103395175",
+          "name": "J. Onderwaater"
+        },
+        {
+          "authorId": "9966726",
+          "name": "W. Steinbrecht"
+        },
+        {
+          "authorId": "46335523",
+          "name": "E. Pennington"
+        },
+        {
+          "authorId": "2336766742",
+          "name": "K. Bowman"
+        },
+        {
+          "authorId": "3206753",
+          "name": "C. Clerbaux"
+        }
+      ],
+      "abstract": "Abstract. Assessing tropospheric ozone (O3) variability is essential for understanding its impact on air quality, health, and climate change. The Infrared (IR) Atmospheric Sounding Interferometer (IASI) mission onboard the Metop platforms has been providing global measurements of O3 concentrations since 2007. This study presents the first comprehensive analysis of the 16-year O3 Climate Data Record (CDR) from IASI/Metop (2008–2023), a homogeneous dataset offering valuable insights into the variability and long-term trends of tropospheric O3. The IASI-CDR ozone product is evaluated against TROPESS (TRopospheric Ozone and its Precursors from Earth System Sounding) O3 retrievals from the Cross-track Infrared Sounder (CrIS). The comparison shows excellent agreement for total ozone (biases <1.2 %, correlations >0.97) and good agreement for tropospheric ozone (biases 10 %–12 %, correlations 0.77–0.91). Comparisons with ozonesonde data indicate that IASI underestimates tropospheric ozone by 2 % in the tropics and by up to 10 % in mid and high latitudes. Drift analysis indicates the long-term temporal stability of IASI tropospheric ozone, with values below 3 % per decade globally and regionally, satisfying the stability criterion requirement. IASI data reveal a global decline in tropospheric O3 (−0.08 ± 0.05 DU yr−1, p=0.01), strongest in the tropics and Europe. The comparison with ozonesonde data, shows high-certainty decreases consistently observed in the tropics across all datasets (IASI, smoothed sonde, and raw sonde), supporting the robustness of the findings in this region. Vertical analysis reveals that negative trends dominate in the lower troposphere, while positive trends in the upper troposphere align with ultraviolet (UV) satellite observations. This vertical contrast highlights the importance of separating lower and upper tropospheric layers when comparing IR and UV datasets. Although discrepancies remain when considering the full tropospheric column, both UV and IR satellite instruments show a significant drop in tropospheric ozone starting in 2020, partly due to pandemic-related emission reductions. This study emphasizes the importance of long-term, consistent datasets for tracking ozone trends and the need for improved data retrieval and integration to address regional and temporal discrepancies.\n"
+    },
+    {
+      "paperId": "c0921641b269c8b083cf925fa75449e04e704baa",
+      "externalIds": {
+        "DOI": "10.5194/acp-25-8533-2025",
+        "CorpusId": 280903190
+      },
+      "title": "Quantifying biases in TROPESS AIRS, CrIS, and joint AIRS+OMI tropospheric ozone products using ozonesondes",
+      "venue": "Atmospheric Chemistry and Physics",
+      "year": 2025,
+      "citationCount": 7,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.5194/acp-25-8533-2025?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.5194/acp-25-8533-2025, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "46335523",
+          "name": "E. Pennington"
+        },
+        {
+          "authorId": "2275074678",
+          "name": "G. Osterman"
+        },
+        {
+          "authorId": "2356472633",
+          "name": "Vivienne H. Payne"
+        },
+        {
+          "authorId": "2295153198",
+          "name": "Kazuyuki Miyazaki"
+        },
+        {
+          "authorId": "2336766742",
+          "name": "K. Bowman"
+        },
+        {
+          "authorId": "32084930",
+          "name": "J. Neu"
+        }
+      ],
+      "abstract": "Abstract. Quantifying changes in global and regional tropospheric ozone is critical for understanding global atmospheric chemistry and its impact on air quality and climate. Satellites now provide multi-decadal records of daily global ozone profiles, but previous studies have found large disagreements in satellite-based ozone trends, including in trends from different products based on the same spectral radiances. In light of these disagreements, it is critical to quantify to what degree the observed trend is attributable to measurement error for each product by comparing satellite-retrieved ozone to long-term measurements from ozonesondes. NASA's TRopospheric Ozone and its Precursors from Earth System Sounding (TROPESS) project provides satellite retrievals of ozone from a suite of instruments, including Cross-track Infrared Sounder (CrIS), Atmospheric Infrared Sounder (AIRS), and multispectral combinations such as AIRS and Ozone Monitoring Instrument (OMI) (joint AIRS+OMI) using a common algorithm. We compare these products to ozonesondes and find that the evolution of global tropospheric ozone satellite–sonde biases for TROPESS CrIS (0.21 ± 3.6 % decade−1, 2016–2021), AIRS (−0.41 ± 0.57 % decade−1, 2002–2022), and joint AIRS+OMI (1.1 ± 1.0 % decade−1, 2004–2022) are less than the magnitude of trends in global tropospheric ozone reported by the Tropospheric Ozone Assessment Report Phase 1 (TOAR-I). We further quantify the bias in regional trends, which tend to be higher but with a smaller number of sondes, which can impact the satellite–sonde bias and trend. Our work represents an important basis for the utility of using satellite data to quantify changes in atmospheric composition in future studies.\n"
+    },
+    {
+      "paperId": "11dd6f905eb7f2892d92fd157b5603612bc35dda",
+      "externalIds": {
+        "DOI": "10.3103/S1068373925080023",
+        "CorpusId": 282200486
+      },
+      "title": "Remote Sensing of Atmospheric Ozone. 2. Satellite Methods",
+      "venue": "Russian Meteorology and Hydrology",
+      "year": 2025,
+      "citationCount": 1,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.3103/S1068373925080023?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.3103/S1068373925080023, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2290785747",
+          "name": "Yu. M. Timofeev"
+        },
+        {
+          "authorId": "2260053269",
+          "name": "A. Polyakov"
+        },
+        {
+          "authorId": "94839490",
+          "name": "Y. Virolainen"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "bb6f168e3683a6b80cd796d468801b0130a169c3",
+      "externalIds": {
+        "DOI": "10.3390/rs17111854",
+        "CorpusId": 278946852
+      },
+      "title": "An Assessment of TROPESS CrIS and TROPOMI CO Retrievals and Their Synergies for the 2020 Western U.S. Wildfires",
+      "venue": "Remote Sensing",
+      "year": 2025,
+      "citationCount": 1,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.3390/rs17111854?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.3390/rs17111854, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2363811035",
+          "name": "Oscar A. Neyra-Nazarrett"
+        },
+        {
+          "authorId": "2295153198",
+          "name": "Kazuyuki Miyazaki"
+        },
+        {
+          "authorId": "2344786249",
+          "name": "Kevin W. Bowman"
+        },
+        {
+          "authorId": "4562370",
+          "name": "P. Saide"
+        }
+      ],
+      "abstract": "The 2020 wildfire season in the Western U.S. was historic in its intensity and impact on the land and atmosphere. This study aims to characterize satellite retrievals of carbon monoxide (CO), a tracer of combustion and signature of those fires, from two key satellite instruments: the Cross-track Infrared Sounder (CrIS) and the Tropospheric Monitoring Instrument (TROPOMI). We evaluate them during this event and assess their synergies. These two retrievals are matched temporally, as the host satellites are in tandem orbit and spatially by aggregating TROPOMI to the CrIS resolution. Both instruments show that the Western U.S. displayed significantly higher daily average CO columns compared to the Central and Eastern U.S. during the wildfires. TROPOMI showed up to a factor of two larger daily averages than CrIS during the most intense fire period, likely due to differences in the vertical sensitivity of the two instruments and representative of near-surface CO abundance near the fires. On the other hand, there was excellent agreement between the instruments in downwind free tropospheric plumes (scatter plot slopes of 0.96–0.99), consistent with their vertical sensitivities and indicative of mostly lofted smoke. Temporally, TROPOMI CO column peaks were delayed relative to the Fire Radiative Power (FRP), and CrIS peaks were delayed with respect to TROPOMI, particularly during the intense initial weeks of September, suggesting boundary layer buildup and ventilation. Satellite retrievals were evaluated using ground-based CO column estimates from the Network for the Detection of Atmospheric Composition Change (NDACC) and the Total Carbon Column Observing Network (TCCON), showing Normalized Mean Errors (NMEs) for CrIS and TROPOMI below 32% and 24%, respectively, when compared to all stations studied. While Normalized Mean Bias (NMB) was typically low (absolute value below 15%), there were larger negative biases at Pasadena, likely associated with sharp spatial gradients due to topography and proximity to a large city, which is consistent with previous research. In situ CO profiles from AirCore showed an elevated smoke plume for 15 September 2020, highlighted consistency between TROPOMI and CrIS CO columns for lofted plumes. This study demonstrates that both CrIS and TROPOMI provide complementary information on CO distribution. CrIS’s sensitivity in the middle and lower free troposphere, coupled with TROPOMI’s effectiveness at capturing total columns, offers a more comprehensive view of CO distribution during the wildfires than either retrieval alone. By combining data from both satellites as a ratio, more detailed information about the vertical location of the plumes can potentially be extracted. This approach can enhance air quality models, improve vertical estimation accuracy, and establish a new method for assessing lower tropospheric CO concentrations during significant wildfire events."
+    },
+    {
+      "paperId": "db9e304a77ab95ca2cca9f51aa69e4db3b85e9b5",
+      "externalIds": {
+        "DOI": "10.5194/amt-18-1689-2025",
+        "CorpusId": 277866283
+      },
+      "title": "Predictions of failed satellite retrieval of air quality using machine learning",
+      "venue": "Atmospheric Measurement Techniques",
+      "year": 2025,
+      "citationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.5194/amt-18-1689-2025?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.5194/amt-18-1689-2025, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2336769315",
+          "name": "Edward Malina"
+        },
+        {
+          "authorId": "88918989",
+          "name": "Jure Brence"
+        },
+        {
+          "authorId": "2337100389",
+          "name": "Jennifer Adams"
+        },
+        {
+          "authorId": "2124999",
+          "name": "J. Tanevski"
+        },
+        {
+          "authorId": "1693549",
+          "name": "S. Džeroski"
+        },
+        {
+          "authorId": "2128807904",
+          "name": "Valentin Kantchev"
+        },
+        {
+          "authorId": "2336766742",
+          "name": "K. Bowman"
+        }
+      ],
+      "abstract": "Abstract. The growing fleet of Earth observation (EO) satellites is capturing unprecedented quantities of information about the concentration and distribution of trace gases in the Earth's atmosphere. Depending on the instrument and algorithm, the yield of good remote soundings can be a few percent owing to interferences such as clouds, non-linearities in the retrieval algorithm, and systematic errors in the radiative transfer algorithm, leading to inefficient use of computational resources. In this study, we investigate machine learning (ML) techniques to predict failures in the trace gas retrieval process based upon the input satellite radiances alone, allowing for efficient production of good-quality data. We apply this technique to ozone and other retrievals using measurements from multiple satellites: the Suomi National Polar-orbiting Partnership Cross-Track Infrared Sounder (Suomi NPP CrIS) and joint retrievals from the Atmospheric Infrared Sounder (AIRS) Ozone Monitoring Instrument (OMI). Retrievals are performed using the MUlti-SpEctra, MUlti-SpEcies, Multi-SEnsors (MUSES) algorithm. With this tool, we can identify 80 % of ozone retrieval failures using the MUSES algorithm at a cost of 20 % false positives from CrIS. For AIRS-OMI, 98 % of ozone retrieval failures are identified at a cost of 2 % false positives. The ML tool is simple to generate and takes <0.1 s to assess each measured spectrum. The results suggest that this tool can be applied to data from many EO satellites and can reduce the processing load for current and future instruments.\n"
+    },
+    {
+      "paperId": "5bb45512b80e64e9b847f8cd620834608f96028a",
+      "externalIds": {
+        "DOI": "10.5194/amt-17-3969-2024",
+        "CorpusId": 271005813
+      },
+      "title": "5 years of Sentinel-5P TROPOMI operational ozone profiling and geophysical validation using ozonesonde and lidar ground-based networks",
+      "venue": "Atmospheric Measurement Techniques",
+      "year": 2024,
+      "citationCount": 16,
+      "openAccessPdf": {
+        "url": "https://doi.org/10.5194/amt-17-3969-2024",
+        "status": "GOLD",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.5194/amt-17-3969-2024?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.5194/amt-17-3969-2024, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "93899270",
+          "name": "A. Keppens"
+        },
+        {
+          "authorId": "2310070035",
+          "name": "Serena Di Pede"
+        },
+        {
+          "authorId": "2284935875",
+          "name": "D. Hubert"
+        },
+        {
+          "authorId": "144826186",
+          "name": "J. Lambert"
+        },
+        {
+          "authorId": "104835743",
+          "name": "P. Veefkind"
+        },
+        {
+          "authorId": "7896130",
+          "name": "M. Sneep"
+        },
+        {
+          "authorId": "134151129",
+          "name": "J. D. de Haan"
+        },
+        {
+          "authorId": "2078514613",
+          "name": "Mark ter Linden"
+        },
+        {
+          "authorId": "2243980445",
+          "name": "T. Leblanc"
+        },
+        {
+          "authorId": "47391755",
+          "name": "S. Compernolle"
+        },
+        {
+          "authorId": "2139449",
+          "name": "T. Verhoelst"
+        },
+        {
+          "authorId": "6774833",
+          "name": "J. Granville"
+        },
+        {
+          "authorId": "2290506405",
+          "name": "Oindrila Nath"
+        },
+        {
+          "authorId": "9641524",
+          "name": "A. M. Fjæraa"
+        },
+        {
+          "authorId": "40083482",
+          "name": "I. Boyd"
+        },
+        {
+          "authorId": "2804046",
+          "name": "S. Niemeijer"
+        },
+        {
+          "authorId": "30947469",
+          "name": "R. van Malderen"
+        },
+        {
+          "authorId": "38718602",
+          "name": "H. Smit"
+        },
+        {
+          "authorId": "3605084",
+          "name": "V. Duflot"
+        },
+        {
+          "authorId": "1397648752",
+          "name": "S. Godin-Beekmann"
+        },
+        {
+          "authorId": "2246669487",
+          "name": "Bryan J. Johnson"
+        },
+        {
+          "authorId": "9966726",
+          "name": "W. Steinbrecht"
+        },
+        {
+          "authorId": "4590201",
+          "name": "D. Tarasick"
+        },
+        {
+          "authorId": "6226404",
+          "name": "D. Kollonige"
+        },
+        {
+          "authorId": "2238062645",
+          "name": "Ryan M. Stauffer"
+        },
+        {
+          "authorId": "2239048000",
+          "name": "A. M. Thompson"
+        },
+        {
+          "authorId": "3315932",
+          "name": "A. Dehn"
+        },
+        {
+          "authorId": "2818736",
+          "name": "C. Zehner"
+        }
+      ],
+      "abstract": "Abstract. The Sentinel-5 Precursor (S5P) satellite operated by the European Space Agency has carried the TROPOspheric Monitoring Instrument (TROPOMI) on a Sun-synchronous low-Earth orbit since 13 October 2017. The S5P mission has acquired more than 5 years of TROPOMI nadir ozone profile data retrieved from the level 0 to 1B processor version 2.0 and the level 1B to 2 optimal-estimation-based processor version 2.4.0. The latter is described in detail in this work, followed by the geophysical validation of the resulting ozone profiles for the period May 2018 to April 2023. Comparison of TROPOMI ozone profile data to co-located ozonesonde and lidar measurements used as references concludes to a median agreement better than 5 % to 10 % in the troposphere. The bias goes up to −15 % in the upper stratosphere (35–45 km) where it can exhibit vertical oscillations. The comparisons show a dispersion of about 30 % in the troposphere and 10 % to 20 % in the upper troposphere to lower stratosphere and in the middle stratosphere, which is close to mission requirements. Chi-square tests of the observed differences confirm on average the validity of the ex ante (prognostic) satellite and ground-based data uncertainty estimates in the middle stratosphere above about 20 km. Around the tropopause and below, the mean chi-square value increases up to about four, meaning that the ex ante TROPOMI uncertainty is underestimated. The information content of the ozone profile retrieval is characterised by about five to six vertical subcolumns of independent information and a vertical sensitivity (i.e. the fraction of the information that originates from the measurement) nearly equal to unity at altitudes from about 20 to 50 km, decreasing rapidly at altitudes above and below. The barycentre of the retrieved information is usually close to the nominal retrieval altitude in the 20–50 km altitude range, with positive and negative offsets of up to 10 km below and above this range, respectively. The effective vertical resolution of the profile retrieval usually ranges within 10–15 km, with a minimum close to 7 km in the middle stratosphere. Increased sensitivities and higher effective vertical resolutions are observed at higher solar zenith angles (above about 60°), as can be expected, and correlate with higher retrieved ozone concentrations. The vertical sensitivity of the TROPOMI tropospheric ozone retrieval is found to depend on the solar zenith angle, which translates into a seasonal and meridian dependence of the bias with respect to reference measurements. A similar although smaller effect can be seen for the viewing zenith angle. Additionally, the bias is negatively correlated with the surface albedo for the lowest three ozone subcolumns (0–18 km), despite the albedo's apparently slightly positive correlation with the retrieval degrees of freedom in the signal. For the 5 years of TROPOMI ozone profile data that are available now, an overall positive drift is detected for the same three subcolumns, while a negative drift is observed above (24–32 km), resulting in a negligible vertically integrated drift.\n"
+    },
+    {
+      "paperId": "7990dba94de4fa272e602633432f0686d039bb57",
+      "externalIds": {
+        "DOI": "10.5194/amt-17-2559-2024",
+        "CorpusId": 262132337
+      },
+      "title": "TOLNet validation of satellite ozone profiles in the troposphere: impact of retrieval wavelengths",
+      "venue": "Atmospheric Measurement Techniques",
+      "year": 2024,
+      "citationCount": 5,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.5194/amt-17-2559-2024?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.5194/amt-17-2559-2024, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2244144006",
+          "name": "Matthew S. Johnson"
+        },
+        {
+          "authorId": "143645007",
+          "name": "A. Rozanov"
+        },
+        {
+          "authorId": "2253832398",
+          "name": "Mark Weber"
+        },
+        {
+          "authorId": "71413293",
+          "name": "N. Mettig"
+        },
+        {
+          "authorId": "2243980984",
+          "name": "John Sullivan"
+        },
+        {
+          "authorId": "2006238",
+          "name": "M. Newchurch"
+        },
+        {
+          "authorId": "40266704",
+          "name": "S. Kuang"
+        },
+        {
+          "authorId": "2243980445",
+          "name": "T. Leblanc"
+        },
+        {
+          "authorId": "26925277",
+          "name": "F. Chouza"
+        },
+        {
+          "authorId": "2466561",
+          "name": "T. Berkoff"
+        },
+        {
+          "authorId": "2084213730",
+          "name": "G. Gronoff"
+        },
+        {
+          "authorId": "11611078",
+          "name": "K. Strawbridge"
+        },
+        {
+          "authorId": "143877784",
+          "name": "R. Alvarez"
+        },
+        {
+          "authorId": "47225812",
+          "name": "A. Langford"
+        },
+        {
+          "authorId": "3736032",
+          "name": "C. Senff"
+        },
+        {
+          "authorId": "93995541",
+          "name": "G. Kirgis"
+        },
+        {
+          "authorId": "2282200303",
+          "name": "B. McCarty"
+        },
+        {
+          "authorId": "3145036",
+          "name": "L. Twigg"
+        }
+      ],
+      "abstract": "Abstract. The Tropospheric Ozone Lidar Network (TOLNet) was used to validate retrievals of ozone (O3) profiles in the troposphere from the TROPOspheric Monitoring Instrument (TROPOMI) ultraviolet (UV), Cross-track Infrared Sounder (CrIS) infrared (IR), and a combined UV + IR wavelength retrieval from TROPOMI/CrIS. Observations from six separate ground-based lidar systems and various locations of ozonesondes distributed throughout North America and in the Netherlands were used to quantify systematic bias and random errors for each satellite retrieval. Furthermore, TOLNet data were used to intercompare idealized UV, IR, and UV + IR convolved lidar profiles of O3 in the troposphere during case studies representative of high-O3 events. This study shows that the improved sensitivity and vertical resolution in UV + IR retrievals in the middle- and upper-troposphere resulted in tropospheric degree of freedom (DOF) values ∼ 33 % higher compared to UV- and IR-only retrievals. The increased DOFs in the UV + IR retrievals allowed for improved reproduction of mid- and upper-tropospheric O3 enhancements and, to a lesser degree, near-surface pollution enhancements compared to single-wavelength satellite products. The validation of O3 profiles in the troposphere retrieved with the UV-only, IR-only, and UV + IR Tikhonov regularised Ozone Profile retrievAl with SCIATRAN (TOPAS) algorithm developed at the Institute for Environmental Physics, University of Bremen, demonstrated the utility of using TOLNet as a satellite evaluation data set. TOPAS UV-only, IR-only, and UV + IR wavelength retrievals had systematic biases, quantified with normalized mean bias, throughout the troposphere of 11.2 ppb (22.1 %), −1.7 ppb (−0.3 %), and 3.5 ppb (7.8 %), respectively, which meet the tropospheric systematic bias requirements defined by the science teams for the TROPOMI and CrIS sensors. The primary drivers of systematic bias were determined to be solar zenith angle, surface albedo, and cloud fraction. Random errors, representative of uncertainty in the retrievals and quantified by root mean squared errors (RMSEs), were large for all three retrievals, with UV-only, IR-only, and UV + IR wavelength retrievals having RMSEs throughout the troposphere of 17.4 ppb (19.8 % of mean tropospheric column values), 10.5 ppb (12.6 % of mean tropospheric column values), and 14.0 ppb (14.6 % of mean tropospheric column values), respectively. TOPAS UV-only profiles did not meet the uncertainty requirements defined for TROPOMI for the troposphere; however, CrIS IR-only retrievals did meet the uncertainty requirements defined by this mission. The larger random errors reflect the challenge of retrieving daily O3 profiles due to the limited sensitivity and vertical resolution of these retrievals in the troposphere. Tropospheric systematic biases and random error were lower in IR-only and combined UV + IR retrievals compared to UV-only products due to the increased sensitivity in the troposphere allowing the retrievals to deviate further from the a priori profiles. Observations from TOLNet demonstrated that the performance of the three satellite products varied by season and altitude in the troposphere. TOLNet was shown to result in similar validation statistics compared to ozonesonde data, which are a commonly used satellite evaluation data source, demonstrating that TOLNet is a sufficient source of satellite O3 profile validation data in the troposphere, which is critical as this data source is the primary product identified for the tropospheric O3 validation of the recently launched Tropospheric Emissions: Monitoring of Pollution (TEMPO) mission.\n"
+    },
+    {
+      "paperId": "dffd424af0ad92e65d92434d53c94de9790eb97f",
+      "externalIds": {
+        "DOI": "10.1175/bams-d-22-0054.1",
+        "CorpusId": 249335228
+      },
+      "title": "Exploring the Future of Infrared Sounding: Outcomes of a NOAA-NESDIS Virtual Workshop",
+      "venue": "Bulletin of The American Meteorological Society - (BAMS)",
+      "year": 2022,
+      "citationCount": 4,
+      "openAccessPdf": {
+        "url": "https://journals.ametsoc.org/downloadpdf/journals/bams/103/8/BAMS-D-22-0054.1.pdf",
+        "status": "BRONZE",
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1175/bams-d-22-0054.1?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1175/bams-d-22-0054.1, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "34424610",
+          "name": "S. Kalluri"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "052a6e0c3177536531b80870bbbca1b95ada6003",
+      "externalIds": {
+        "DBLP": "journals/staeors/BartschGSMMGFTBPRHM25",
+        "DOI": "10.1109/JSTARS.2025.3538897",
+        "CorpusId": 276164200
+      },
+      "title": "Advancing the Arctic Methane Permafrost Challenge (AMPAC) With Future Satellite Missions",
+      "venue": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing",
+      "year": 2025,
+      "citationCount": 5,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1109/JSTARS.2025.3538897?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1109/JSTARS.2025.3538897, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2278029061",
+          "name": "A. Bartsch"
+        },
+        {
+          "authorId": "2124703234",
+          "name": "B. Gay"
+        },
+        {
+          "authorId": "2344112860",
+          "name": "D. Schuettemeyer"
+        },
+        {
+          "authorId": "2336769315",
+          "name": "Edward Malina"
+        },
+        {
+          "authorId": "2276736387",
+          "name": "Kimberley Miner"
+        },
+        {
+          "authorId": "2244275631",
+          "name": "G. Grosse"
+        },
+        {
+          "authorId": "2344112494",
+          "name": "Andreas Fix"
+        },
+        {
+          "authorId": "2270892839",
+          "name": "Johanna Tamminen"
+        },
+        {
+          "authorId": "2242926316",
+          "name": "Hartmut Bösch"
+        },
+        {
+          "authorId": "2290620603",
+          "name": "R. Parker"
+        },
+        {
+          "authorId": "3051990",
+          "name": "K. Rautiainen"
+        },
+        {
+          "authorId": "2049232970",
+          "name": "Josh Hashemi"
+        },
+        {
+          "authorId": "2238918335",
+          "name": "C. E. Miller"
+        }
+      ],
+      "abstract": "Permafrost degradation in the Arctic is accelerating and is forecast to enhance greenhouse gas (GHG) emissions from the large permafrost carbon pool. Earth observation has a key role in determining GHG sources and sinks, and multiple current and future missions are useful to track baseline parameters for determining GHG fluxes. NASA and ESA have initialized the Arctic Methane and Permafrost Challenge (AMPAC) as a transatlantic networking action that strives to promote related scientific work and improve observation capabilities. Key variables observable from space include methane concentrations as well as landcover properties to inform process-based models as proxy for sources as well as temperature-related constraints for microbial activity. Upcoming missions are expected to advance these capabilities significantly with increased sampling intervals through future synthetic aperture radar missions and constellations of multiple multispectral sensors. This will allow better representation of seasonality and advance methane source attribution in general. In addition, continuity of current missions, which provide GHG observations, including methane, is crucial. Hyperspectral and superspectral sensors targeting primarily landsurface observation are expected to complement methane retrievals through the identification of emission hotspots. Arctic monitoring also requires active optical instruments for concentration retrieval, a type of instrumentation that is still novel for satellite-based observations. A comprehensive portfolio of hyperspectral, passive microwave, synthetic aperture radar, altimeter and landsurface temperature, and lidar measurements in addition to imaging spectrometers will be available by 2032/2033, at the time of the International Polar Year. This will allow for advanced experiments when also accompanying in situ observations become available."
+    },
+    {
+      "paperId": "dad6b3fe4200067081c149dfe13d3eb97f4b1ed6",
+      "externalIds": {
+        "CorpusId": 268298600
+      },
+      "title": "Five years of Sentinel-5p TROPOMI operational ozone proﬁling and geophysical validation using ozonesonde and lidar ground-based networks",
+      "venue": "",
+      "year": null,
+      "citationCount": 3,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null
+      },
+      "authors": [
+        {
+          "authorId": "93899270",
+          "name": "A. Keppens"
+        },
+        {
+          "authorId": "117227163",
+          "name": "S. D. Pede"
+        },
+        {
+          "authorId": "2284935875",
+          "name": "D. Hubert"
+        },
+        {
+          "authorId": "144826186",
+          "name": "J. Lambert"
+        },
+        {
+          "authorId": "104835743",
+          "name": "P. Veefkind"
+        },
+        {
+          "authorId": "7896130",
+          "name": "M. Sneep"
+        },
+        {
+          "authorId": "2251276756",
+          "name": "J. D. Haan"
+        },
+        {
+          "authorId": "2006818522",
+          "name": "M. T. Linden"
+        },
+        {
+          "authorId": "2243980445",
+          "name": "T. Leblanc"
+        },
+        {
+          "authorId": "47391755",
+          "name": "S. Compernolle"
+        },
+        {
+          "authorId": "2139449",
+          "name": "T. Verhoelst"
+        },
+        {
+          "authorId": "6774833",
+          "name": "J. Granville"
+        },
+        {
+          "authorId": "2290506405",
+          "name": "Oindrila Nath"
+        },
+        {
+          "authorId": "9641524",
+          "name": "A. M. Fjæraa"
+        },
+        {
+          "authorId": "40083482",
+          "name": "I. Boyd"
+        },
+        {
+          "authorId": "2804046",
+          "name": "S. Niemeijer"
+        },
+        {
+          "authorId": "93309974",
+          "name": "R. Malderen"
+        },
+        {
+          "authorId": "38718602",
+          "name": "H. Smit"
+        },
+        {
+          "authorId": "2290507946",
+          "name": "Valentin Duﬂot"
+        },
+        {
+          "authorId": "1397648752",
+          "name": "S. Godin-Beekmann"
+        },
+        {
+          "authorId": "2246669487",
+          "name": "Bryan J. Johnson"
+        },
+        {
+          "authorId": "9966726",
+          "name": "W. Steinbrecht"
+        },
+        {
+          "authorId": "4590201",
+          "name": "D. Tarasick"
+        },
+        {
+          "authorId": "6226404",
+          "name": "D. Kollonige"
+        },
+        {
+          "authorId": "4597951",
+          "name": "R. Stauffer"
+        },
+        {
+          "authorId": "2239048000",
+          "name": "A. M. Thompson"
+        },
+        {
+          "authorId": "3315932",
+          "name": "A. Dehn"
+        },
+        {
+          "authorId": "2818736",
+          "name": "C. Zehner"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "2086a4038cc9b6c25f66212c4c03b77e66ba393f",
+      "externalIds": {
+        "CorpusId": 274966733
+      },
+      "title": "Predictions of satellite retrieval failures of air quality using machine learning",
+      "venue": "",
+      "year": null,
+      "citationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null
+      },
+      "authors": [
+        {
+          "authorId": "2336769315",
+          "name": "Edward Malina"
+        },
+        {
+          "authorId": "88918989",
+          "name": "Jure Brence"
+        },
+        {
+          "authorId": "2337100389",
+          "name": "Jennifer Adams"
+        },
+        {
+          "authorId": "2124999",
+          "name": "J. Tanevski"
+        },
+        {
+          "authorId": "1693549",
+          "name": "S. Džeroski"
+        },
+        {
+          "authorId": "2128807904",
+          "name": "Valentin Kantchev"
+        },
+        {
+          "authorId": "2336766742",
+          "name": "K. Bowman"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "b63ffb699f216abc9aaf39f9f2f88f59456df4f7",
+      "externalIds": {
+        "CorpusId": 282204641
+      },
+      "title": "A hybrid optimal estimation and machine learning approach to predict atmospheric composition",
+      "venue": "",
+      "year": null,
+      "citationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null
+      },
+      "authors": [
+        {
+          "authorId": "49329532",
+          "name": "F. Werner"
+        },
+        {
+          "authorId": "2336766742",
+          "name": "K. Bowman"
+        },
+        {
+          "authorId": "2351509224",
+          "name": "Seungwon Lee"
+        },
+        {
+          "authorId": "40864515",
+          "name": "J. Laughner"
+        },
+        {
+          "authorId": "2272575846",
+          "name": "V. H. Payne"
+        },
+        {
+          "authorId": "2386540942",
+          "name": "James L. McDufﬁe"
+        }
+      ],
+      "abstract": null
+    }
+  ],
+  "10.1029/2024gl111481": [
+    {
+      "paperId": "5d3fe9f4cc3bd2708b4dec2d1f97f8f420f83d7f",
+      "externalIds": {
+        "DOI": "10.1029/2025MS005299",
+        "CorpusId": 286388974
+      },
+      "title": "Incorporating Gas‐Phase Chemistry Into the Unified Forecast System (UFS) for Global Air Quality Applications",
+      "venue": "Journal of Advances in Modeling Earth Systems",
+      "year": 2026,
+      "citationCount": 1,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1029/2025MS005299?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1029/2025MS005299, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2217889081",
+          "name": "Jia He"
+        },
+        {
+          "authorId": "2364130849",
+          "name": "Li Zhang"
+        },
+        {
+          "authorId": "3805100",
+          "name": "R. Schwantes"
+        },
+        {
+          "authorId": "2267822636",
+          "name": "B. Baker"
+        },
+        {
+          "authorId": "2281449913",
+          "name": "L. Horowitz"
+        },
+        {
+          "authorId": "2299734708",
+          "name": "V. Naik"
+        },
+        {
+          "authorId": "2277971973",
+          "name": "Congmeng Lyu"
+        },
+        {
+          "authorId": "2258278946",
+          "name": "Z. Moon"
+        },
+        {
+          "authorId": "2007307911",
+          "name": "G. Grell"
+        },
+        {
+          "authorId": "2301714740",
+          "name": "R. Ahmadov"
+        },
+        {
+          "authorId": "2238065495",
+          "name": "J. Schnell"
+        },
+        {
+          "authorId": "2277994404",
+          "name": "Kai Yang"
+        },
+        {
+          "authorId": "14181366",
+          "name": "Zigang Wei"
+        },
+        {
+          "authorId": "2272097073",
+          "name": "Siyuan Wang"
+        },
+        {
+          "authorId": "9824375",
+          "name": "Kai‐Lan Chang"
+        },
+        {
+          "authorId": "51196225",
+          "name": "Alan M. Gorchov Negron"
+        },
+        {
+          "authorId": "2390738586",
+          "name": "Aihua Zhu"
+        },
+        {
+          "authorId": "2267834663",
+          "name": "S. Kondragunta"
+        },
+        {
+          "authorId": "50355584",
+          "name": "E. Apel"
+        },
+        {
+          "authorId": "41018556",
+          "name": "I. Bourgeois"
+        },
+        {
+          "authorId": "8108157",
+          "name": "R. Commane"
+        },
+        {
+          "authorId": "2302883641",
+          "name": "Samuel R. Hall"
+        },
+        {
+          "authorId": "29890172",
+          "name": "A. Hills"
+        },
+        {
+          "authorId": "4146203",
+          "name": "R. Hornbrook"
+        },
+        {
+          "authorId": "4763177",
+          "name": "J. Peischl"
+        },
+        {
+          "authorId": "152419622",
+          "name": "K. Ullmann"
+        },
+        {
+          "authorId": "2390260002",
+          "name": "G. G. Abad"
+        },
+        {
+          "authorId": "81760784",
+          "name": "Z. Ayazpour"
+        },
+        {
+          "authorId": "14113318",
+          "name": "C. Nowlan"
+        },
+        {
+          "authorId": "2242182249",
+          "name": "B. McDonald"
+        }
+      ],
+      "abstract": "The Unified Forecast System (UFS) is a community‐based Earth modeling system designed to support operational forecasts at the National Oceanic and Atmospheric Administration (NOAA), while also facilitating the integration of research advances from the broader scientific community. The Configurable ATmospheric Chemistry (CATChem) library and modeling component is being developed to include comprehensive chemical and aerosol processes for representing atmospheric composition through a flexible, easy‐to‐modify, and well‐documented infrastructure. Here CATChem version 1.0 (v1.0) is linked to the UFS High Resolution 3 configuration to create the Unified Forecast System with Chemistry (UFS‐Chem) v1.0. The configurability of UFS‐Chem enables its use for both research and operational applications, reducing time and effort for transitions to operations and enhancing collaboration with the research community. As a first step toward this goal, the gas‐phase chemistry from the Atmosphere Model version 4.1 (AM4.1), developed at NOAA Geophysical Fluid Dynamics Laboratory (GFDL), is incorporated into CATChem and linked to the UFS as the first UFS‐Chem configuration for global air quality applications. The simulated atmospheric compositions are generally consistent with those in GFDL‐AM4.1 and agree well with surface observations, aircraft measurements, and satellite retrievals (with biases mostly within 30%), demonstrating atmospheric chemistry is reasonably well represented in the model. This work documents model uncertainties and biases in UFS‐Chem v1.0 to help prioritize further improvements in emissions and process‐level representations. The new global configuration is shown to be robust in representing atmospheric composition and chemical processes and serves as a foundation for future development."
+    },
+    {
+      "paperId": "0243f61efe9dec183a4b87066cd620265aae9969",
+      "externalIds": {
+        "PubMedCentral": "13030664",
+        "DOI": "10.3390/toxics14030189",
+        "CorpusId": 286052045
+      },
+      "title": "Impacts of Cross-Regional Transport on Ozone Pollution in the Fen-Wei Plain: Insights from Multi-Source Observations and Model Simulation",
+      "venue": "Toxics",
+      "year": 2026,
+      "citationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC13030664, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2307508828",
+          "name": "Yufei Han"
+        },
+        {
+          "authorId": "2118286207",
+          "name": "Danni Xu"
+        },
+        {
+          "authorId": "2379007719",
+          "name": "Anjie Yin"
+        },
+        {
+          "authorId": "49046487",
+          "name": "Chang Liu"
+        },
+        {
+          "authorId": "2298735420",
+          "name": "Yuheng Chen"
+        },
+        {
+          "authorId": "2298764155",
+          "name": "Kaihui Zhao"
+        }
+      ],
+      "abstract": "Unfavorable terrain conditions and intensive emissions have led to a deteriorating trend of ozone (O3) pollution in the Fenwei Plain (FWP), which has attracted increasing attention. However, the lack of observations and Volatile Organic Compound (VOC) component observation data has seriously constrained an in-depth understanding of the formation mechanisms of O3 pollution. The multi-source observations conducted in this study provides first-hand evidence for characterizing the evolution of O3 pollution in the FWP. O3 lidar vertical profiles reported high-concentration layers exceeding 130 µg/m3, O3 vertical flux high-concentration layers exceeding −50 µg/(m2⋅s), confirming downward transport to the surface. The VOCs components were dominated by Oxygenated Volatile Organic Compounds (OVOCs) (>300 ppbv) and alkanes (>20 ppbv). O3 source apportionment technology analysis indicated transport from the Henan (HN) and Hubei (HB) contributed 24.99% and 40.02% of surface O3 enhancement. Interestingly, a close linkage between O3 precursor sensitivity (OPS) variations and contribution from potential source regions was noticed. Large contributions from HN and HB drove the OPS toward a VOC-limited regime, with a concurrent drop in the HCHO/NO2 indicator to 1.73. Our results underscore the great importance of the impacts of regional transport on OPS from different source areas when formulating strategies for regional joint prevention and control."
+    },
+    {
+      "paperId": "902229a0c9cc616e0f25488f2132d3bc04acd0de",
+      "externalIds": {
+        "DOI": "10.1029/2025GL119782",
+        "CorpusId": 285057917
+      },
+      "title": "Remote Forcing of Super Typhoon Mawar on the 2023 Quebec Wildfires",
+      "venue": "Geophysical Research Letters",
+      "year": 2026,
+      "citationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1029/2025GL119782?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1029/2025GL119782, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "120606289",
+          "name": "Anbao Zhu"
+        },
+        {
+          "authorId": "2170113203",
+          "name": "Lian Xue"
+        },
+        {
+          "authorId": "2117425292",
+          "name": "Zilin Wang"
+        },
+        {
+          "authorId": "2013973655",
+          "name": "Ke Ding"
+        },
+        {
+          "authorId": "2130181008",
+          "name": "Yawen Liu"
+        },
+        {
+          "authorId": "2244204894",
+          "name": "Sijia Lou"
+        },
+        {
+          "authorId": "2296661401",
+          "name": "Chen Zhou"
+        },
+        {
+          "authorId": "2248555970",
+          "name": "Tianshuai Li"
+        },
+        {
+          "authorId": "40907724",
+          "name": "Jiuwei Zhao"
+        },
+        {
+          "authorId": "2394908908",
+          "name": "Leying Zhang"
+        },
+        {
+          "authorId": "2244612780",
+          "name": "Xin Huang"
+        },
+        {
+          "authorId": "2261879946",
+          "name": "Aijun Ding"
+        }
+      ],
+      "abstract": "Typhoons and wildfires are major global climate and environmental hazards, yet their potential interactions remain poorly understood, particularly through remote atmospheric forcing. Taking the 2023 Quebec wildfires as an example, we investigate how a tropical cyclone can influence wildfire‐favorable conditions. Observational analyses and Linear Baroclinic Model simulations reveal that western North Pacific Super Typhoon Mawar remotely intensified a North American blocking high by triggering a Rossby wave train, thereby driving dry lightning and anomalous dry air conditions that favored wildfire ignition and spread. Based on Weather Research and Forecasting model sensitivity experiments, we show that Mawar contributed 34 ± 6%, 41 ± 3%, and 55 ± 5% to the blocking's total amplification during the first three days of its rapid development, respectively. This findings highlight that western North Pacific typhoons can remotely modulate blocking highs to drive North American wildfire weather, advancing our understanding of remote typhoon‐wildfire teleconnections."
+    },
+    {
+      "paperId": "7491d9b968b20a7bcd20e523aed2e12b481b9244",
+      "externalIds": {
+        "DOI": "10.1016/j.envpol.2026.127667",
+        "CorpusId": 284645398,
+        "PubMed": "41520990"
+      },
+      "title": "Spatiotemporal Evolution and Anomaly Assessment of Wildfire-Induced Air Pollution Across Canada Using Satellite AOD Analysis.",
+      "venue": "Environmental Pollution",
+      "year": 2026,
+      "citationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.envpol.2026.127667?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.envpol.2026.127667, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2307656084",
+          "name": "Yueyu Su"
+        },
+        {
+          "authorId": "2262615881",
+          "name": "Ziyu Wang"
+        },
+        {
+          "authorId": "2376055054",
+          "name": "Haiyan Fu"
+        },
+        {
+          "authorId": "2395730509",
+          "name": "Aili Yang"
+        },
+        {
+          "authorId": "2394921523",
+          "name": "Xiujuan Chen"
+        },
+        {
+          "authorId": "2238748959",
+          "name": "Chunjiang An"
+        }
+      ],
+      "abstract": "The 2023 wildfires caused serious riks to air quality and public health across various provinces in Canada, particularly during the period from May to June. This study aims to systematically evaluate the impact of the May-June wildfire events on air pollution in Canada using satellite Aerosol Optical Depth (AOD) data, along with the Hybrid Single-Particle Lagrangian Integrated Trajectory model and a Bayesian spatiotemporal dynamic model to investigate the distribution, transport pathways, and complex meteorological drivers. Results indicate that the AOD data in the Canadian region is in excellent agreement with the ground-based AOD observation (R > 0.90 at 12 of 14 sites). The highest aerosol concentrations were centered over western and central provinces during the wildfire season, with long-range eastward transport. Quebec (26%) and Alberta (25%) constituted over half of the national total for severe pollution events, while the Northwest Territories experienced the most prolonged exposure, with 45% of its remote communities severely affected. The temperature lag and wind speed are the dominant factors and exhibited highly dynamic roles during four main periods: wind speed's function shifted from a local dispersant (WS = -0.419) to a regional transporter (WS1 = 0.123, one-day lagged) depending on fire source configuration, while temperature's influence ranged from enhancing dispersion (T1 = -0.634, one-day lagged) to causing extreme pollutant trapping under heat dome conditions (T1 = 1.273)."
+    },
+    {
+      "paperId": "ccf9747f038aebf891a2ef3e32ca25b82311ea6d",
+      "externalIds": {
+        "DOI": "10.1029/2025EF007041",
+        "CorpusId": 283840209
+      },
+      "title": "A Fire‐Driven Shift in Canadian Air Quality Concerns Mirrors Trends in the US",
+      "venue": "Earth's Future",
+      "year": 2025,
+      "citationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1029/2025EF007041?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1029/2025EF007041, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2242867841",
+          "name": "Robert D. Field"
+        },
+        {
+          "authorId": "49521900",
+          "name": "H. Jethva"
+        },
+        {
+          "authorId": "2398439442",
+          "name": "Pamela A. Wales"
+        },
+        {
+          "authorId": "2317351417",
+          "name": "Tempest McCabe"
+        },
+        {
+          "authorId": "2277117502",
+          "name": "S. Henderson"
+        },
+        {
+          "authorId": "88862656",
+          "name": "O. Clifton"
+        },
+        {
+          "authorId": "2063801314",
+          "name": "K. Tsigaridis"
+        },
+        {
+          "authorId": "2274407391",
+          "name": "D. Morton"
+        },
+        {
+          "authorId": "2398443935",
+          "name": "Norah A. MacKendrick"
+        },
+        {
+          "authorId": "108142536",
+          "name": "Elijah Orland"
+        },
+        {
+          "authorId": "88370282",
+          "name": "C. Tymstra"
+        },
+        {
+          "authorId": "2317226902",
+          "name": "Piyush Jain"
+        },
+        {
+          "authorId": "2384595457",
+          "name": "Melanie Follette‐Cook"
+        },
+        {
+          "authorId": "2250103956",
+          "name": "R. Levy"
+        },
+        {
+          "authorId": "2313431263",
+          "name": "Lesley Ott"
+        },
+        {
+          "authorId": "2297959656",
+          "name": "O. Torres"
+        }
+      ],
+      "abstract": "The summer of 2023 was the most significant wildfire and smoke season on record in Canada. Data from five different satellite instruments going back to 2001 show that Canada and most provinces and territories experienced peak visible‐wavelength aerosol optical depth and ultraviolet aerosol index values in 2023. Longer‐term, 2023 had the highest number of “smoke” or “haze” reports in weather records by a factor of two compared with the previous record in 1981, and by a factor of seven compared with the 1953–2022 average. These reports show an east‐to‐west shift in Canada's summer air pollution patterns. Smoke and haze in eastern Canada have decreased since the 1980s because of pollution control measures domestically and in the US. On the other hand, wildfire smoke has increased in the Northwest Territories, British Columbia, Alberta, and Saskatchewan since the 2010s, and is now the main air quality concern in western Canada. Interpreting the analysis here for Canada alongside previous work over the US, there was a shift over North America in summer air quality concerns from the east to the west. Climate model projections suggest more wildfire‐driven smoke in the future throughout North America, particularly in the west. In contrast to air pollution from smokestacks and tailpipes that can be addressed at the source through government regulation, a future with more wildfire smoke will require downwind mitigation and will be the responsibility of public health officials."
+    },
+    {
+      "paperId": "e732d476b6b5a92c4a2bc67a5b6fd9ed45b08dc1",
+      "externalIds": {
+        "DOI": "10.1029/2025JD044019",
+        "CorpusId": 283549541
+      },
+      "title": "Ammonia Observations Over Large North American Cities",
+      "venue": "Journal of Geophysical Research: Atmospheres",
+      "year": 2025,
+      "citationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1029/2025JD044019?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1029/2025JD044019, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "1582147381",
+          "name": "Emily Lill"
+        },
+        {
+          "authorId": "2368410649",
+          "name": "Ilana B. Pollack"
+        },
+        {
+          "authorId": "2375131153",
+          "name": "J. Roscioli"
+        },
+        {
+          "authorId": "3806869",
+          "name": "A. Middlebrook"
+        },
+        {
+          "authorId": "2332586030",
+          "name": "Alison Piasecki"
+        },
+        {
+          "authorId": "40805542",
+          "name": "S. Albertin"
+        },
+        {
+          "authorId": "2396028325",
+          "name": "Skyler Carlson"
+        },
+        {
+          "authorId": "2395562163",
+          "name": "Amy Sullivan"
+        },
+        {
+          "authorId": "2321933647",
+          "name": "Nell B. Schafer"
+        },
+        {
+          "authorId": "4763177",
+          "name": "J. Peischl"
+        },
+        {
+          "authorId": "2237520544",
+          "name": "A. Rollins"
+        },
+        {
+          "authorId": "2324603442",
+          "name": "E. Waxman"
+        },
+        {
+          "authorId": "2301713849",
+          "name": "K. Zuraski"
+        },
+        {
+          "authorId": "103395307",
+          "name": "J. Gilman"
+        },
+        {
+          "authorId": "92894895",
+          "name": "V. Treadaway"
+        },
+        {
+          "authorId": "2368410782",
+          "name": "Morgan Selby"
+        },
+        {
+          "authorId": "35866992",
+          "name": "C. Stockwell"
+        },
+        {
+          "authorId": "8900394",
+          "name": "M. Coggon"
+        },
+        {
+          "authorId": "2295405931",
+          "name": "Kelvin H. Bates"
+        },
+        {
+          "authorId": "92893559",
+          "name": "C. Warneke"
+        },
+        {
+          "authorId": "2237270882",
+          "name": "J. Pierce"
+        },
+        {
+          "authorId": "2383785016",
+          "name": "Emily V Fischer"
+        }
+      ],
+      "abstract": "Ammonia (NH3) contributes to fine particle formation and nitrogen deposition. Observations of NH3 are limited compared to other major anthropogenic pollutants. Here, we explore the relationships between NH3 and other urban pollutants using measurements collected from the NASA DC‐8 aircraft during the Atmospheric Emissions and Reactions Observed from Megacities to Marine Areas (AEROMMA) field campaign in summer 2023. We report on NH3 abundance, NHx (NH3 + NH4+) phase partitioning, enhancement ratios of NH3 to carbon monoxide (CO), ethyne (C2H2), and nitrogen oxides (NOx/y), and comparisons of enhancement ratios to previous studies. NH3 abundance and NHx phase partitioning varied based on city. Between Los Angeles (LA), Chicago, and New York City (NYC), LA had the highest average NH3 concentration (4.3 ± 4.0 ppb) whereas NYC had the lowest average NH3 concentration (0.8 ± 0.4 ppb). ΔNH3:ΔCO ratios ranged from 0.014 ± 0.002 ppb ppb−1 in NYC to 0.037 ± 0.004 in LA. The strong correlations with CO, C2H2, and NOx/y suggest that vehicles are the dominant source of NH3 during the summer months in these locations. The ΔNH3:ΔCO ratio over NYC observed during the AEROMMA campaign is consistent with National Emissions Inventory (NEI) emissions for on‐road vehicles, whereas the ΔNH3:ΔCO ratios observed over LA and Chicago during AEROMMA are significantly higher than expected from the NEI on‐road emissions."
+    },
+    {
+      "paperId": "6f2171e0b84b7ff0e9145cab3a978d8522afa718",
+      "externalIds": {
+        "DOI": "10.1029/2025JD044088",
+        "CorpusId": 282653828
+      },
+      "title": "Impact of Wildfires on O3 and Air Quality Across the United States for 2019–2024 Using Generalized Additive Models",
+      "venue": "Journal of Geophysical Research: Atmospheres",
+      "year": 2025,
+      "citationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1029/2025JD044088?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1029/2025JD044088, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2271314800",
+          "name": "Haebum Lee"
+        },
+        {
+          "authorId": "2250542088",
+          "name": "Daniel A. Jaffe"
+        }
+      ],
+      "abstract": "Wildfire smoke contains various air pollutants and can be transported and dispersed over long distances, deteriorating air quality across a wide area. In 2019–2024, numerous large‐scale wildfires occurred across the United States (US) and surrounding regions. We collected daily PM2.5 and maximum daily 8‐hr average O3 (MDA8) data from ∼800 US air quality monitoring sites (April–October, 2019–2024) and incorporated model‐based meteorological data (MERRA‐2 and HYSPLIT) and satellite‐derived parameters (HMS and TROPOMI) for use in a Generalized Additive Model (GAM). Smoke days were identified using HMS and PM2.5 data, and GAMs were developed individually at each site for the MDA8 using non‐smoke days. Our results demonstrate that incorporating interaction smooth terms improves GAM performance, particularly for high‐altitude mountainous sites where simple models struggle with MDA8 predictions. We then applied the same model to the smoke days to quantify the smoke O3 contribution to the MDA8 (SMO). We estimated an overall mean SMO of 3.8 ppb across the US, adjusted to 2.8 ppb after bias correction via Empirical Distribution Matching (EDM) for a more conservative estimate. Exceedance days (>70 ppb) with significant SMO across the US totaled 5,393 (∼33%) and 4,099 (∼25%) in the uncorrected GAM and GAM‐EDM, respectively. A key advantage of our approach is its reliance on satellite and model‐based data, ensuring nationwide coverage and consistency. Our method can be broadly applied across the US to improve the understanding of smoke impacts on O3 and support regulatory decision making."
+    },
+    {
+      "paperId": "a835d9cbc3054bc703c4d7f78614c76f1988cb58",
+      "externalIds": {
+        "DOI": "10.1101/2025.10.28.685042",
+        "CorpusId": 282593516
+      },
+      "title": "Humidity Controls the Timing and Persistence of Ozone Injury in Citrus: Linking Leaf Physiology and Regional Canopy Responses",
+      "venue": "bioRxiv",
+      "year": 2025,
+      "citationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1101/2025.10.28.685042?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1101/2025.10.28.685042, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2216417638",
+          "name": "Luka Mamić"
+        },
+        {
+          "authorId": "1659389037",
+          "name": "M. Riches"
+        },
+        {
+          "authorId": "2241722673",
+          "name": "D. Farmer"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "8511d6c1e06dfa2d46ac50894ec3dcacd4868719",
+      "externalIds": {
+        "DOI": "10.1101/2025.09.29.679296",
+        "CorpusId": 282314448,
+        "PubMed": "41684238"
+      },
+      "title": "Mechanisms of Ozone Effects on Plant Stress in Soybean Across Growing Season: From Leaf to Regional Perspective",
+      "venue": "bioRxiv",
+      "year": 2025,
+      "citationCount": 1,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1101/2025.09.29.679296?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1101/2025.09.29.679296, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2216417638",
+          "name": "Luka Mamić"
+        },
+        {
+          "authorId": "1659389037",
+          "name": "M. Riches"
+        },
+        {
+          "authorId": "2301360263",
+          "name": "Rose K. Rossell"
+        },
+        {
+          "authorId": "2241722673",
+          "name": "D. Farmer"
+        }
+      ],
+      "abstract": "Ground-level ozone (O₃) is a major constraint on agricultural productivity, yet most knowledge comes from controlled fumigation experiments using chronic exposures that differ from the episodic conditions crops experience in the field. Here, we combine a five-week chamber experiment with multi-year satellite observations (2018-2021, Arkansas, U.S.) to investigate how O₃ affects photosynthesis, efficiency, and growth across scales of soybean plants (Glycine max). At the leaf level, initial O₃ fumigation (80 ppb for 4 h) caused the strongest suppression of CO₂ assimilation (A), stomatal conductance (Gs), and photosystem II efficiency (ΦPSII), indicating entry into a physiological strain phase. Recovery between exposures was incomplete, leading to sustained growth reductions despite moderate O₃ levels. At the regional scale, analysis of solar-induced fluorescence (SIF) and MODIS productivity metrics revealed parallel patterns. Early-season O₃ episodes produced greater suppression of SIF, GPP, and Gs compared to equivalent late-season events, and recovery lagged for several weeks. Seasonal yield proxies were best explained not by total O₃ accumulation, but by early- and peak-season exposures, which accounted for up to 98% of variance across four growing seasons. Our findings highlight that the timing of O₃ episodes is more consequential than cumulative dose, and that functional indicators such as SIF can detect strain-phase stress before structural indices diverge. By linking controlled experiments with regional-scale satellite monitoring, this study advances mechanistic understanding of O₃ impacts on soybean and supports the development of remote sensing–based early warning tools for crop management."
+    },
+    {
+      "paperId": "544cacc88414aeeebd28cce923c30b0e13aa80bb",
+      "externalIds": {
+        "DOI": "10.5194/acp-25-8507-2025",
+        "CorpusId": 276254902
+      },
+      "title": "Identifying drivers of surface ozone bias in global chemical reanalysis with explainable machine learning",
+      "venue": "Atmospheric Chemistry and Physics",
+      "year": 2025,
+      "citationCount": 4,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.5194/acp-25-8507-2025?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.5194/acp-25-8507-2025, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2287868528",
+          "name": "Kazuyuki Miyazaki"
+        },
+        {
+          "authorId": "2287857880",
+          "name": "Yuliya Marchetti"
+        },
+        {
+          "authorId": "2287868568",
+          "name": "James Montgomery"
+        },
+        {
+          "authorId": "2287875009",
+          "name": "Steven Lu"
+        },
+        {
+          "authorId": "2344786249",
+          "name": "Kevin W. Bowman"
+        }
+      ],
+      "abstract": "Abstract. This study employs an explainable machine learning (ML) framework to examine the regional dependencies of surface ozone biases and their underlying drivers in global chemical reanalysis. Surface ozone observations from the Tropospheric Ozone Assessment Report (TOAR) network and chemical reanalysis outputs from the multi-model multi-constituent chemical (MOMO-Chem) data assimilation (DA) system for the period 2005–2020 were utilized for ML training. A regression-tree-based randomized ensemble ML approach successfully reproduced the spatiotemporal patterns of ozone bias in the chemical reanalysis relative to TOAR observations across North America, Europe, and East Asia. The global distributions of ozone bias predicted by ML revealed systematic patterns influenced by meteorological conditions, geographic features, anthropogenic activities, and biogenic emissions. The primary drivers identified include temperature, surface pressure, carbon monoxide (CO), formaldehyde (CH2O), and nitrogen oxide (NOx) reservoirs such as nitric acid (HNO3) and peroxyacetyl nitrate (PAN). The ML framework provided a detailed quantification of the magnitude and variability of these drivers, delivering bias-corrected ozone estimates suitable for human health and environmental impact assessments. The findings provide valuable insights that can inform advancements in chemical transport modeling, DA, and observational system design, thereby improving surface ozone reanalysis. However, the complex interplay among numerous parameters highlights the need for rigorous validation of identified drivers against established scientific knowledge to attain a comprehensive understanding at the process level. Further advancements in ML interpretability are essential to achieve reliable, actionable outcomes and to lead to an improved reanalysis framework for more effectively mitigating air pollution and its impacts.\n"
+    },
+    {
+      "paperId": "b95ce99022dfbbf9a6f6ab532fd3a1a84b621ff0",
+      "externalIds": {
+        "DOI": "10.5194/acp-25-5101-2025",
+        "CorpusId": 274978316
+      },
+      "title": "Surface ozone trend variability across the United States and the impact of heat waves (1990–2023)",
+      "venue": "Atmospheric Chemistry and Physics",
+      "year": 2025,
+      "citationCount": 10,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.5194/acp-25-5101-2025?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.5194/acp-25-5101-2025, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2246635543",
+          "name": "Kai-Lan Chang"
+        },
+        {
+          "authorId": "2307824268",
+          "name": "Brian C. McDonald"
+        },
+        {
+          "authorId": "2113440058",
+          "name": "C. Harkins"
+        },
+        {
+          "authorId": "2245813368",
+          "name": "Owen R. Cooper"
+        }
+      ],
+      "abstract": "Abstract. This paper outlines a comprehensive trend assessment of surface ozone observations across the conterminous USA over 1990–2023. A change point detection algorithm is applied to evaluate seasonal trends at various percentiles. We found that highly consistent and robust negative trends in extreme values have occurred in spring, summer, and fall since the 2000s across the eastern USA. A less strong but similar picture is found in the western USA, while increasing winter trends are commonly observed in the Southwestern and Midwestern regions of the country. The impact of a potential climate penalty that might offset some of the improvement in the ozone extremes is also investigated based on various heat wave metrics. By comparing ozone threshold exceedances, we found that the exceedance probabilities during heat waves are higher than those under normal conditions; moreover, the differences have decreased over time, as the effectiveness of emission controls has led to a great reduction in ozone extremes under both heat wave and normal conditions. When the increasing heat wave trends are accounted for, we find evidence that decreases in exceedances during heat waves have likely halted at 20 %–40 % of sites, depending on heat wave definitions. By identifying monitoring sites with (1) reliably decreasing ozone exceedances and (2) reliably increasing co-occurrences of ozone exceedances and heat wave events, we can show that several sites in California have been impacted by the ozone climate penalty (1995–2022). These findings are limited by the availability of long-term continuous ozone records, which are sparsely distributed across the USA and typically less than 30 years in length.\n"
+    },
+    {
+      "paperId": "97fc7cc50a287d6424c63ff83584ffa354d0e58f",
+      "externalIds": {
+        "DOI": "10.1029/2025GL115588",
+        "CorpusId": 278487891
+      },
+      "title": "Record‐High Ozone in the Austral Mid‐Latitude Tropopause Region Driven by Dynamical and Chemical Effects of the 2019 Sudden Stratospheric Warming",
+      "venue": "Geophysical Research Letters",
+      "year": 2025,
+      "citationCount": 1,
+      "openAccessPdf": {
+        "url": "https://doi.org/10.1029/2025gl115588",
+        "status": "GOLD",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1029/2025GL115588?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1029/2025GL115588, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2290440635",
+          "name": "Selena Zhang"
+        },
+        {
+          "authorId": "2244291671",
+          "name": "Susan Solomon"
+        },
+        {
+          "authorId": "2243339489",
+          "name": "Jun Zhang"
+        },
+        {
+          "authorId": "2256530799",
+          "name": "D. Kinnison"
+        }
+      ],
+      "abstract": "In January 2020, tropopause‐level ozone in the austral mid‐latitudes was the highest ever observed in the available Microwave Limb Sounder data record since 2004. Two extreme events preceded this anomaly: the Australian Black Summer fires and the 2019 sudden stratospheric warming (SSW), raising the question of how these disruptions influenced Southern Hemisphere ozone. Here, we investigate the dynamical and chemical contributions to the ozone anomaly using a chemistry‐climate model and satellite observations. We find that downward transport of polar ozone‐enriched air due to the SSW later spread equatorward. Such transport together with photochemical ozone production from emissions of wildfires (fueled by dry and hot conditions previously attributed to the SSW) increased tropopause‐level ozone by up to 30 ppb, with transport as the dominant factor (around 80%). While chemical ozone production from wildfires is well‐recognized, our results highlight that SSWs can greatly influence mid‐latitude ozone through dynamical effects."
+    },
+    {
+      "paperId": "7feb13b3aeb4a9d2a7318b9637df01d779462123",
+      "externalIds": {
+        "DOI": "10.1029/2024GL114492",
+        "CorpusId": 276939663
+      },
+      "title": "Increased Atmospheric Aridity and Reduced Precipitation Drive the 2023 Extreme Wildfire Season in Canada",
+      "venue": "Geophysical Research Letters",
+      "year": 2025,
+      "citationCount": 6,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1029/2024GL114492?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1029/2024GL114492, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2317349147",
+          "name": "Gengke Lai"
+        },
+        {
+          "authorId": "2284176474",
+          "name": "Yongguang Zhang"
+        }
+      ],
+      "abstract": "Canada experienced an unprecedented wildfire season in 2023. Here, we analyzed the exceptional scale, dominant driving factors, and potential impacts on permafrost of these wildfires using Moderate Resolution Imaging Spectroradiometer burned area (BA) observations and machine learning methods. We found that the 2023 coast‐to‐coast wildfires raged a staggering area of 13.02 Mha, more than seven times the historical average (2001–2022). The extreme wildfires were predominantly driven by record‐breaking drought, characterized by heightened atmospheric aridity and reduced precipitation, with specific water deficit thresholds triggering sharp increases in BA. Over 80% of the 2023 wildfires occurred in Canada's permafrost regions, with burned areas increasing more than six‐fold across extensive permafrost, including Arctic regions. These wildfires are expected to accelerate permafrost degradation and considerable carbon release from thawing, presenting previously overlooked risks. Our results emphasize the urgent need for immediate climatic action to mitigate climate change and pressures from wildfire and permafrost degradation."
+    },
+    {
+      "paperId": "a31f859ca71316353a5796a291f5543c7d189862",
+      "externalIds": {
+        "DOI": "10.5194/amt-18-405-2025",
+        "CorpusId": 274659272
+      },
+      "title": "The Small Mobile Ozone Lidar (SMOL): instrument description and first results",
+      "venue": "Atmospheric Measurement Techniques",
+      "year": 2025,
+      "citationCount": 3,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.5194/amt-18-405-2025?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.5194/amt-18-405-2025, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "26925277",
+          "name": "F. Chouza"
+        },
+        {
+          "authorId": "2243980445",
+          "name": "T. Leblanc"
+        },
+        {
+          "authorId": "2108355122",
+          "name": "Patrick Wang"
+        },
+        {
+          "authorId": "2256508524",
+          "name": "S. Brown"
+        },
+        {
+          "authorId": "2301713849",
+          "name": "K. Zuraski"
+        },
+        {
+          "authorId": "2092340409",
+          "name": "Wyndom Chace"
+        },
+        {
+          "authorId": "4884529",
+          "name": "C. Womack"
+        },
+        {
+          "authorId": "4763177",
+          "name": "J. Peischl"
+        },
+        {
+          "authorId": "2270177311",
+          "name": "J. Hair"
+        },
+        {
+          "authorId": "5544643",
+          "name": "T. Shingler"
+        },
+        {
+          "authorId": "2243980984",
+          "name": "John Sullivan"
+        }
+      ],
+      "abstract": "Abstract. Ozone profile measurements at high temporal and vertical resolution are needed to better understand physical and chemical processes driving tropospheric ozone variability and to validate the tropospheric ozone measurements from spaceborne missions such as TEMPO (Tropospheric Emissions: Monitoring Pollution). As part of the Tropospheric Ozone Lidar Network (TOLNet) efforts allocated to provide such measurements and leveraging on the experience of more than 20 years of ozone lidar measurements at Table Mountain Facility, the JPL lidar group developed the SMOL (Small Mobile Ozone Lidar), an affordable differential absorption lidar (DIAL) system covering all altitudes from 200 to 10 km above ground level (a.g.l.). The transmitter is based on a quadrupled Nd:YAG laser, which is further converted into a 289/299 nm wavelength pair using Raman shifting cells, and the receiver consists of three ozone DIAL pairs, including one that is 266/289 nm and two that are 289/299 nm. Two units were deployed in the Los Angeles basin area during the Synergistic TEMPO Air Quality Science (STAQS) and Atmospheric Emissions and Reactions Observed from Megacities to Marine Areas (AEROMMA) campaigns in summer 2023. The comparison with airborne in situ and lidar measurements shows very good agreement, with systematic differences below 10 % throughout most of the measurement range. An additional comparison with nearby surface ozone measuring instruments indicates unbiased measurements by the SMOL lidars down to 200 m a.g.l. Further comparison with the Goddard Earth Observing System Composition Forecast (GEOS-CF) model suggests that such lidars are a critical tool to perform model validation and can potentially be used for assimilation to air quality forecasts.\n"
+    },
+    {
+      "paperId": "e7697bc27d180a6e35123192ffd698fd35e22b9e",
+      "externalIds": {
+        "CorpusId": 276748410
+      },
+      "title": "Extension of the S5P-TROPOMI CCD tropospheric ozone retrieval to mid-latitudes",
+      "venue": "",
+      "year": null,
+      "citationCount": 1,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null
+      },
+      "authors": [
+        {
+          "authorId": "2106015568",
+          "name": "S. Satheesan"
+        },
+        {
+          "authorId": "91058812",
+          "name": "K. Eichmann"
+        },
+        {
+          "authorId": "2253832398",
+          "name": "Mark Weber"
+        },
+        {
+          "authorId": "93309974",
+          "name": "R. Malderen"
+        },
+        {
+          "authorId": "2238062645",
+          "name": "Ryan M. Stauffer"
+        },
+        {
+          "authorId": "103884762",
+          "name": "D. Tarasick"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "ba25b73008343158e167c99db6f3cf2d38fdcf2d",
+      "externalIds": {
+        "CorpusId": 282688539
+      },
+      "title": "Organic Acids and Cloud Droplet Acidity in Recent Years at Whiteface Mountain, with Focus on Wildfire Smoke Influence",
+      "venue": "",
+      "year": null,
+      "citationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null
+      },
+      "authors": [
+        {
+          "authorId": "10748882",
+          "name": "Archana Tripathy"
+        },
+        {
+          "authorId": "3810038",
+          "name": "H. Khwaja"
+        },
+        {
+          "authorId": "4436390",
+          "name": "M. M. Hussain"
+        },
+        {
+          "authorId": "13678224",
+          "name": "Elizabeth Yerger"
+        },
+        {
+          "authorId": "2294888630",
+          "name": "Dan Kelting"
+        },
+        {
+          "authorId": "2294891523",
+          "name": "Christopher E. Lawrence"
+        },
+        {
+          "authorId": "2294889977",
+          "name": "Paul Casson"
+        },
+        {
+          "authorId": "2066177971",
+          "name": "P. Snyder"
+        },
+        {
+          "authorId": "47371568",
+          "name": "Sara Lombardo"
+        },
+        {
+          "authorId": "119000727",
+          "name": "Noah Pittman"
+        },
+        {
+          "authorId": "2389939390",
+          "name": "Kathleen DeMarle"
+        },
+        {
+          "authorId": "2371328428",
+          "name": "Rudra Patel"
+        },
+        {
+          "authorId": "2254167139",
+          "name": "L. Hammond"
+        },
+        {
+          "authorId": "50355584",
+          "name": "E. Apel"
+        },
+        {
+          "authorId": "4146203",
+          "name": "R. Hornbrook"
+        },
+        {
+          "authorId": "29890172",
+          "name": "A. Hills"
+        },
+        {
+          "authorId": "2294888975",
+          "name": "Richard Brandt"
+        },
+        {
+          "authorId": "100984138",
+          "name": "S. McKim"
+        },
+        {
+          "authorId": "8233180",
+          "name": "J. Schlemmer"
+        },
+        {
+          "authorId": "2294890591",
+          "name": "S. Lance"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "47784f45212efc901e8fbbfb3ab100b411b905c2",
+      "externalIds": {
+        "CorpusId": 283441240
+      },
+      "title": "Investigating ﬁre-induced ozone production from local to global scales",
+      "venue": "",
+      "year": null,
+      "citationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null
+      },
+      "authors": [
+        {
+          "authorId": "2137904775",
+          "name": "J. Palmo"
+        },
+        {
+          "authorId": "4022964",
+          "name": "C. Heald"
+        },
+        {
+          "authorId": "2249352126",
+          "name": "Don Blake"
+        },
+        {
+          "authorId": "2395558517",
+          "name": "4. IlannBourgeois"
+        },
+        {
+          "authorId": "2395559084",
+          "name": "Matthew Coggon 5"
+        },
+        {
+          "authorId": "2362183073",
+          "name": "Jeff Collett"
+        },
+        {
+          "authorId": "2070449821",
+          "name": "F. Flocke"
+        },
+        {
+          "authorId": "2256564821",
+          "name": "Alan Fried"
+        },
+        {
+          "authorId": "91209155",
+          "name": "G. Gkatzelis"
+        },
+        {
+          "authorId": "2395558167",
+          "name": "8. SamuelHall"
+        },
+        {
+          "authorId": "2395558045",
+          "name": "11 LuHu"
+        },
+        {
+          "authorId": "2244038304",
+          "name": "Jose L. Jimenez"
+        },
+        {
+          "authorId": "1398609793",
+          "name": "P. Campuzano‐Jost"
+        },
+        {
+          "authorId": "2016583242",
+          "name": "I. Ku"
+        },
+        {
+          "authorId": "27011768",
+          "name": "B. Nault"
+        },
+        {
+          "authorId": "2395559325",
+          "name": "8. BrettPalm"
+        },
+        {
+          "authorId": "4763177",
+          "name": "J. Peischl"
+        },
+        {
+          "authorId": "2368410649",
+          "name": "Ilana B. Pollack"
+        },
+        {
+          "authorId": "2395562163",
+          "name": "Amy Sullivan"
+        },
+        {
+          "authorId": "2362186064",
+          "name": "Joel A Thornton"
+        },
+        {
+          "authorId": "2395558519",
+          "name": "6. CarstenWarneke"
+        },
+        {
+          "authorId": "2281365108",
+          "name": "16 ArminWisthaler"
+        },
+        {
+          "authorId": "2273471622",
+          "name": "Lu Xu"
+        }
+      ],
+      "abstract": null
+    }
+  ],
+  "10.5194/acp-25-8533-2025": [
+    {
+      "paperId": "77d6b86da0e11d9e8947e5ea540c8c61543f6018",
+      "externalIds": {
+        "DOI": "10.5194/amt-19-249-2026",
+        "CorpusId": 284740597
+      },
+      "title": "An algorithm to retrieve peroxyacetyl nitrate from AIRS",
+      "venue": "Atmospheric Measurement Techniques",
+      "year": 2026,
+      "citationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.5194/amt-19-249-2026?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.5194/amt-19-249-2026, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "40864515",
+          "name": "J. Laughner"
+        },
+        {
+          "authorId": "2842010",
+          "name": "S. Kulawik"
+        },
+        {
+          "authorId": "2356472633",
+          "name": "Vivienne H. Payne"
+        }
+      ],
+      "abstract": "Abstract. Herein, we describe an approach to retrieve free tropospheric columns of peroxyacyl nitrates (PANs) from radiances observed by the Atmospheric Infrared Sounder (AIRS). AIRS has provided daily global coverage since its launch in 2002, making the AIRS data a valuable long term record. Although the instrument is very radiometrically stable, the radiance noise level is large enough to present a challenge when retrieving a weak absorber such as PAN. To address this, spectral windows were selected to minimize interference from other species as much as possible and a set of filters was developed to predict whether a PAN value retrieved from AIRS is within 0.2 ppb or 50 % of what would be retrieved from the Cross-track Infrared Sounder (CrIS) and to remove spurious signals caused by specific surface features or clouds. We show that AIRS is capable of retrieving PAN plumes with very high concentrations of PAN (such as those from significant wildfires) that have similar spatial extent as seen by CrIS and that PAN retrieved from AIRS has good correlation with CrIS given sufficient averaging. We conclude with recommendations for users to help ensure that these data are used appropriately."
+    },
+    {
+      "paperId": "0fc4a2e4fb512ac714fcc014493b10a3cf31bcc5",
+      "externalIds": {
+        "DOI": "10.5194/acp-25-18475-2025",
+        "CorpusId": 284092770
+      },
+      "title": "Tropical tropospheric ozone trends (1998 to 2023): new perspectives from SHADOZ, IAGOS and OMI/MLS observations",
+      "venue": "Atmospheric Chemistry and Physics",
+      "year": 2025,
+      "citationCount": 1,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.5194/acp-25-18475-2025?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.5194/acp-25-18475-2025, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2239048000",
+          "name": "A. M. Thompson"
+        },
+        {
+          "authorId": "4597951",
+          "name": "R. Stauffer"
+        },
+        {
+          "authorId": "6226404",
+          "name": "D. Kollonige"
+        },
+        {
+          "authorId": "91263687",
+          "name": "J. Ziemke"
+        },
+        {
+          "authorId": "2246669487",
+          "name": "Bryan J. Johnson"
+        },
+        {
+          "authorId": "2346848872",
+          "name": "Gary Morris"
+        },
+        {
+          "authorId": "83261139",
+          "name": "P. Cullis"
+        },
+        {
+          "authorId": "2290511093",
+          "name": "María Cazorla"
+        },
+        {
+          "authorId": "145033582",
+          "name": "J. A. Diaz"
+        },
+        {
+          "authorId": "108087289",
+          "name": "A. Piters"
+        },
+        {
+          "authorId": "2400233571",
+          "name": "Igor Nedeljković"
+        },
+        {
+          "authorId": "2400230957",
+          "name": "Truus Warsodikromo"
+        },
+        {
+          "authorId": "2400223820",
+          "name": "Francisco Raimundo Silva"
+        },
+        {
+          "authorId": "103887780",
+          "name": "E. Northam"
+        },
+        {
+          "authorId": "2321769046",
+          "name": "Patrick Benjamin"
+        },
+        {
+          "authorId": "92628126",
+          "name": "T. Mkololo"
+        },
+        {
+          "authorId": "104316964",
+          "name": "Tshidi Machinini"
+        },
+        {
+          "authorId": "2065327353",
+          "name": "C. Félix"
+        },
+        {
+          "authorId": "32648227",
+          "name": "G. Romanens"
+        },
+        {
+          "authorId": "2400223664",
+          "name": "Syprose Nyadida"
+        },
+        {
+          "authorId": "5807351",
+          "name": "J. Brioude"
+        },
+        {
+          "authorId": "94258943",
+          "name": "S. Evan"
+        },
+        {
+          "authorId": "2260342466",
+          "name": "Jean-Marc Metzger"
+        },
+        {
+          "authorId": "118265365",
+          "name": "A. Dindang"
+        },
+        {
+          "authorId": "2400227686",
+          "name": "Yuzaimi B. Mahat"
+        },
+        {
+          "authorId": "107591620",
+          "name": "Mohan Kumar Sammathuria"
+        },
+        {
+          "authorId": "2273733829",
+          "name": "Norazura Binti Zakaria"
+        },
+        {
+          "authorId": "92383495",
+          "name": "N. Komala"
+        },
+        {
+          "authorId": "117391402",
+          "name": "S. Ogino"
+        },
+        {
+          "authorId": "2301997434",
+          "name": "Nguyen Thi Quyen"
+        },
+        {
+          "authorId": "2305323545",
+          "name": "F. S. Mani"
+        },
+        {
+          "authorId": "2339136878",
+          "name": "Miriama Vuiyasawa"
+        },
+        {
+          "authorId": "2400233539",
+          "name": "David Nardini"
+        },
+        {
+          "authorId": "2400232512",
+          "name": "Matthew Martinsen"
+        },
+        {
+          "authorId": "104018279",
+          "name": "D. Kuniyuki"
+        },
+        {
+          "authorId": "2092343422",
+          "name": "K. Müller"
+        },
+        {
+          "authorId": "2105341774",
+          "name": "Pawel Wolff"
+        },
+        {
+          "authorId": "92413200",
+          "name": "B. Sauvage"
+        }
+      ],
+      "abstract": "Abstract. Tropospheric ozone trends are important indicators of climate forcing and surface pollution, yet relevant satellite observations are too uncertain for assessments. The assessment project TOAR-II has used multi-instrument, ground-based data for global trends over 2000–2022 (Van Malderen et al., 2025a, b). For the tropics, trends are derived from SHADOZ ozonesonde profiles (Thompson et al., 2021, “T21”; Stauffer et al., 2024) or combinations of satellite, SHADOZ and IAGOS aircraft measurements (Gaudel et al., 2024). We extend T21 that covered 1998–2019, analyzing SHADOZ data at five sites with a Multiple Linear Regression (MLR) model for 1998–2023 and reporting trends for two free-tropospheric (FT) segments, the lowermost stratosphere and the total tropospheric column (TrCOsonde). Trends for the Aura period, 2005–2023, are computed from OMI/MLS TrCOsatellite. We find the following: Extending SHADOZ analyses 4 years shows little change from T21; TrCOsonde trends are small (0.5–1 DU/decade) except over SE Asia. Annual trends for TrCOsonde and OMI/MLS TrCOsatellite agree within uncertainties at four of five sites, with the largest differences at Samoa. Sensitivity tests show the following:   (a) Adding thousands of FT IAGOS profiles to SHADOZ yields little change in trends; SHADOZ sampling is sufficient.  (b) Quantile Regression (QR) and MLR median trends are both near zero, but QR captures extremes (5th percentile, 95th percentile) with changes up to ±1 DU/decade (p< 0.10).  (c) Twelve-year analyses for trends lead to uncertainty changes too large for an assessment. This study and Van Malderen et al. (2025a, b) provide the most reliable TOAR-II trends to date: over the past ∼ 25 years, tropical FT ozone changes have been modest, ∼ (−3–+3) %/decade, except over SE Asia."
+    },
+    {
+      "paperId": "07370835e2b2b10fbe15196786db18a3de19b7b7",
+      "externalIds": {
+        "DOI": "10.5194/acp-25-11719-2025",
+        "CorpusId": 281811592
+      },
+      "title": "Assessment of 16-year tropospheric ozone trends from the IASI Climate Data Record",
+      "venue": "Atmospheric Chemistry and Physics",
+      "year": 2025,
+      "citationCount": 3,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.5194/acp-25-11719-2025?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.5194/acp-25-11719-2025, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "11544017",
+          "name": "A. Boynard"
+        },
+        {
+          "authorId": "69330499",
+          "name": "C. Wespes"
+        },
+        {
+          "authorId": "1456701319",
+          "name": "J. Hadji-Lazaro"
+        },
+        {
+          "authorId": "2334411489",
+          "name": "Selviga Sinnathamby"
+        },
+        {
+          "authorId": "15861387",
+          "name": "D. Hurtmans"
+        },
+        {
+          "authorId": "91088992",
+          "name": "P. Coheur"
+        },
+        {
+          "authorId": "2379768549",
+          "name": "Marie Doutriaux-Boucher"
+        },
+        {
+          "authorId": "103395175",
+          "name": "J. Onderwaater"
+        },
+        {
+          "authorId": "9966726",
+          "name": "W. Steinbrecht"
+        },
+        {
+          "authorId": "46335523",
+          "name": "E. Pennington"
+        },
+        {
+          "authorId": "2336766742",
+          "name": "K. Bowman"
+        },
+        {
+          "authorId": "3206753",
+          "name": "C. Clerbaux"
+        }
+      ],
+      "abstract": "Abstract. Assessing tropospheric ozone (O3) variability is essential for understanding its impact on air quality, health, and climate change. The Infrared (IR) Atmospheric Sounding Interferometer (IASI) mission onboard the Metop platforms has been providing global measurements of O3 concentrations since 2007. This study presents the first comprehensive analysis of the 16-year O3 Climate Data Record (CDR) from IASI/Metop (2008–2023), a homogeneous dataset offering valuable insights into the variability and long-term trends of tropospheric O3. The IASI-CDR ozone product is evaluated against TROPESS (TRopospheric Ozone and its Precursors from Earth System Sounding) O3 retrievals from the Cross-track Infrared Sounder (CrIS). The comparison shows excellent agreement for total ozone (biases <1.2 %, correlations >0.97) and good agreement for tropospheric ozone (biases 10 %–12 %, correlations 0.77–0.91). Comparisons with ozonesonde data indicate that IASI underestimates tropospheric ozone by 2 % in the tropics and by up to 10 % in mid and high latitudes. Drift analysis indicates the long-term temporal stability of IASI tropospheric ozone, with values below 3 % per decade globally and regionally, satisfying the stability criterion requirement. IASI data reveal a global decline in tropospheric O3 (−0.08 ± 0.05 DU yr−1, p=0.01), strongest in the tropics and Europe. The comparison with ozonesonde data, shows high-certainty decreases consistently observed in the tropics across all datasets (IASI, smoothed sonde, and raw sonde), supporting the robustness of the findings in this region. Vertical analysis reveals that negative trends dominate in the lower troposphere, while positive trends in the upper troposphere align with ultraviolet (UV) satellite observations. This vertical contrast highlights the importance of separating lower and upper tropospheric layers when comparing IR and UV datasets. Although discrepancies remain when considering the full tropospheric column, both UV and IR satellite instruments show a significant drop in tropospheric ozone starting in 2020, partly due to pandemic-related emission reductions. This study emphasizes the importance of long-term, consistent datasets for tracking ozone trends and the need for improved data retrieval and integration to address regional and temporal discrepancies.\n"
+    },
+    {
+      "paperId": "544cacc88414aeeebd28cce923c30b0e13aa80bb",
+      "externalIds": {
+        "DOI": "10.5194/acp-25-8507-2025",
+        "CorpusId": 276254902
+      },
+      "title": "Identifying drivers of surface ozone bias in global chemical reanalysis with explainable machine learning",
+      "venue": "Atmospheric Chemistry and Physics",
+      "year": 2025,
+      "citationCount": 4,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.5194/acp-25-8507-2025?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.5194/acp-25-8507-2025, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2287868528",
+          "name": "Kazuyuki Miyazaki"
+        },
+        {
+          "authorId": "2287857880",
+          "name": "Yuliya Marchetti"
+        },
+        {
+          "authorId": "2287868568",
+          "name": "James Montgomery"
+        },
+        {
+          "authorId": "2287875009",
+          "name": "Steven Lu"
+        },
+        {
+          "authorId": "2344786249",
+          "name": "Kevin W. Bowman"
+        }
+      ],
+      "abstract": "Abstract. This study employs an explainable machine learning (ML) framework to examine the regional dependencies of surface ozone biases and their underlying drivers in global chemical reanalysis. Surface ozone observations from the Tropospheric Ozone Assessment Report (TOAR) network and chemical reanalysis outputs from the multi-model multi-constituent chemical (MOMO-Chem) data assimilation (DA) system for the period 2005–2020 were utilized for ML training. A regression-tree-based randomized ensemble ML approach successfully reproduced the spatiotemporal patterns of ozone bias in the chemical reanalysis relative to TOAR observations across North America, Europe, and East Asia. The global distributions of ozone bias predicted by ML revealed systematic patterns influenced by meteorological conditions, geographic features, anthropogenic activities, and biogenic emissions. The primary drivers identified include temperature, surface pressure, carbon monoxide (CO), formaldehyde (CH2O), and nitrogen oxide (NOx) reservoirs such as nitric acid (HNO3) and peroxyacetyl nitrate (PAN). The ML framework provided a detailed quantification of the magnitude and variability of these drivers, delivering bias-corrected ozone estimates suitable for human health and environmental impact assessments. The findings provide valuable insights that can inform advancements in chemical transport modeling, DA, and observational system design, thereby improving surface ozone reanalysis. However, the complex interplay among numerous parameters highlights the need for rigorous validation of identified drivers against established scientific knowledge to attain a comprehensive understanding at the process level. Further advancements in ML interpretability are essential to achieve reliable, actionable outcomes and to lead to an improved reanalysis framework for more effectively mitigating air pollution and its impacts.\n"
+    },
+    {
+      "paperId": "06cdb78db0b1e351303c7ea28fe772b700191c72",
+      "externalIds": {
+        "DOI": "10.5194/acp-25-7187-2025",
+        "CorpusId": 280229171
+      },
+      "title": "Global ground-based tropospheric ozone measurements: reference data and individual site trends (2000–2022) from the TOAR-II/HEGIFTOM project",
+      "venue": "Atmospheric Chemistry and Physics",
+      "year": 2025,
+      "citationCount": 13,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.5194/acp-25-7187-2025?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.5194/acp-25-7187-2025, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "30947469",
+          "name": "R. van Malderen"
+        },
+        {
+          "authorId": "2239048000",
+          "name": "A. M. Thompson"
+        },
+        {
+          "authorId": "6226404",
+          "name": "D. Kollonige"
+        },
+        {
+          "authorId": "2238062645",
+          "name": "Ryan M. Stauffer"
+        },
+        {
+          "authorId": "38718602",
+          "name": "H. Smit"
+        },
+        {
+          "authorId": "1657334474",
+          "name": "Eliane Maillard Barras"
+        },
+        {
+          "authorId": "2320133977",
+          "name": "Corinne Vigouroux"
+        },
+        {
+          "authorId": "1845245",
+          "name": "I. Petropavlovskikh"
+        },
+        {
+          "authorId": "2243980445",
+          "name": "T. Leblanc"
+        },
+        {
+          "authorId": "4222086",
+          "name": "V. Thouret"
+        },
+        {
+          "authorId": "2105341774",
+          "name": "Pawel Wolff"
+        },
+        {
+          "authorId": "2093719382",
+          "name": "Peter Effertz"
+        },
+        {
+          "authorId": "4590201",
+          "name": "D. Tarasick"
+        },
+        {
+          "authorId": "2330540384",
+          "name": "D. Poyraz"
+        },
+        {
+          "authorId": "4360308",
+          "name": "G. Ancellet"
+        },
+        {
+          "authorId": "2373270723",
+          "name": "Marie-Renée De Backer"
+        },
+        {
+          "authorId": "94258943",
+          "name": "S. Evan"
+        },
+        {
+          "authorId": "2281204791",
+          "name": "Victoria A. Flood"
+        },
+        {
+          "authorId": "153701247",
+          "name": "M. Frey"
+        },
+        {
+          "authorId": "93489423",
+          "name": "J. Hannigan"
+        },
+        {
+          "authorId": "2341493618",
+          "name": "J. L. Hernández"
+        },
+        {
+          "authorId": "2799212",
+          "name": "M. Iarlori"
+        },
+        {
+          "authorId": "2246669487",
+          "name": "Bryan J. Johnson"
+        },
+        {
+          "authorId": "2284910715",
+          "name": "Nicholas Jones"
+        },
+        {
+          "authorId": "2362498707",
+          "name": "Rigel Kivi"
+        },
+        {
+          "authorId": "2306589411",
+          "name": "E. Mahieu"
+        },
+        {
+          "authorId": "93602795",
+          "name": "G. Mcconville"
+        },
+        {
+          "authorId": "2092343422",
+          "name": "K. Müller"
+        },
+        {
+          "authorId": "47941751",
+          "name": "T. Nagahama"
+        },
+        {
+          "authorId": "2455138",
+          "name": "J. Notholt"
+        },
+        {
+          "authorId": "108087289",
+          "name": "A. Piters"
+        },
+        {
+          "authorId": "91505672",
+          "name": "N. Prats"
+        },
+        {
+          "authorId": "14534609",
+          "name": "R. Querel"
+        },
+        {
+          "authorId": "2082295577",
+          "name": "D. Smale"
+        },
+        {
+          "authorId": "9966726",
+          "name": "W. Steinbrecht"
+        },
+        {
+          "authorId": "2311151325",
+          "name": "Kimberly Strong"
+        },
+        {
+          "authorId": "9653789",
+          "name": "R. Sussmann"
+        }
+      ],
+      "abstract": "Abstract. Tropospheric ozone trends from models and satellites are found to diverge. Ground-based (GB) observations are used to reference models and satellites, but GB data themselves might display station biases and discontinuities. Reprocessing with uniform procedures, the TOAR-II working group Harmonization and Evaluation of Ground-based Instruments for Free-Tropospheric Ozone Measurements (HEGIFTOM) homogenized public data from five networks: ozonesondes, In-service Aircraft for a Global Observing System (IAGOS) profiles, solar absorption Fourier transform infrared (FTIR) spectrometer measurements, lidar observations, and Dobson Umkehr data. Amounts and uncertainties for total tropospheric ozone (TrOC; surface to 300 hPa), as well as free- and lower-tropospheric ozone, are calculated for each network. We report trends (2000 to 2022) for these segments using quantile regression (QR) and multiple linear regression (MLR) for 55 datasets, including six multi-instrument stations. The findings are that (1) median TrOC trends computed with QR and MLR trends are essentially the same; (2) pole-to-pole, across all longitudes, TrOC trends fall within +3 to −3 ppbv per decade, equivalent to (−4 % to +8 %) per decade depending on site; (3) the greatest fractional increases occur over most tropical and subtropical sites, with decreases at northern high latitudes, but these patterns are not uniform; (4) post-COVID trends are smaller than pre-COVID trends for Northern Hemisphere mid-latitude sites. In summary, this analysis conducted in the frame of TOAR-II/HEGIFTOM shows that high-quality, multi-instrument, harmonized data over a wide range of ground sites provide clear standard references for TOAR-II models and evolving tropospheric ozone satellite products for 2000–2022.\n"
+    },
+    {
+      "paperId": "7cffa60e8aca89ec3e51cf122c4b82c1fd673224",
+      "externalIds": {
+        "CorpusId": 277962803
+      },
+      "title": "Tropospheric Ozone Assessment Report (TOAR): 16-year ozone trends from the IASI Climate Data Record",
+      "venue": "",
+      "year": null,
+      "citationCount": 3,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null
+      },
+      "authors": [
+        {
+          "authorId": "11544017",
+          "name": "A. Boynard"
+        },
+        {
+          "authorId": "69330499",
+          "name": "C. Wespes"
+        },
+        {
+          "authorId": "1456701319",
+          "name": "J. Hadji-Lazaro"
+        },
+        {
+          "authorId": "2334411489",
+          "name": "Selviga Sinnathamby"
+        },
+        {
+          "authorId": "15861387",
+          "name": "D. Hurtmans"
+        },
+        {
+          "authorId": "91088992",
+          "name": "P. Coheur"
+        },
+        {
+          "authorId": "1404777485",
+          "name": "M. Doutriaux-Boucher"
+        },
+        {
+          "authorId": "103395175",
+          "name": "J. Onderwaater"
+        },
+        {
+          "authorId": "9966726",
+          "name": "W. Steinbrecht"
+        },
+        {
+          "authorId": "46335523",
+          "name": "E. Pennington"
+        },
+        {
+          "authorId": "2356622823",
+          "name": "Kevin Bowman"
+        },
+        {
+          "authorId": "3206753",
+          "name": "C. Clerbaux"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "aa87de03640571ce498bc7e034a5fa92c8ea2035",
+      "externalIds": {
+        "CorpusId": 282204297
+      },
+      "title": "An algorithm to retrieve peroxyacetyl nitrate from AIRS Response to reviewer 1",
+      "venue": "",
+      "year": null,
+      "citationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null
+      },
+      "authors": [
+        {
+          "authorId": "40864515",
+          "name": "J. Laughner"
+        },
+        {
+          "authorId": "2842010",
+          "name": "S. Kulawik"
+        },
+        {
+          "authorId": "2272575846",
+          "name": "V. H. Payne"
+        }
+      ],
+      "abstract": null
+    }
+  ],
+  "10.5194/acp-25-11719-2025": [
+    {
+      "paperId": "f2044b5b6b7dbf4bb527605dd4df72ad38c0a0ac",
+      "externalIds": {
+        "DOI": "10.5194/acp-26-809-2026",
+        "CorpusId": 284831837
+      },
+      "title": "Beyond binary maps from HCHO∕NO\n 2\n : a deep neural network approach to global daily mapping of net ozone production rates and sensitivities constrained by satellite observations (2005–2023)",
+      "venue": "Atmospheric Chemistry and Physics",
+      "year": 2026,
+      "citationCount": 1,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.5194/acp-26-809-2026?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.5194/acp-26-809-2026, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "32258715",
+          "name": "A. Souri"
+        },
+        {
+          "authorId": "10741704",
+          "name": "Gonzalo González Abad"
+        },
+        {
+          "authorId": "2249574855",
+          "name": "B. Duncan"
+        },
+        {
+          "authorId": "2290692262",
+          "name": "L. Oman"
+        }
+      ],
+      "abstract": "Abstract. Previous studies on net ozone production rates (PO3) and their sensitivities to precursors relied on limited in-situ data, often coarse and uncertain chemical transport models (CTMs), and ozone indicators like the formaldehyde-to-nitrogen dioxide ratio (FNR). However, FNR fails to fully capture PO3's complex relationships with pollution, light, and water vapor. To address this, we refine the satellite-based PO3 product from Souri et al. (2025) with key advancements: (i) a deep neural network to parametrize high-dimensional non-linear ozone chemistry without the need for empirical linearization of atmospheric conditions, (ii) incorporation of water vapor, (iii) improved error characterization, and (iv) the application of a finer CTM to dynamically convert column retrievals into near-surface mixing ratios. Our PO3 sensitivity maps surpass traditional FNR-based assessments by quantifying sensitivity magnitudes – factoring in photolysis rates and water vapor – with greater spatial information. Our new product provides daily near-clear sky PO3 and sensitivity maps using bias-corrected OMI (2005–2019, 0.25° × 0.25°) and TROPOMI (2018–2023, 0.1° × 0.1°), with values aligning within 10 %. High PO3 rates (> 8 ppbv h−1) appear in urban and biomass-burning regions under strong photochemical activity, including during a heatwave in the northeastern U.S. Photolysis rates are the dominant factor dictating the seasonality of PO3 magnitudes and sensitivities. The stability and long-term records of OMI retrievals (2005–2019) enable us to provide the first global maps of PO3 linear trends showing a surge of > 30 % over China, the Middle East, and India, while a reduction in the eastern U.S., southern Europe, and several regions in Africa."
+    },
+    {
+      "paperId": "762967870e2584a0b3c6e14cd436f92b63141745",
+      "externalIds": {
+        "DOI": "10.5194/amt-18-6893-2025",
+        "CorpusId": 276245361
+      },
+      "title": "Harmonisation of sixteen tropospheric ozone satellite data records",
+      "venue": "Atmospheric Measurement Techniques",
+      "year": 2025,
+      "citationCount": 6,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.5194/amt-18-6893-2025?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.5194/amt-18-6893-2025, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "93899270",
+          "name": "A. Keppens"
+        },
+        {
+          "authorId": "2284935875",
+          "name": "D. Hubert"
+        },
+        {
+          "authorId": "6774833",
+          "name": "J. Granville"
+        },
+        {
+          "authorId": "2290506405",
+          "name": "Oindrila Nath"
+        },
+        {
+          "authorId": "144826186",
+          "name": "J. Lambert"
+        },
+        {
+          "authorId": "69330499",
+          "name": "C. Wespes"
+        },
+        {
+          "authorId": "91088992",
+          "name": "P. Coheur"
+        },
+        {
+          "authorId": "3206753",
+          "name": "C. Clerbaux"
+        },
+        {
+          "authorId": "11544017",
+          "name": "A. Boynard"
+        },
+        {
+          "authorId": "31226097",
+          "name": "R. Siddans"
+        },
+        {
+          "authorId": "143611281",
+          "name": "B. Latter"
+        },
+        {
+          "authorId": "40798531",
+          "name": "B. Kerridge"
+        },
+        {
+          "authorId": "2310070035",
+          "name": "Serena Di Pede"
+        },
+        {
+          "authorId": "104835743",
+          "name": "P. Veefkind"
+        },
+        {
+          "authorId": "2320657659",
+          "name": "Juan Cuesta"
+        },
+        {
+          "authorId": "2297907512",
+          "name": "Gaelle Dufour"
+        },
+        {
+          "authorId": "3082392",
+          "name": "K. Heue"
+        },
+        {
+          "authorId": "1403808036",
+          "name": "M. Coldewey‐Egbers"
+        },
+        {
+          "authorId": "1752248",
+          "name": "D. Loyola"
+        },
+        {
+          "authorId": "1429790588",
+          "name": "Andrea Orfanoz-Cheuquelaf"
+        },
+        {
+          "authorId": "2330332091",
+          "name": "Swathi Maratt Satheesan"
+        },
+        {
+          "authorId": "91058812",
+          "name": "K. Eichmann"
+        },
+        {
+          "authorId": "2285659957",
+          "name": "A. Rozanov"
+        },
+        {
+          "authorId": "107727612",
+          "name": "V. Sofieva"
+        },
+        {
+          "authorId": "91263687",
+          "name": "J. Ziemke"
+        },
+        {
+          "authorId": "6977786",
+          "name": "A. Inness"
+        },
+        {
+          "authorId": "30947469",
+          "name": "R. van Malderen"
+        },
+        {
+          "authorId": "2270040911",
+          "name": "L. Hoffmann"
+        }
+      ],
+      "abstract": "Abstract. The first Tropospheric Ozone Assessment Report (TOAR, 2014–2019) encountered several observational challenges that limited the confidence in estimates of the burden, short-term variability, and long-term changes of ozone in the free troposphere. One of these challenges is the difficulty to interpret the consistency of satellite measurements obtained with different techniques from multiple sensors, leading to differences in spatiotemporal sampling, vertical smoothing, a-priori information, and uncertainty characterisation. This motivated the Committee on Earth Observation Satellites (CEOS) to initiate a coordinated activity VC-20-01 on improving the assessment and harmonisation of tropospheric ozone measured from space. Here, we report on work that contributes to this CEOS activity, as well as to the ongoing second TOAR assessment (TOAR-II, 2020–2025). Our objective is to harmonise the spatiotemporal perspective of (sixteen) satellite ozone data records, thereby accounting as much as possible for differences in vertical smoothing and sampling. Four harmonisation methods are presented to achieve this goal: two for ozone profiles obtained from nadir sounders (UV-visible, IR, and combined UV-IR), and two for tropospheric ozone column products derived by one of the residual methods (Convective Cloud Differential or Limb–Nadir Matching). We discuss to what extent harmonisation may affect assessments of the spatial distribution, seasonal cycle, and long-term changes in free tropospheric ozone, and we anchor the harmonised profile data to ozonesonde measurements recently homogenised as part of TOAR-II. We find that approaches that use global ozone fields as a transfer standard (here the Copernicus Atmosphere Monitoring Service ReAnalysis, CAMSRA) to constrain the harmonisation generally lead to the largest reduction of the inter-product dispersion (IPD) between satellite datasets. These harmonisation efforts, however, only partially account for the observed discrepancies between the satellite datasets, with a reduction of about 10 %–40 % of the IPD upon harmonisation, depending on the products involved and with strong spatiotemporal dependences. This work therefore provides evidence that it is not only the differences in spatiotemporal smoothing and sampling, but rather the differences in measurement uncertainty that pose the main challenge to the assessment of the spatial distribution and temporal evolution of free tropospheric ozone from satellite observations."
+    },
+    {
+      "paperId": "96090eae37900244c8430bf091c71f29d766a59f",
+      "externalIds": {
+        "CorpusId": 284862886
+      },
+      "title": "Beyond binary maps from HCHO / NO 2 : a deep neural network approach to global daily mapping of net ozone production rates and sensitivities constrained by satellite observations (2005–2023)",
+      "venue": "",
+      "year": null,
+      "citationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null
+      },
+      "authors": [
+        {
+          "authorId": "2363163370",
+          "name": "A. H. Souri"
+        },
+        {
+          "authorId": "2301419168",
+          "name": "Gonzalo González Abad"
+        },
+        {
+          "authorId": "2405451982",
+          "name": "1. BryanN.Duncan"
+        },
+        {
+          "authorId": "2405452104",
+          "name": "1. LukeD.Oman"
+        }
+      ],
+      "abstract": null
+    }
+  ],
+  "10.1175/bams-d-25-0102.1": [],
+  "10.5194/amt-19-249-2026": []
 }

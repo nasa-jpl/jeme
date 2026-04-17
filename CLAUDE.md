@@ -13,6 +13,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - `python scripts/compute_uncertainty.py --model RAPID` - Compute Phase 1 uncertainty scores
 - `python scripts/phase2_llm_confidence.py --model RAPID --sample 10` - Phase 2 multi-temperature LLM sampling
 - `python scripts/phase3_skeptic_agent.py --model RAPID` - Phase 3 skeptic agent review
+- `python scripts/verify_peer_review.py --all --dry-run` - Preview non-peer-reviewed paper removal
+- `python scripts/verify_peer_review.py --all` - Remove non-peer-reviewed papers from all models
+- `python scripts/classify_peer_review.py --all` - Classify peer-review status without removing
 
 ## Architecture Overview
 
@@ -93,6 +96,23 @@ Removes spam and metadata noise from citation JSON files. Three filter categorie
 
 Supports `--model NAME`, `--all`, and `--dry-run` flags. Idempotent.
 
+### Peer-Review Filtering (`scripts/verify_peer_review.py`)
+
+**Rule: Only peer-reviewed papers are included in the dashboard.** Non-peer-reviewed entries (preprints, theses, conference abstracts, technical reports, etc.) must be removed from all model/mission data files.
+
+Three-tier classification:
+1. **Tier 1 — Deterministic venue patterns:** Blocklist matching (arxiv, preprints, discussions, meeting abstracts, theses, posters, etc.) with exceptions for peer-reviewed venues that contain blocklist words (PNAS, Proc. Royal Society, IEEE, etc.)
+2. **Tier 2 — Crossref DOI type lookup:** Queries Crossref API for `journal-article` vs `posted-content` etc.
+3. **Tier 3 — Gemini LLM fallback:** For ambiguous cases (requires `GEMINI_API_KEY`)
+
+Non-peer-reviewed papers are removed from JSON files and logged in `scripts/removed_non_peer_reviewed.json`.
+
+- `python scripts/verify_peer_review.py --all --dry-run` — Preview removals across all models
+- `python scripts/verify_peer_review.py --model TROPESS` — Process a specific model
+- `python scripts/classify_peer_review.py --all` — Add/update `is_peer_reviewed` field without removing
+
+**Supported models:** CARDAMOM, CMS-Flux, ECCO, EDMF, GRACE, ISSM, LES, MOMO-CHEM, RAPID, SWOT, TROPESS
+
 ### Venue Enrichment (`scripts/fetch_ecco_venues.py`)
 
 Fetches missing journal/venue info for citation papers using external APIs:
@@ -157,8 +177,10 @@ Three-phase pipeline for quantifying classification confidence. Each phase adds 
 4. Add dynamic import case in `src/utils/networkAnalysis.js` `loadAllModelData()`
 5. Add dynamic import case in `src/views/Dashboard.js` data loading
 6. Add model to MODELS array in `scripts/clean_citation_data.js`
-7. Add color to `modelColors` in `ModelComparisonChart.js` and `MultiModelCitationTrendsChart.js`
-8. Use generic components or create model-specific ones in `src/views/{MODEL_NAME}/`
+7. Add model to MODELS array in `scripts/verify_peer_review.py` and `scripts/classify_peer_review.py`
+8. Run `python scripts/verify_peer_review.py --model {MODEL_NAME}` to remove non-peer-reviewed papers
+9. Add color to `modelColors` in `ModelComparisonChart.js` and `MultiModelCitationTrendsChart.js`
+10. Use generic components or create model-specific ones in `src/views/{MODEL_NAME}/`
 
 **Adding New Missions (JEOE):**
 1. Add config to `src/config/modelConfig.js` MODELS object with `type: 'mission'`
@@ -166,8 +188,10 @@ Three-phase pipeline for quantifying classification confidence. Each phase adds 
 3. Add `src/data/{MISSION_NAME}_analyzed.json`
 4. Add mission to MISSION_LINKS in `src/components/NavBar.js`
 5. Add mission card to `src/views/JEOEDashboard.js` missions array
-6. Add color to `modelColors` in `ModelComparisonChart.js` and `MultiModelCitationTrendsChart.js`
-7. Create dashboard in `src/views/{MISSION_NAME}/Dashboard.js`
+6. Add mission to MODELS array in `scripts/verify_peer_review.py` and `scripts/classify_peer_review.py`
+7. Run `python scripts/verify_peer_review.py --model {MISSION_NAME}` to remove non-peer-reviewed papers
+8. Add color to `modelColors` in `ModelComparisonChart.js` and `MultiModelCitationTrendsChart.js`
+9. Create dashboard in `src/views/{MISSION_NAME}/Dashboard.js`
 
 **Data Loading Pattern:**
 - Pages dynamically import JSON via switch/case on model name

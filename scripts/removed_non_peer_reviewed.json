@@ -8944,5 +8944,866 @@
     "venue": "",
     "doi": "",
     "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "GRACE",
+    "title": "Characterization of the hydrological functioning of the Niger basin using the ISBA-TRIP model",
+    "venue": "Hydrology and Earth System Sciences Discussions",
+    "doi": "10.5194/hessd-8-9173-2011",
+    "reason": "tier1_venue_pattern:discussions"
+  },
+  {
+    "model": "GRACE",
+    "title": "A global water cycle reanalysis (2003–2012) reconciling satellite gravimetry and altimetry observations with a hydrological model ensemble",
+    "venue": "Hydrology and Earth System Sciences Discussions",
+    "doi": "10.5194/hessd-10-15475-2013",
+    "reason": "tier1_venue_pattern:discussions"
+  },
+  {
+    "model": "GRACE",
+    "title": "A study on the gravity variations related to a rainfall from TRMM and GRACE",
+    "venue": "in 2006 Western Pacific Geophysics Meeting",
+    "doi": "",
+    "reason": "tier1_conference_abstract"
+  },
+  {
+    "model": "GRACE",
+    "title": "A Simple Groundwater Model (SIMGM) for use in Climate Models - The Impacts of Groundwater Dynamics on Soil Moisture and Evapotranspiration",
+    "venue": "in 2006 Western Pacific Geophysics Meeting",
+    "doi": "",
+    "reason": "tier1_conference_abstract"
+  },
+  {
+    "model": "GRACE",
+    "title": "Operational Monitoring of Mesoscale Upper Layer Circulation Fields with Multi-Satellite Technology in the Southwestern Atlantic Ocean",
+    "venue": "in 2006 Ocean Sciences Meeting",
+    "doi": "",
+    "reason": "tier1_conference_abstract"
+  },
+  {
+    "model": "GRACE",
+    "title": "A Study of Regional Ice Sheet Mass Variation in Antarctica Using GRACE Data",
+    "venue": "in 2006 Western Pacific Geophysics Meeting",
+    "doi": "",
+    "reason": "tier1_conference_abstract"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Supplementary material to \"Comparison of Optimal Estimation HDO/H2O Retrievals from AIRS with ORACLES measurements\"",
+    "venue": "",
+    "doi": "10.5194/amt-2019-195",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Evaluation of ACCMIP ozone simulations using a multi-constituent chemical reanalysis",
+    "venue": "",
+    "doi": "10.5194/ACP-2016-1043",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Validation of NH 3 observations from AIRS and CrIS against aircraft measurements from DISCOVER-AQ and a surface network in the Magic Valley",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "TROPESS CrIS CO single pixel vertical profiles: Intercomparisons with MOPITT and model comparisons for 2020 US Western wildfires",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Diurnal carbon monoxide observed from a geostationary infrared hyperspectral sounder: First result from GIIRS onboard FY-4B",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "TROPESS/CrIS carbon monoxide profile validation with NOAA GML and ATom in situ 1 aircraft observations 2",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Original Version",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "CLIMCAPS Observing Capability for Temperature, Moisture and Trace Gases from AIRS/AMSU and CrIS/ATMS",
+    "venue": "",
+    "doi": "10.5194/amt-2020-71",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "TROPESS",
+    "title": "1.5 years of TROPOMI CO measurements: Comparisons to MOPITT and ATom",
+    "venue": "",
+    "doi": "10.5194/amt-2020-63",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Estimating and Reporting Uncertainties in Remotely Sensed Atmospheric Composition and Temperature",
+    "venue": "",
+    "doi": "10.5194/amt-2019-350",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "TROPESS",
+    "title": "The Ozone Monitoring Instrument : Overview of twelve years in space",
+    "venue": "",
+    "doi": "10.5194/acp-2017-487",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Opinion: Beyond Global Means: Novel Space-Based Approaches to Indirectly Constrain the Concentrations, Trends, and Variations of Tropospheric Hydroxyl Radical (OH)",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Predictions of satellite retrieval failures of air quality using machine learning",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Tropospheric Ozone Assessment Report (TOAR): 16-year ozone trends from the IASI Climate Data Record",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "A hybrid optimal estimation and machine learning approach to predict atmospheric composition",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "The Atmospheric Infrared Sounder",
+    "venue": "Handbook of Air Quality and Climate Change",
+    "doi": "10.2514/6.1990-261",
+    "reason": "tier1_venue_pattern:handbook"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Verification of the AIRS and MLS ozone algorithms based on\nretrieved daytime and nighttime ozone",
+    "venue": "",
+    "doi": "10.5194/amt-2020-194",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Rapid assimilations of O 3 observations – Part 1: methodology and 1 tropospheric O 3 changes in China in 2015-2020 2",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "An updated tropospheric chemistry reanalysis and emission estimates, TCR-2, for 2005–2018",
+    "venue": "",
+    "doi": "10.5194/essd-2020-30",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "TROPESS",
+    "title": "1 Radiative transfer acceleration based on the 1 Principal Component Analysis and Look-Up 2 Table of corrections : Optimization and 3 application to UV ozone profile retrievals 4 5",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Interactive comment on “ Linearization of the effect of slit function changes for improving OMI ozone profile retrievals ” by Juseon Bak et al",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Balance of emission and dynamical controls on ozone during KORUS-AQ",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "total ozone",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Single ﬁeld-of-view sounder atmospheric product retrieval algorithm: establishing radiometric consistency for hyper-spectral sounder retrievals",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "of the AIRS and MLS ozone algorithms",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Assessment of regional and interannual variations in tropospheric ozone in chemical reanalyses",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Natural and anthropogenic influence on tropospheric ozone variability over the Tropical Atlantic unveiled by satellite and in situ observations",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Retrieving H2O/HDO columns over cloudy and clear-sky scenes from the Tropospheric Monitoring Instrument (TROPOMI)",
+    "venue": "",
+    "doi": "10.5194/amt-2021-141",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "TROPESS",
+    "title": "The MUSICA IASI {H2O, δD} pair product",
+    "venue": "",
+    "doi": "10.5194/ESSD-2021-87",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Measurements of atmospheric HDO/H2O in southern California from CLARS-FTS",
+    "venue": "",
+    "doi": "10.1002/ESSOAR.10506339.1",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Impact of the assimilation of water vapour isotopologues on diabatic heating and precipitation in the tropics",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Measurements of atmospheric HDO/H 2 O in southern California from 1 CLARS-FTS 2",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Assessing the potential of free tropospheric water vapour isotopologue satellite observations for improving the analyses of latent heating",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Capability demonstration of a JEDI-based system for TEMPO assimilation: system description and evaluation",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Implementation of aerosol data assimilation in WRFDA (V4.0.3) for WRF-Chem (V3.9.1) using the MADE/VBS scheme",
+    "venue": "",
+    "doi": "10.5194/GMD-2021-74",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Assessing sub-grid variability within satellite pixels using airborne mapping \nspectrometer measurements",
+    "venue": "",
+    "doi": "10.5194/amt-2020-509",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "TROPESS",
+    "title": "The role of HONO in O3 formation and insight into its formation mechanism during the KORUS-AQ Campaign",
+    "venue": "",
+    "doi": "10.5194/acp-2019-1012-rc1",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Improving air quality forecasting with the assimilation of GOCI AOD retrievals during the KORUS-AQ period",
+    "venue": "",
+    "doi": "10.5194/acp-2019-648",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Airborne and Satellite Investigation of Asian Air Quality (ASIA-AQ)",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Concentration Trajectory Route of Air pollution with an Integrated Lagrangian model (C-TRAIL model v1.0) derived from the Community Multiscale Air Quality Modeling (CMAQ model v5.2)",
+    "venue": "",
+    "doi": "10.5194/gmd-2019-366",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Impact of improved representation of VOC emissions and production of NO x reservoirs on modeled urban ozone production",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Trace gas atmospheric rivers: remote drivers of air pollutants",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Ozone in the Desert Southwest of the United States: A Synthesis of Past Work and Steps Ahead",
+    "venue": "ACS ES&amp;T Air",
+    "doi": "10.1021/acsestair.3c00033",
+    "reason": "tier1_title_pattern:thesis"
+  },
+  {
+    "model": "TROPESS",
+    "title": "High-resolution modeling the distribution of surface air pollutants and their intercontinental transport by a global tropospheric atmospheric chemistry source-receptor model (GNAQPMS-SM)",
+    "venue": "",
+    "doi": "10.5194/gmd-2021-201",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Impacts of COVID-19 control measures on tropospheric NO$_2$ over China, South Korea and Italy.",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Supplementary material to \"High-resolution modeling the distribution of surface air pollutants and their intercontinental transport by a global tropospheric atmospheric chemistry source-receptor model (GNAQPMS-SM)\"",
+    "venue": "",
+    "doi": "10.5194/gmd-2021-201-supplement",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "TROPESS",
+    "title": "SUMMERTIME OZONE IN THE U NITED S TATES",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Changes of air pollutant emissions in China during two clean air 1 action periods derived from the newly developed Inversed Emission 2 Inventory for Chinese Air Quality (CAQIEI)",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Quantifying uncertainties of satellite NO 2 superobservations for data assimilation and model evaluation",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "An improved Trajectory-mapped Ozonesonde dataset for the Stratosphere and Troposphere 1 (TOST): update, validation and applications",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "to Reviews of NMVOC emission optimization in China through assimilating formaldehyde retrievals from multiple satellite products",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Beyond binary maps from HCHO / NO 2 : a deep neural network approach to global daily mapping of net ozone production rates and sensitivities constrained by satellite observations (2005–2023)",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "The 2020 COVID-19 pandemic and atmospheric composition: back to the future",
+    "venue": "",
+    "doi": "10.1002/ESSOAR.10506081.1",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Dynamics-based estimates of decline trend with fine temporal variations in China's 1 PM 2.5 emissions 2",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "A Satellite Data-Driven Framework to Rapidly Quantify Air Basin-Scale NOx Emission and Its Application to the Po Valley during the COVID-19 Pandemic",
+    "venue": "",
+    "doi": "10.5194/acp-2021-268",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Unraveling Pathways of Elevated Ozone Induced by the 2020 \nLockdown in Europe by an Observationally Constrained Regional \nModel: Non-Linear Joint Inversion of NOx and VOC Emissions \nusing TROPOMI",
+    "venue": "",
+    "doi": "10.5194/ACP-2021-121",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Changes in global air pollutant emissions during the COVID-19\npandemic: a dataset for atmospheric chemistry modeling",
+    "venue": "",
+    "doi": "10.5194/ESSD-2020-348",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Substantial changes of gaseous pollutants and chemical compositions in fine particles in \nNorth China Plain during COVID-19 lockdown period: anthropogenic vs meteorological \ninfluences",
+    "venue": "",
+    "doi": "10.5194/acp-2020-1199",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Nitrogen oxides emissions from selected cities in North America, Europe, and East Asia observed by TROPOMI before and after the COVID-19 pandemic",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "comparisons between TROPOMI NO2 column observations",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Impacts of COVID-19 lockdown measures on Air quality and Climate (ICOVAC)",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "NO x emissions changes from 2019 to 2021 in Eastern China as estimated through variational inversions and TROPOMI satellite data",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Disentangling drivers of air pollutants and health risks change during the COVID-19 lockdown in China",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Delayed Pantropical Carbon Sink Recovery Due To Asynchronous Post‐El Niño Photosynthesis and Respiration Trajectories",
+    "venue": "Geophysical Research Letters",
+    "doi": "10.1029/2025GL116236",
+    "reason": "tier1_title_pattern:thesis"
+  },
+  {
+    "model": "TROPESS",
+    "title": "A ten-year global monthly averaged terrestrial NEE inferred from the ACOS GOSAT v9 XCO2 retrievals (GCAS2021)",
+    "venue": "",
+    "doi": "10.5194/essd-2022-15",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Monitoring the regional impact of forest loss and gain on carbon uptake with solar-induced fluorescence measurements from the GOME-2A and TROPOMI sensors",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Solar-induced fluorescence products show variable skill in constraining global patterns in biospheric CO2 fluxes",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Using OCO-2 column CO 2 retrievals to rapidly detect and estimate biospheric surface carbon flux anomalies",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Impact of hydro-meteorological conditions and flash drought 1 duration on post-flash drought recovery time patterns",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "A global surface CO 2 ﬂux dataset (2015–2022) inferred from OCO-2 retrievals using the GONGGA inversion system",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Assessing Recovery Time of Ecosystems in China: Insights into Flash 1 Drought Impacts on Gross Primary Productivity 2",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Global Greenhouse Gas Reconciliation 2022 1",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Improved consistency in solar-induced ﬂuorescence retrievals from GOME-2A with the SIFTER v3 algorithm",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Fire carbon emission constraints from space-based carbon monoxide retrievals during the 2019 intense burning season in Brazil",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Insights into the sources of ultraﬁne particle numbers at six European urban sites obtained by investigating COVID-19 lockdowns",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Impact of the COVID‐19 Economic Downturn on Tropospheric Ozone Trends: An Uncertainty Weighted Data Synthesis for Quantifying Regional Anomalies Above Western North America and Europe",
+    "venue": "AGU Advances",
+    "doi": "10.1029/2021AV000542",
+    "reason": "tier1_title_pattern:thesis"
+  },
+  {
+    "model": "TROPESS",
+    "title": "COVID-19 lockdown NOx emission reductions can explain most of the coincident increase in global atmospheric methane",
+    "venue": "",
+    "doi": "10.5194/acp-2021-604",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Ground ozone rise caused by the larger emission 11 reduction of nitrogen oxides than volatile organic 12 components",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Font : Italic Formatted : Font : Italic Formatted : Subscript Formatted : Subscript Formatted : Font : 9 pt Formatted : Font : Italic Formatted : Font : Italic Formatted : Centred",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Methane emissions responsible for record-breaking atmospheric methane growth rates in 2020 and 2021",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Contributions of Trafﬁc and Industrial Emission Reductions to the Air Quality Improvement after the Lockdown of Wuhan and Neighboring Cities Due to COVID-19",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "1 Large Reductions in Satellite-Derived and Modelled European Lower Tropospheric 1 Ozone During and After the COVID-19 Pandemic (2020–2022)",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Satellites reveal a 28% drop in Ukraine’s Nitrogen oxides emissions during the Russia-Ukraine war in 2022",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Intercomparison of tropospheric ozone column datasets from combined nadir and limb satellite observations",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "High-resolution urban air pollution and thermal comfort mapping: an application of drive mobile sensing platform for smart city services",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Long Term Changes in Air Pollutants at Urban Regions of India Using Remote Sensing Data",
+    "venue": "2024 URSI Regional Conference on Radio Science (URSI-RCRS)",
+    "doi": "10.23919/URSI-RCRS63970.2024.11201108",
+    "reason": "tier1_conference_proceedings"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Exploration of the variation characteristics of greenhouse gas CO2 and CH4 concentrations in the Hefei region",
+    "venue": "Other Conferences",
+    "doi": "10.1117/12.3018539",
+    "reason": "tier1_conference_proceedings"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Measurements of Pollution in the Troposphere (MOPITT) Observations from EOS/Terra",
+    "venue": "Handbook of Air Quality and Climate Change",
+    "doi": "10.1007/978-981-15-2527-8_61-1",
+    "reason": "tier1_venue_pattern:handbook"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Predicting Fire Season Intensity in Maritime Southeast Asia with Interpretable Models",
+    "venue": "",
+    "doi": "10.1002/essoar.10508265.1",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Spatio-temporal pattern analysis of MOPITT total column CO using varimax rotation and singular spectrum analysis",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "The CO anthropogenic emissions in Europe from 2011 to 2021: insights from the MOPITT satellite data.",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Machine Learning Approaches to Develop Weather Normalize Models for Urban Air Quality",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Analysis of Urban-Level Greenhouse Gas and Aerosol Variability at a Southern Italian WMO/GAW Observation Site: New Insights from Air Mass Aging Indicators Applied to Nine Years of Continuous Measurements",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Towards improved retrieval of aerosol properties from the geostationary orbit with the new Meteosat Third Generation-Imager geostationary satellite",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Future changes in the vertical structure of severe convective storm environments over the U.S. central Great Plains",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Day-night differences in  18 O and d -excess of convective rainfall in the Rio Claro station, inland tropics of Brazil",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Machine-learning models of δ 13 C and δ 15 N isoscapes in Amazonian wood",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Climate Data for Power Systems Applications: Lessons in Reusing Wildfire Smoke Data for Solar PV Studies",
+    "venue": "Hawaii International Conference on System Sciences",
+    "doi": "10.48550/arXiv.2509.09888",
+    "reason": "tier1_conference_proceedings"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Wildfire Detection Based on Satellite Images Using Deep Learning",
+    "venue": "2025 8th International Conference on Artificial Intelligence and Big Data (ICAIBD)",
+    "doi": "10.1109/ICAIBD64986.2025.11082067",
+    "reason": "tier1_conference_proceedings"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Is methane the'climate culprit'? The dangers of using imprecise, long-term GWP for methane to address the climate emergency",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Rapid increase in atmospheric CH 4 and decrease in δ 13 C CH4 from 2020 to 2022 suggest a dominant microbial emission increase",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Vegetation greening enhances global �re activity",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Extension of the S5P-TROPOMI CCD tropospheric ozone retrieval to mid-latitudes",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Ammonia emissions and depositions over the contiguous United States derived 1 from IASI and CrIS using the directional derivative approach 2",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Global patterns and drivers of climate-driven fires in a warming 1 world 2",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Soil moisture-induced changes in land carbon sink projections in CMIP6,",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Hybrid forest disturbance classification using Sentinel-1 and inventory data: a case-study for Southeastern USA",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Global wildﬁre patterns and drivers under climate change",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Wildfire Smoke and Road Accidents: Evidence from Alberta",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Towards a parametric Kalman filter for operational wildfire plume assimilation: Formulation of the forecast step",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Incorporating observed fire severity in refined emissions estimates for boreal and temperate forest fires in the carbon budget model CBM-CFS3 v1.2",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Five years of Sentinel-5p TROPOMI operational ozone proﬁling and geophysical validation using ozonesonde and lidar ground-based networks",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "An algorithm to retrieve peroxyacetyl nitrate from AIRS Response to reviewer 1",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Humidity Controls the Timing and Persistence of Ozone Injury in Citrus: Linking Leaf Physiology and Regional Canopy Responses",
+    "venue": "bioRxiv",
+    "doi": "10.1101/2025.10.28.685042",
+    "reason": "tier1_venue_pattern:biorxiv"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Mechanisms of Ozone Effects on Plant Stress in Soybean Across Growing Season: From Leaf to Regional Perspective",
+    "venue": "bioRxiv",
+    "doi": "10.1101/2025.09.29.679296",
+    "reason": "tier1_venue_pattern:biorxiv"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Organic Acids and Cloud Droplet Acidity in Recent Years at Whiteface Mountain, with Focus on Wildfire Smoke Influence",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "TROPESS",
+    "title": "Investigating ﬁre-induced ozone production from local to global scales",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
   }
 ]
