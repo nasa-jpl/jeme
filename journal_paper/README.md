@@ -6,54 +6,62 @@ Self-contained submission package for the JEME/JEOE platform paper.
 
 ```
 journal_paper/
-├── journal_paper_draft.md         # Master source (Markdown)
-├── journal_paper_draft.docx       # Pandoc-rendered Word version
+├── journal_paper_draft.md             # Master source (Markdown, prose form)
+├── journal_paper_draft.docx           # Pandoc-rendered Word version (plain black text)
+├── generate_figures.py                # Reproducible figure + PPT generator
 ├── figures/
-│   ├── fig1_citation_overview.{png,pdf}
-│   ├── fig2_mcl_heatmap.{png,pdf}
-│   ├── fig3_mcl_radar.{png,pdf}
-│   ├── fig4_gap_analysis.{png,pdf}
-│   ├── fig5_network_matrix.{png,pdf}
-│   ├── fig6_tier1_averages.{png,pdf}
-│   ├── fig7_uq_pipeline.{png,pdf}
-│   ├── fig8_sphere_coverage.{png,pdf}
-│   ├── fig9_full_text_pipeline.mmd  # Mermaid: tiered fetch pipeline
-│   └── architecture.mmd             # Mermaid: overall system
+│   ├── fig1_citation_overview.png     # Papers/citations per model (12pt fonts)
+│   ├── fig5_network_matrix.png        # Cross-model bridge-paper matrix
+│   ├── fig7_uq_pipeline.png           # Three-phase UQ schematic
+│   ├── fig8_sphere_coverage.png       # Earth-system-sphere coverage
+│   ├── fig9_full_text_pipeline.mmd    # Mermaid: tiered fetch pipeline
+│   ├── architecture.mmd               # Mermaid: overall system
+│   └── journal_paper_figures.pptx     # Editable PowerPoint with all six
 └── README.md
 ```
 
-## Regenerating the DOCX
+## Reproducing the artifacts
 
 ```
-pandoc journal_paper_draft.md -o journal_paper_draft.docx --resource-path=. --standalone
+# Recompute statistics from current public/data/*_analyzed.json,
+# regenerate PNG figures, and rebuild the editable PPT.
+python3 generate_figures.py
+
+# Rebuild the DOCX from the markdown.
+pandoc journal_paper_draft.md -o journal_paper_draft.docx \
+       -f markdown-autolink_bare_uris --resource-path=. --standalone
 ```
 
-## Rendering the Mermaid figures
+## Editable PowerPoint
 
-If a target journal needs raster output for figures 9 / 10, render with `mmdc`
-(install: `npm install -g @mermaid-js/mermaid-cli`):
+`figures/journal_paper_figures.pptx` contains six slides — one per figure.
+Slide 1 (Figure 1) is a native PowerPoint chart whose categories and
+values are editable. Slide 5 (Figure 9, fetch pipeline) and Slide 6
+(Figure 10, architecture) are built from native PowerPoint shapes
+(rounded rectangles, connectors), so labels and arrows can be edited
+directly. Slides 2–4 (Figures 5, 7, 8) embed PNGs that can be replaced
+by re-running `generate_figures.py`. All text uses 12 pt black, matching
+the main-text font size.
 
-```
-mmdc -i figures/fig9_full_text_pipeline.mmd -o figures/fig9_full_text_pipeline.png -w 1600 -H 1200
-mmdc -i figures/architecture.mmd            -o figures/architecture.png            -w 1800 -H 1000
-```
+## Numbers consistency
 
-## Updates from the previous draft
+Figure 1 and Table 1 are both populated from `generate_figures.py`'s
+`compute_stats()` function reading the same per-model JSON files in
+`public/data/`. They are consistent by construction.
 
-This revision (2026-04-25) reflects the current state of the platform after:
+## Scope of this revision
 
-- Peer-review filtering and multi-agent cleanup → **27,494 papers / 1.16M citations**
-  (down from 44,452 / 1.33M in the prior draft due to preprint/off-topic removal).
-- Addition of **TROPESS** as a third JEOE mission.
-- New **multi-source full-text retrieval pipeline** (Section 3.2 + Figure 9):
-  Copernicus → Wiley TDM → Elsevier TDM → Unpaywall → OpenAlex → Semantic
-  Scholar → DOI redirect. ~180 cumulative DAS-enrichment flips applied.
-- Documented **team-paper classification limitation** (Section 5.2): abstract-only
-  reclassification systematically demotes team papers that use the model only in
-  the methods section. The platform retains team papers' existing labels as the
-  defensible default.
+- Removed the Model Capability Level (MCL) framework (sections, figures,
+  references, and tables).
+- Converted enumerated stage / phase / tier blocks to flowing prose.
+- Removed all horizontal rules between sections.
+- Body text contains no inline hyperlinks; URLs appear only in the
+  References section. Pandoc is invoked with
+  `-f markdown-autolink_bare_uris` so even bare URLs in the references
+  remain plain black text rather than blue hyperlinks.
+- Figure fonts standardised to ≥12 pt to match main-text size.
 
 ## Target journal
 
-Earth and Space Science (AGU) — gold OA, IF 3.1, in-scope for model assessment
-and informatics.
+Earth and Space Science (AGU) — gold OA, IF 3.1, in-scope for model
+assessment and informatics.
