@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 const PSENavBar = ({ activeTab, setActiveTab }) => {
   const tabs = [
     { id: 'models', label: 'Models & Missions' },
-    { id: 'sectors', label: 'Sector Explorer' },
     { id: 'companies', label: 'Company Directory' },
+    { id: 'sectors', label: 'Sector Explorer' },
     { id: 'news', label: 'News Feed' },
   ];
 
