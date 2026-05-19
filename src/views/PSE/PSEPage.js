@@ -1507,7 +1507,7 @@ const NewsSection = () => {
 // ─── Main PSEPage ─────────────────────────────────────────────────────────────
 
 const PSEPage = () => {
-  const [activeTab, setActiveTab] = useState('sectors');
+  const [activeTab, setActiveTab] = useState('models');
   const [alumni, setAlumni] = useState({});
 
   useEffect(() => {
