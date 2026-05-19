@@ -207,6 +207,12 @@ const ALL_MODELS = [
     path: '/science-model-dashboard/SWOT',
     website: 'https://swot.jpl.nasa.gov/',
   },
+  {
+    name: 'TROPESS', type: 'mission', color: '#F97316', domain: 'Atmospheric Chemistry',
+    industryPitch: 'NASA CrIS/AIRS-based atmospheric profiling of ozone, CO, and other trace gases — enabling air quality forecasting, regulatory compliance, and pollution source attribution.',
+    path: '/science-model-dashboard/TROPESS',
+    website: 'https://tropess.gesdisc.eosdis.nasa.gov/',
+  },
 ];
 
 // ─── Sector → model mapping with use cases ───────────────────────────────────
@@ -483,10 +489,10 @@ const ModelBadge = ({ name, color }) => (
 
 const Hero = ({ companiesCount, sectorsCount }) => (
   <div className="bg-gradient-to-br from-indigo-900 via-blue-900 to-slate-900 text-white rounded-lg shadow-sm mb-6 py-10 px-8">
-    <p className="text-indigo-300 text-xs font-semibold uppercase tracking-widest mb-2">NASA / JPL-Caltech</p>
+    <p className="text-indigo-300 text-xs font-semibold uppercase tracking-widest mb-2">NASA</p>
     <h2 className="text-3xl font-bold mb-2">Connecting Earth Science to Industry</h2>
     <p className="text-blue-100 max-w-2xl mb-8">
-      JPL's Earth models and satellite missions generate actionable data products for agriculture,
+      NASA's Earth models and satellite missions generate actionable data products for agriculture,
       finance, energy, water management, and more. Explore how your sector connects to NASA science.
     </p>
     <div className="flex flex-wrap gap-4">
@@ -575,9 +581,10 @@ const SectorExplorer = ({ sectorCounts, alumni }) => {
     <div className="flex gap-6">
       {/* Left sidebar: sector list */}
       <div className="w-60 flex-shrink-0">
-        <p className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3 px-1">
+        <p className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-1 px-1">
           {sortedSectors.length} Sectors
         </p>
+        <p className="text-xs text-gray-400 mb-3 px-1">Number = companies per sector</p>
         <div className="space-y-0.5">
           {sortedSectors.map(sector => {
             const alumniCount = sectorAlumniCounts[sector] || 0;
@@ -597,14 +604,12 @@ const SectorExplorer = ({ sectorCounts, alumni }) => {
                   <span className="truncate">{sector}</span>
                 </span>
                 <div className="flex items-center gap-1 flex-shrink-0 ml-1">
-                  {alumniCount > 0 && (
-                    <span className="text-xs px-1.5 py-0.5 rounded-full bg-violet-100 text-violet-600">
-                      {alumniCount}
-                    </span>
-                  )}
-                  <span className={`text-xs px-1.5 py-0.5 rounded-full ${
-                    isSelected ? 'bg-blue-100 text-blue-600' : 'bg-gray-100 text-gray-500'
-                  }`}>
+                  <span
+                    title="Number of companies in this sector"
+                    className={`text-xs px-1.5 py-0.5 rounded-full ${
+                      isSelected ? 'bg-blue-100 text-blue-600' : 'bg-gray-100 text-gray-500'
+                    }`}
+                  >
                     {sectorCounts[sector] || 0}
                   </span>
                 </div>
@@ -621,7 +626,7 @@ const SectorExplorer = ({ sectorCounts, alumni }) => {
             {/* Alumni stats */}
             <div className="grid grid-cols-3 gap-4">
               {[
-                { value: totalAlumni,          label: 'JPL Alumni Found',      color: 'text-violet-700', bg: 'bg-violet-50 border-violet-200' },
+                { value: totalAlumni,          label: 'NASA Alumni Found',     color: 'text-violet-700', bg: 'bg-violet-50 border-violet-200' },
                 { value: companiesWithAlumni,  label: 'Companies with Alumni', color: 'text-blue-700',   bg: 'bg-blue-50 border-blue-200' },
                 { value: Object.keys(sectorAlumniCounts).length, label: 'Sectors Represented', color: 'text-emerald-700', bg: 'bg-emerald-50 border-emerald-200' },
               ].map(({ value, label, color, bg }) => (
@@ -637,7 +642,7 @@ const SectorExplorer = ({ sectorCounts, alumni }) => {
             {topCompanies.length > 0 && (
               <div>
                 <h3 className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2">
-                  Top Companies by JPL Alumni — click to view
+                  Top Companies by NASA Alumni — click to view
                 </h3>
                 <div className="grid grid-cols-2 gap-3">
                   {topCompanies.slice(0, 12).map(([company, people]) => {
@@ -650,7 +655,7 @@ const SectorExplorer = ({ sectorCounts, alumni }) => {
                         >
                           <div>
                             <p className={`text-sm font-semibold ${isOpen ? 'text-violet-700' : 'text-gray-800'}`}>{company}</p>
-                            <p className="text-xs text-gray-400 mt-0.5">{people.length} JPL alumni</p>
+                            <p className="text-xs text-gray-400 mt-0.5">{people.length} NASA alumni</p>
                           </div>
                           <div className={`w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0 ${isOpen ? 'bg-violet-100 text-violet-700' : 'bg-gray-100 text-gray-600'}`}>
                             {people.length}
@@ -686,7 +691,7 @@ const SectorExplorer = ({ sectorCounts, alumni }) => {
             {Object.keys(sectorAlumniCounts).length > 0 && (
               <div>
                 <h3 className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">
-                  Sectors with Alumni — click to explore
+                  Sectors with NASA Connections — click to explore
                 </h3>
                 <div className="flex flex-wrap gap-2">
                   {Object.entries(sectorAlumniCounts)
@@ -710,7 +715,7 @@ const SectorExplorer = ({ sectorCounts, alumni }) => {
             {totalAlumni === 0 && (
               <div className="flex flex-col items-center justify-center h-40 text-center text-gray-400">
                 <Globe2 size={48} className="mb-3 opacity-25" />
-                <p className="text-sm mt-1">Select a sector to explore JPL models and missions</p>
+                <p className="text-sm mt-1">Select a sector to explore NASA models and missions</p>
               </div>
             )}
           </div>
@@ -722,14 +727,14 @@ const SectorExplorer = ({ sectorCounts, alumni }) => {
                 <h2 className="text-2xl font-bold text-gray-900">{selectedSector}</h2>
                 <p className="text-gray-500 mt-0.5">{sectorData.tagline}</p>
                 <p className="text-sm text-indigo-600 font-medium mt-2">
-                  {sectorCounts[selectedSector] || 0} engaged companies in this sector
+                  {sectorCounts[selectedSector] || 0} companies in this sector · connected via shared NASA research focus
                 </p>
               </div>
             </div>
 
             {/* Model/mission cards */}
             <h3 className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">
-              Relevant JPL Models &amp; Missions ({sectorData.models.length})
+              Relevant NASA Models &amp; Missions ({sectorData.models.length})
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
               {sectorData.models.map(({ name, useCase }) => {
@@ -827,13 +832,13 @@ const SectorExplorer = ({ sectorCounts, alumni }) => {
                 <div className="mt-3 border border-gray-200 rounded-xl overflow-hidden">
                   <div className="flex items-center px-4 py-3 bg-gray-50 border-b border-gray-200 gap-2">
                     <User size={14} className="text-violet-500" />
-                    <span className="text-sm font-semibold text-gray-800">JPL Alumni at {selectedCompany}</span>
+                    <span className="text-sm font-semibold text-gray-800">NASA Alumni at {selectedCompany}</span>
                     {selectedAlumni.length > 0 && (
                       <span className="text-xs px-1.5 py-0.5 bg-violet-100 text-violet-700 rounded-full">{selectedAlumni.length}</span>
                     )}
                   </div>
                   {selectedAlumni.length === 0 ? (
-                    <p className="text-center text-gray-400 py-6 text-sm">No JPL alumni found for this company</p>
+                    <p className="text-center text-gray-400 py-6 text-sm">No NASA alumni found for this company</p>
                   ) : (
                     <div className="divide-y divide-gray-100">
                       {selectedAlumni.map((person, i) => (
@@ -871,7 +876,7 @@ const SectorExplorer = ({ sectorCounts, alumni }) => {
                 {sectorCompanies.length} {sectorCompanies.length === 1 ? 'company' : 'companies'}
                 {sectorCompanies.filter(c => (alumni[c.company] || []).length > 0).length > 0 && (
                   <span className="ml-2 text-violet-500">
-                    · {sectorCompanies.filter(c => (alumni[c.company] || []).length > 0).length} with JPL alumni
+                    · {sectorCompanies.filter(c => (alumni[c.company] || []).length > 0).length} with NASA alumni
                   </span>
                 )}
               </p>
@@ -1005,7 +1010,7 @@ const CompanyDirectory = ({ sectorCounts, alumni }) => {
               : 'text-gray-600 border-gray-200 hover:bg-gray-50'
           }`}
         >
-          <User size={13} /> JPL Alumni
+          <User size={13} /> NASA Alumni
         </button>
 
         {hasFilters && (
@@ -1039,8 +1044,8 @@ const CompanyDirectory = ({ sectorCounts, alumni }) => {
               <th className="text-left px-4 py-3 text-xs font-semibold text-gray-500 uppercase tracking-wide">Company</th>
               <th className="text-left px-4 py-3 text-xs font-semibold text-gray-500 uppercase tracking-wide">Sector</th>
               <th className="text-left px-4 py-3 text-xs font-semibold text-gray-500 uppercase tracking-wide">Status</th>
-              <th className="text-left px-4 py-3 text-xs font-semibold text-gray-500 uppercase tracking-wide">Models Engaged</th>
-              <th className="text-left px-4 py-3 text-xs font-semibold text-gray-500 uppercase tracking-wide">JPL Alumni</th>
+              <th className="text-left px-4 py-3 text-xs font-semibold text-gray-500 uppercase tracking-wide">Missions and Models</th>
+              <th className="text-left px-4 py-3 text-xs font-semibold text-gray-500 uppercase tracking-wide">NASA Alumni</th>
             </tr>
           </thead>
           <tbody className="divide-y divide-gray-100">
@@ -1183,7 +1188,7 @@ const ModelsForIndustry = ({ sectorCounts }) => {
           <div className="flex items-start justify-between mb-3">
             <div className="flex-1 min-w-0 pr-2">
               <p className="text-xs font-semibold text-gray-400 uppercase tracking-wider">
-                {model.type === 'mission' ? 'JEOE Mission' : 'JEME Model'}
+                {model.type === 'mission' ? 'NASA Mission' : 'NASA Model'}
               </p>
               <h3 className="text-xl font-bold text-gray-900 mt-0.5">{model.name}</h3>
               <p className="text-xs text-gray-400 mt-0.5">{model.domain}</p>
@@ -1244,32 +1249,32 @@ const ModelsForIndustry = ({ sectorCounts }) => {
     );
   };
 
-  const jemeModels = ALL_MODELS.filter(m => m.type === 'model');
-  const jeoeMissions = ALL_MODELS.filter(m => m.type === 'mission');
+  const featuredMissions = ALL_MODELS.filter(m => m.type === 'mission' && ['GRACE', 'SWOT', 'TROPESS'].includes(m.name));
+  const featuredModels = ALL_MODELS.filter(m => m.type === 'model' && ['ECCO', 'ISSM', 'CMS-Flux'].includes(m.name));
 
   return (
     <div className="space-y-10">
       <section>
         <div className="mb-5">
-          <h2 className="text-xl font-bold text-gray-900">JEME Models</h2>
+          <h2 className="text-xl font-bold text-gray-900">NASA Earth Missions</h2>
           <p className="text-sm text-gray-500 mt-0.5">
-            JPL's Earth Modeling Enterprise — physics-based models across hydrology, carbon, ocean, ice, and atmosphere
+            Satellite missions delivering global-scale Earth observations across hydrology, ocean, atmosphere, and cryosphere
           </p>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
-          {jemeModels.map(model => <ModelCard key={model.name} model={model} />)}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+          {featuredMissions.map(model => <ModelCard key={model.name} model={model} />)}
         </div>
       </section>
 
       <section>
         <div className="mb-5">
-          <h2 className="text-xl font-bold text-gray-900">JEOE Missions</h2>
+          <h2 className="text-xl font-bold text-gray-900">NASA's Earth Models</h2>
           <p className="text-sm text-gray-500 mt-0.5">
-            JPL's Earth Observation Enterprise — satellite missions delivering global-scale Earth observations
+            Physics-based Earth system models for ocean state estimation, ice sheet dynamics, and carbon flux quantification
           </p>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
-          {jeoeMissions.map(model => <ModelCard key={model.name} model={model} />)}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+          {featuredModels.map(model => <ModelCard key={model.name} model={model} />)}
         </div>
       </section>
     </div>
