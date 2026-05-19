@@ -1,9 +1,10 @@
-import React, { useState, useMemo, useEffect } from 'react';
+import React, { useState, useMemo, useEffect, useRef, useCallback } from 'react';
 import { Link } from 'react-router-dom';
 import {
   Search, Building2, ExternalLink, ChevronRight, X,
   Globe2, FlaskConical, Satellite, Newspaper, AlertCircle, User
 } from 'lucide-react';
+import * as d3 from 'd3';
 import pseCompanies from '../../data/pse_companies.json';
 import PSENavBar from './PSENavBar';
 import Footer from '../../components/Footer';
@@ -510,6 +511,201 @@ const Hero = ({ companiesCount, sectorsCount }) => (
   </div>
 );
 
+// ─── Alumni Network Graph ─────────────────────────────────────────────────────
+
+const FEATURED_NODES = [
+  { id: 'GRACE',   type: 'mission', color: '#D946EF', label: 'GRACE' },
+  { id: 'SWOT',    type: 'mission', color: '#0EA5E9', label: 'SWOT' },
+  { id: 'TROPESS', type: 'mission', color: '#F97316', label: 'TROPESS' },
+  { id: 'ECCO',    type: 'model',   color: '#8B5CF6', label: 'ECCO' },
+  { id: 'ISSM',    type: 'model',   color: '#06B6D4', label: 'ISSM' },
+  { id: 'CMS-Flux',type: 'model',   color: '#F59E0B', label: 'CMS-Flux' },
+];
+
+const AlumniNetworkGraph = ({ alumni }) => {
+  const svgRef = useRef(null);
+  const [tooltip, setTooltip] = useState(null);
+  const [tooltipPos, setTooltipPos] = useState({ x: 0, y: 0 });
+
+  const { nodes, links } = useMemo(() => {
+    const companiesWithAlumni = Object.entries(alumni)
+      .filter(([, p]) => p.length > 0)
+      .sort((a, b) => b[1].length - a[1].length);
+
+    const companyToSectorModel = {};
+    companiesWithAlumni.forEach(([company]) => {
+      const entry = pseCompanies.find(c => c.company === company);
+      if (!entry) return;
+      const sectorModels = (SECTOR_MAP[entry.sector] || { models: [] }).models
+        .map(m => m.name)
+        .filter(m => FEATURED_NODES.some(n => n.id === m));
+      companyToSectorModel[company] = sectorModels;
+    });
+
+    const nodes = [
+      ...FEATURED_NODES.map(n => ({ ...n, nodeType: n.type, radius: 26 })),
+      ...companiesWithAlumni.map(([company, people]) => ({
+        id: company,
+        nodeType: 'company',
+        color: '#64748b',
+        label: company,
+        alumniCount: people.length,
+        radius: 8 + Math.min(people.length * 3, 14),
+      })),
+    ];
+
+    const links = [];
+    companiesWithAlumni.forEach(([company]) => {
+      (companyToSectorModel[company] || []).forEach(modelId => {
+        links.push({ source: modelId, target: company, type: 'sector' });
+      });
+    });
+
+    return { nodes, links };
+  }, [alumni]);
+
+  const draw = useCallback(() => {
+    const el = svgRef.current;
+    if (!el || nodes.length === 0) return;
+
+    const W = el.clientWidth || 780;
+    const H = 480;
+
+    const svg = d3.select(el);
+    svg.selectAll('*').remove();
+    svg.attr('viewBox', `0 0 ${W} ${H}`);
+
+    const g = svg.append('g');
+
+    // Zoom
+    svg.call(
+      d3.zoom().scaleExtent([0.4, 3]).on('zoom', e => g.attr('transform', e.transform))
+    );
+
+    // Simulation
+    const sim = d3.forceSimulation(nodes)
+      .force('link', d3.forceLink(links).id(d => d.id).distance(d => {
+        const src = nodes.find(n => n.id === (d.source.id || d.source));
+        return src && (src.nodeType === 'mission' || src.nodeType === 'model') ? 110 : 60;
+      }).strength(0.6))
+      .force('charge', d3.forceManyBody().strength(d =>
+        d.nodeType === 'mission' || d.nodeType === 'model' ? -300 : -80
+      ))
+      .force('center', d3.forceCenter(W / 2, H / 2))
+      .force('collision', d3.forceCollide(d => d.radius + 6));
+
+    // Links
+    const link = g.append('g').selectAll('line')
+      .data(links).join('line')
+      .attr('stroke', '#cbd5e1').attr('stroke-width', 1).attr('stroke-opacity', 0.5);
+
+    // Node groups
+    const node = g.append('g').selectAll('g')
+      .data(nodes).join('g')
+      .attr('cursor', 'pointer')
+      .call(
+        d3.drag()
+          .on('start', (event, d) => { if (!event.active) sim.alphaTarget(0.3).restart(); d.fx = d.x; d.fy = d.y; })
+          .on('drag', (event, d) => { d.fx = event.x; d.fy = event.y; })
+          .on('end', (event, d) => { if (!event.active) sim.alphaTarget(0); d.fx = null; d.fy = null; })
+      )
+      .on('mousemove', (event, d) => {
+        const rect = el.getBoundingClientRect();
+        setTooltipPos({ x: event.clientX - rect.left + 12, y: event.clientY - rect.top - 10 });
+        setTooltip(d);
+      })
+      .on('mouseleave', () => setTooltip(null));
+
+    // Glow filter
+    const defs = svg.append('defs');
+    const filter = defs.append('filter').attr('id', 'pse-glow');
+    filter.append('feGaussianBlur').attr('stdDeviation', '3').attr('result', 'coloredBlur');
+    const feMerge = filter.append('feMerge');
+    feMerge.append('feMergeNode').attr('in', 'coloredBlur');
+    feMerge.append('feMergeNode').attr('in', 'SourceGraphic');
+
+    // Circles
+    node.append('circle')
+      .attr('r', d => d.radius)
+      .attr('fill', d => d.color)
+      .attr('fill-opacity', d => d.nodeType === 'company' ? 0.75 : 0.9)
+      .attr('stroke', d => d.color)
+      .attr('stroke-width', d => (d.nodeType === 'mission' || d.nodeType === 'model') ? 2 : 1)
+      .attr('filter', d => (d.nodeType === 'mission' || d.nodeType === 'model') ? 'url(#pse-glow)' : null);
+
+    // Labels (only mission/model + larger companies)
+    node.filter(d => d.nodeType === 'mission' || d.nodeType === 'model' || d.alumniCount >= 2)
+      .append('text')
+      .text(d => d.label)
+      .attr('text-anchor', 'middle')
+      .attr('dy', d => d.radius + 11)
+      .attr('font-size', d => (d.nodeType === 'mission' || d.nodeType === 'model') ? 11 : 9)
+      .attr('font-weight', d => (d.nodeType === 'mission' || d.nodeType === 'model') ? '700' : '500')
+      .attr('fill', d => (d.nodeType === 'mission' || d.nodeType === 'model') ? d.color : '#475569');
+
+    // Icon letter inside mission/model nodes
+    node.filter(d => d.nodeType === 'mission' || d.nodeType === 'model')
+      .append('text')
+      .text(d => d.id[0])
+      .attr('text-anchor', 'middle').attr('dy', '0.35em')
+      .attr('font-size', 12).attr('font-weight', '800').attr('fill', 'white');
+
+    sim.on('tick', () => {
+      link
+        .attr('x1', d => d.source.x).attr('y1', d => d.source.y)
+        .attr('x2', d => d.target.x).attr('y2', d => d.target.y);
+      node.attr('transform', d => `translate(${d.x},${d.y})`);
+    });
+  }, [nodes, links]);
+
+  useEffect(() => { draw(); }, [draw]);
+
+  const companyCount = nodes.filter(n => n.nodeType === 'company').length;
+
+  return (
+    <div className="relative">
+      <div className="flex items-center justify-between mb-3">
+        <div>
+          <h3 className="text-sm font-semibold text-gray-700">NASA Alumni Network</h3>
+          <p className="text-xs text-gray-400 mt-0.5">
+            {companyCount} companies · 6 NASA missions &amp; models · connections via shared research focus
+          </p>
+        </div>
+        <div className="flex items-center gap-4 text-xs text-gray-400">
+          {[
+            { color: '#D946EF', label: 'Mission' },
+            { color: '#8B5CF6', label: 'Model' },
+            { color: '#64748b', label: 'Company' },
+          ].map(({ color, label }) => (
+            <span key={label} className="flex items-center gap-1.5">
+              <span className="w-2.5 h-2.5 rounded-full inline-block" style={{ backgroundColor: color }} />
+              {label}
+            </span>
+          ))}
+        </div>
+      </div>
+
+      <div className="relative bg-slate-50 rounded-xl border border-gray-200 overflow-hidden">
+        <svg ref={svgRef} className="w-full" style={{ height: 480 }} />
+        {tooltip && (
+          <div
+            className="pointer-events-none absolute z-10 bg-white border border-gray-200 rounded-lg shadow-lg px-3 py-2 text-xs max-w-[200px]"
+            style={{ left: tooltipPos.x, top: tooltipPos.y }}
+          >
+            <p className="font-semibold text-gray-800">{tooltip.label}</p>
+            {tooltip.nodeType === 'mission' && <p className="text-indigo-500 mt-0.5">NASA Mission</p>}
+            {tooltip.nodeType === 'model' && <p className="text-purple-500 mt-0.5">NASA Model</p>}
+            {tooltip.nodeType === 'company' && (
+              <p className="text-gray-500 mt-0.5">{tooltip.alumniCount} NASA alumni</p>
+            )}
+          </div>
+        )}
+      </div>
+      <p className="text-xs text-gray-400 mt-1.5 text-right">Drag nodes · scroll to zoom</p>
+    </div>
+  );
+};
+
 // ─── Sector Explorer ──────────────────────────────────────────────────────────
 
 const SectorExplorer = ({ sectorCounts, alumni }) => {
@@ -622,19 +818,10 @@ const SectorExplorer = ({ sectorCounts, alumni }) => {
       <div className="flex-1 min-w-0">
         {!selectedSector ? (
           <div className="space-y-6">
-            {/* Alumni stats */}
-            <div className="grid grid-cols-3 gap-4">
-              {[
-                { value: totalAlumni,          label: 'NASA Alumni Found',     color: 'text-violet-700', bg: 'bg-violet-50 border-violet-200' },
-                { value: companiesWithAlumni,  label: 'Companies with Alumni', color: 'text-blue-700',   bg: 'bg-blue-50 border-blue-200' },
-                { value: Object.keys(sectorAlumniCounts).length, label: 'Sectors Represented', color: 'text-emerald-700', bg: 'bg-emerald-50 border-emerald-200' },
-              ].map(({ value, label, color, bg }) => (
-                <div key={label} className={`border rounded-xl p-4 text-center ${bg}`}>
-                  <div className={`text-3xl font-bold ${color}`}>{value}</div>
-                  <div className="text-xs text-gray-500 mt-1">{label}</div>
-                </div>
-              ))}
-            </div>
+            {/* Alumni Network Graph */}
+            {Object.keys(alumni).length > 0 && (
+              <AlumniNetworkGraph alumni={alumni} />
+            )}
 
 
             {/* Top companies */}
