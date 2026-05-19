@@ -489,7 +489,6 @@ const ModelBadge = ({ name, color }) => (
 
 const Hero = ({ companiesCount, sectorsCount }) => (
   <div className="bg-gradient-to-br from-indigo-900 via-blue-900 to-slate-900 text-white rounded-lg shadow-sm mb-6 py-10 px-8">
-    <p className="text-indigo-300 text-xs font-semibold uppercase tracking-widest mb-2">NASA</p>
     <h2 className="text-3xl font-bold mb-2">Connecting Earth Science to Industry</h2>
     <p className="text-blue-100 max-w-2xl mb-8">
       NASA's Earth models and satellite missions generate actionable data products for agriculture,
