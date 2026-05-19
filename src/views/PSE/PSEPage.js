@@ -498,8 +498,8 @@ const Hero = ({ companiesCount, sectorsCount }) => (
       {[
         { value: companiesCount, label: 'Engaged Companies' },
         { value: sectorsCount, label: 'Industry Sectors' },
-        { value: 8, label: 'JEME Models' },
-        { value: 3, label: 'JEOE Missions' },
+        { value: 3, label: 'Earth Missions' },
+        { value: 3, label: 'Earth Models' },
       ].map(({ value, label }) => (
         <div key={label} className="bg-white/10 backdrop-blur rounded-xl px-6 py-3 text-center min-w-[110px]">
           <div className="text-2xl font-bold">{value}</div>
