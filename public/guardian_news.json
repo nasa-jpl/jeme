@@ -1,0 +1,195 @@
+{
+  "fetchedAt": "2026-05-19T10:00:06.562Z",
+  "fromDate": "2026-04-18",
+  "count": 18,
+  "articles": [
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/05/260518041417.htm",
+      "title": "Antarctic glacier collapses at record speed as Hektoria retreats 15 miles in just 15 months",
+      "summary": "Antarctica’s Hektoria Glacier collapsed with shocking speed, retreating 15 miles in only 15 months and setting a modern record for grounded ice loss. Scientists say warming conditions and ocean-driven instability turned the glacier from seemingly stable to rapidly unraveling almost overnight.",
+      "section": "ScienceDaily",
+      "source": "ScienceDaily",
+      "date": "2026-05-19",
+      "models": [],
+      "sectors": []
+    },
+    {
+      "url": "https://eos.org/research-spotlights/how-much-will-western-wildfires-worsen-under-warming",
+      "title": "How Much Will Western Wildfires Worsen Under Warming?",
+      "summary": "A new study reevaluates the use of vapor pressure deficit, or VPD, in climate models to predict increases in area burned by wildfire across the U.S. West.",
+      "section": "Eos / AGU",
+      "source": "Eos / AGU",
+      "date": "2026-05-15",
+      "models": [],
+      "sectors": []
+    },
+    {
+      "url": "https://science.nasa.gov/earth/earth-observatory/ice-moves-out-of-aniak/",
+      "title": "Ice Moves Out of Aniak",
+      "summary": "Spring melt along Alaska’s Kuskokwim River caused ice jams and flooding.\nThe post Ice Moves Out of Aniak appeared first on NASA Science.",
+      "section": "NASA Earth Observatory",
+      "source": "NASA Earth Observatory",
+      "date": "2026-05-14",
+      "models": [],
+      "sectors": []
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/05/260513221759.htm",
+      "title": "Scientists discover the strange way CO2 cools part of Earth’s atmosphere",
+      "summary": "Scientists have finally cracked the mystery behind one of climate change’s strangest fingerprints: while Earth’s surface heats up, the upper atmosphere is rapidly cooling. Researchers at Columbia University discovered that carbon dioxide acts very differently high above the planet, where it actually helps radiate heat into space instead of trapping it. The team found that certain infrared waveleng",
+      "section": "ScienceDaily",
+      "source": "ScienceDaily",
+      "date": "2026-05-14",
+      "models": [],
+      "sectors": []
+    },
+    {
+      "url": "https://eos.org/science-updates/new-directions-in-mapping-ice-sheet-fabrics-and-flow",
+      "title": "New Directions in Mapping Ice Sheet Fabrics and Flow",
+      "summary": "Polarimetric radar advances enable scientists to measure orientations of crystals, bubbles, and other properties that affect the flow of glaciers and ice sheets—and their contributions to sea level.",
+      "section": "Eos / AGU",
+      "source": "Eos / AGU",
+      "date": "2026-05-14",
+      "models": [],
+      "sectors": []
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/05/260512202337.htm",
+      "title": "Scientists discover the Southern Ocean is “sweating” more as climate change intensifies",
+      "summary": "A remote island between Australia and Antarctica is showing signs of a dramatic climate transformation. Scientists found storms over Macquarie Island now unleash much heavier rainfall than they did decades ago, soaking ecosystems and altering fragile vegetation. The discovery hints that the Southern Ocean — one of Earth’s biggest climate regulators — may be changing faster than expected. Researche",
+      "section": "ScienceDaily",
+      "source": "ScienceDaily",
+      "date": "2026-05-13",
+      "models": [],
+      "sectors": []
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/05/260509210639.htm",
+      "title": "Scientists say a critical Atlantic ocean current is weakening and the world could feel the impact",
+      "summary": "Scientists have uncovered strong evidence that a major Atlantic Ocean current system tied to global climate is weakening. The slowdown has been detected across a vast region of the North Atlantic over nearly two decades. Since this ocean circulation helps regulate weather and temperatures, changes could affect storms, rainfall, sea levels, and even winter conditions in parts of Europe and North Am",
+      "section": "ScienceDaily",
+      "source": "ScienceDaily",
+      "date": "2026-05-10",
+      "models": [],
+      "sectors": []
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/05/260509210637.htm",
+      "title": "Antarctica is melting from below and scientists say it’s worse than expected",
+      "summary": "Scientists have uncovered a hidden Antarctic threat that could accelerate global sea level rise far faster than expected. Deep beneath floating ice shelves, long channels carved into the ice appear to trap warmer ocean water, dramatically speeding up melting from below. Even regions of East Antarctica once considered relatively stable may be far more vulnerable than scientists realized. Researcher",
+      "section": "ScienceDaily",
+      "source": "ScienceDaily",
+      "date": "2026-05-10",
+      "models": [
+        "ISSM"
+      ],
+      "sectors": [
+        "Coastal & Sea Level"
+      ]
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/05/260505234631.htm",
+      "title": "This town found clean energy deep inside old coal mines",
+      "summary": "Cumberland, B.C. is reimagining its coal mining past as a clean energy opportunity. Water trapped in abandoned mine tunnels could be used in a geothermal system to heat and cool buildings efficiently and with minimal emissions. The project could lower energy costs, support new development, and attract businesses. It’s a striking example of turning industrial leftovers into a sustainable community ",
+      "section": "ScienceDaily",
+      "source": "ScienceDaily",
+      "date": "2026-05-06",
+      "models": [],
+      "sectors": [
+        "Energy"
+      ]
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/05/260505234614.htm",
+      "title": "NASA captures wild swirling clouds and rare arctic storm over Alaska",
+      "summary": "Southern Alaska’s winter finale delivered a spectacular atmospheric display, captured by a NASA satellite. Cold Arctic air flowing over warmer ocean waters created long bands of clouds, swirling vortex patterns, and even a compact polar storm with powerful winds. As the air traveled offshore, it evolved into increasingly complex cloud formations. The result was a dramatic, ever-changing sky that h",
+      "section": "ScienceDaily",
+      "source": "ScienceDaily",
+      "date": "2026-05-06",
+      "models": [],
+      "sectors": []
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/05/260504023852.htm",
+      "title": "Greenland ice melt has surged sixfold and scientists are alarmed",
+      "summary": "Greenland’s ice sheet is now melting in ways never seen before, with extreme events becoming more frequent, widespread, and intense. Since 1990, meltwater production has skyrocketed, and most record-breaking events have occurred in recent years. Scientists say warming temperatures are supercharging these episodes beyond natural climate patterns.",
+      "section": "ScienceDaily",
+      "source": "ScienceDaily",
+      "date": "2026-05-04",
+      "models": [],
+      "sectors": []
+    },
+    {
+      "url": "https://www.theguardian.com/science/2026/may/03/nasa-budget-science-trump-isaacman",
+      "title": "Nasa brought crashing down to earth as budget threat follows lunar success",
+      "summary": "Artemis II inspired the public but the Trump administration wants to slash the science underpinning human spaceflight",
+      "section": "Science",
+      "source": "The Guardian",
+      "date": "2026-05-03",
+      "models": [],
+      "sectors": []
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/04/260427050637.htm",
+      "title": "Maya collapse mystery deepens as scientists find no drought at key site",
+      "summary": "The mysterious collapse of the Maya civilization may not have been driven solely by drought after all. New evidence from lake sediments in Guatemala reveals that one key city, Itzan, enjoyed a stable climate even as its population abruptly vanished. Instead of environmental collapse, the findings point to something more complex: a tightly interconnected network of cities unraveling under pressure.",
+      "section": "ScienceDaily",
+      "source": "ScienceDaily",
+      "date": "2026-04-28",
+      "models": [],
+      "sectors": []
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/04/260421042803.htm",
+      "title": "AI just revealed ocean currents we’ve never been able to see",
+      "summary": "A new AI-driven method called GOFLOW is turning weather satellite images into highly detailed maps of ocean currents. By tracking how temperature patterns shift over time, it can reveal fast-moving, small-scale currents that were previously impossible to observe directly. These currents are key to understanding climate, marine ecosystems, and carbon storage. The breakthrough works using satellites",
+      "section": "ScienceDaily",
+      "source": "ScienceDaily",
+      "date": "2026-04-22",
+      "models": [],
+      "sectors": []
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/04/260420014750.htm",
+      "title": "Hundreds of millions at risk as river deltas sink faster than rising seas",
+      "summary": "Many of the world’s largest river deltas—home to hundreds of millions of people—are sinking faster than rising seas, according to a sweeping global study. Using high-resolution satellite radar maps, researchers found that human activities like groundwater pumping, reduced sediment flow, and rapid urban growth are driving widespread land subsidence across 40 major deltas.",
+      "section": "ScienceDaily",
+      "source": "ScienceDaily",
+      "date": "2026-04-20",
+      "models": [],
+      "sectors": []
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/04/260419054825.htm",
+      "title": "A new force of nature is reshaping the planet, study finds",
+      "summary": "Human societies didn’t just adapt to the planet—they learned to reshape it. From early fire use to today’s global supply chains, our cultural and social innovations have unlocked extraordinary power to transform Earth and improve human life. But that progress has come with serious costs, including climate change, pollution, and mass extinction. Instead of framing this era—the Anthropocene—as pure ",
+      "section": "ScienceDaily",
+      "source": "ScienceDaily",
+      "date": "2026-04-19",
+      "models": [],
+      "sectors": []
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/04/260417224503.htm",
+      "title": "Greenland ice completely melted 7,000 years ago and could happen again",
+      "summary": "Scientists drilling deep beneath Greenland’s ice have uncovered a startling clue about its past—and future. Evidence shows that the Prudhoe Dome, a major high point of the ice sheet, completely melted around 7,000 years ago during a relatively mild natural warming period. That means this supposedly stable ice cap is far more fragile than once thought, raising concerns that today’s human-driven war",
+      "section": "ScienceDaily",
+      "source": "ScienceDaily",
+      "date": "2026-04-18",
+      "models": [],
+      "sectors": []
+    },
+    {
+      "url": "https://www.theguardian.com/environment/2026/apr/19/australia-emissions-increasing-coalmines-climate-policy-analysis",
+      "title": "Australia’s coalmine emissions are increasing. Is this how a major policy to cut climate pollution is meant to work?",
+      "summary": "The Albanese government overhauled policy and promised significant pollution cuts – but carbon offsets are still being used as an excuse",
+      "section": "Environment",
+      "source": "The Guardian",
+      "date": "2026-04-18",
+      "models": [],
+      "sectors": [
+        "Carbon & Conservation"
+      ]
+    }
+  ]
+}

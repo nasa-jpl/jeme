@@ -1,0 +1,111 @@
+[2026-05-15T10:00:01.642Z] Fetching Guardian news since 2026-04-14 ...
+  "NASA JPL satellite "earth science" commercial application" → 15 results
+  "satellite data "climate risk" insurance finance "carbon market"" → 15 results
+  ""earth observation" commercial agriculture water energy NASA" → 15 results
+[2026-05-15T10:00:02.582Z] Saved 39 articles → /home/ks/science-model-dashboard/public/guardian_news.json
+
+[2026-05-16T10:00:01.465Z] Fetching news since 2026-04-15...
+
+RSS feeds:
+  [NASA Earth Observatory] ... 10 items (within 2026-04-15)
+  [NASA] ... 10 items (within 2026-04-15)
+  [ScienceDaily] ... 56 items (within 2026-04-15)
+  [Eos / AGU] ... 15 items (within 2026-04-15)
+
+The Guardian:
+  ""carbon credit" OR "carbon market" OR "voluntary carbon" ("United..." 15 results
+  ""climate risk" (insurance OR reinsurance OR "parametric") ("satel..." 15 results
+  ""climate finance" OR "green bond" OR "ESG" "United States" (clima..." 15 results
+  "NASA "earth observation" OR "JPL" (flood OR drought OR "sea level..." 15 results
+  ""satellite data" OR "earth observation" (agriculture OR "water su..." 15 results
+
+Relevance filter: 125 → 21 articles kept
+[2026-05-16T10:00:03.780Z] Saved 21 articles → /home/ks/science-model-dashboard/public/guardian_news.json
+
+
+[2026-05-17T10:00:01.989Z] Fetching news since 2026-04-16...
+
+RSS feeds:
+  [NASA Earth Observatory] ... 10 items (within 2026-04-16)
+  [NASA] ... 10 items (within 2026-04-16)
+  [ScienceDaily] ... 58 items (within 2026-04-16)
+  [Eos / AGU] ... 15 items (within 2026-04-16)
+
+The Guardian:
+  ""carbon credit" OR "carbon market" OR "voluntary carbon" ("United..." 15 results
+  ""climate risk" (insurance OR reinsurance OR "parametric") ("satel..." 15 results
+  ""climate finance" OR "green bond" OR "ESG" "United States" (clima..." 15 results
+  "NASA "earth observation" OR "JPL" (flood OR drought OR "sea level..." 15 results
+  ""satellite data" OR "earth observation" (agriculture OR "water su..." 15 results
+
+Relevance filter: 127 → 21 articles kept
+[2026-05-17T10:00:04.233Z] Saved 21 articles → /home/ks/science-model-dashboard/public/guardian_news.json
+
+
+[2026-05-18T10:00:01.345Z] Fetching news since 2026-04-17...
+
+RSS feeds:
+  [NASA Earth Observatory] ... 10 items (within 2026-04-17)
+  [NASA] ... 10 items (within 2026-04-17)
+  [ScienceDaily] ... 56 items (within 2026-04-17)
+  [Eos / AGU] ... 15 items (within 2026-04-17)
+
+The Guardian:
+  ""carbon credit" OR "carbon market" OR "voluntary carbon" ("United..." 15 results
+  ""climate risk" (insurance OR reinsurance OR "parametric") ("satel..." 15 results
+  ""climate finance" OR "green bond" OR "ESG" "United States" (clima..." 15 results
+  "NASA "earth observation" OR "JPL" (flood OR drought OR "sea level..." 15 results
+  ""satellite data" OR "earth observation" (agriculture OR "water su..." 15 results
+  "(Planet Labs OR Maxar OR Capella Space OR Spire OR Muon Space) sa..." 15 results
+  "(BlackRock OR Goldman Sachs OR "JP Morgan" OR Amundi) "climate da..." 15 results
+  "(Verisk OR "Munich Re" OR "Swiss Re" OR Chubb OR Aon) "climate ri..." 15 results
+  "(Microsoft OR Google OR Amazon OR NVIDIA) "climate" OR "earth obs..." 15 results
+  "("Carbon Mapper" OR "GHGSat" OR Kayrros OR "Descartes Labs") meth..." 15 results
+  "("Jupiter Intelligence" OR "Tomorrow.io" OR "One Concern") climat..." 15 results
+  "(Boeing OR "Lockheed Martin" OR Leidos OR Raytheon) "earth observ..." 15 results
+  "(AccuWeather OR "The Weather Company" OR Climavision) "extreme we..." 15 results
+  "(Bloomberg OR "S&P Global" OR "Moody's") "climate risk" OR "ESG" ..." 15 results
+  "(Deloitte OR KPMG OR PwC OR "Boston Consulting Group") "climate" ..." 15 results
+  "(Stripe OR NCX OR "Carbon Direct" OR Verra OR "Gold Standard") "c..." 7 results
+  "(Esri OR "Planet Labs" OR Maxar) wildfire OR flood OR drought OR ..." 15 results
+  "("ICEYE" OR "BlackSky" OR "Satelligence" OR "Overstory") satellit..." 15 results
+  "(WattTime OR "Energy Vault" OR "Sunrun") "renewable energy" OR "c..." 15 results
+  "("Environmental Defense Fund" OR "World Resources Institute" OR "..." 15 results
+
+Relevance filter: 210 → 20 articles kept
+[2026-05-18T10:00:06.035Z] Saved 20 articles → /home/ks/science-model-dashboard/public/guardian_news.json
+
+
+[2026-05-19T10:00:01.790Z] Fetching news since 2026-04-18...
+
+RSS feeds:
+  [NASA Earth Observatory] ... 10 items (within 2026-04-18)
+  [NASA] ... 10 items (within 2026-04-18)
+  [ScienceDaily] ... 55 items (within 2026-04-18)
+  [Eos / AGU] ... 15 items (within 2026-04-18)
+
+The Guardian:
+  ""carbon credit" OR "carbon market" OR "voluntary carbon" ("United..." 15 results
+  ""climate risk" (insurance OR reinsurance OR "parametric") ("satel..." 15 results
+  ""climate finance" OR "green bond" OR "ESG" "United States" (clima..." 15 results
+  "NASA "earth observation" OR "JPL" (flood OR drought OR "sea level..." 15 results
+  ""satellite data" OR "earth observation" (agriculture OR "water su..." 15 results
+  "(Planet Labs OR Maxar OR Capella Space OR Spire OR Muon Space) sa..." 15 results
+  "(BlackRock OR Goldman Sachs OR "JP Morgan" OR Amundi) "climate da..." 15 results
+  "(Verisk OR "Munich Re" OR "Swiss Re" OR Chubb OR Aon) "climate ri..." 15 results
+  "(Microsoft OR Google OR Amazon OR NVIDIA) "climate" OR "earth obs..." 15 results
+  "("Carbon Mapper" OR "GHGSat" OR Kayrros OR "Descartes Labs") meth..." 15 results
+  "("Jupiter Intelligence" OR "Tomorrow.io" OR "One Concern") climat..." 15 results
+  "(Boeing OR "Lockheed Martin" OR Leidos OR Raytheon) "earth observ..." 15 results
+  "(AccuWeather OR "The Weather Company" OR Climavision) "extreme we..." 15 results
+  "(Bloomberg OR "S&P Global" OR "Moody's") "climate risk" OR "ESG" ..." 15 results
+  "(Deloitte OR KPMG OR PwC OR "Boston Consulting Group") "climate" ..." 15 results
+  "(Stripe OR NCX OR "Carbon Direct" OR Verra OR "Gold Standard") "c..." 7 results
+  "(Esri OR "Planet Labs" OR Maxar) wildfire OR flood OR drought OR ..." 15 results
+  "("ICEYE" OR "BlackSky" OR "Satelligence" OR "Overstory") satellit..." 15 results
+  "(WattTime OR "Energy Vault" OR "Sunrun") "renewable energy" OR "c..." 15 results
+  "("Environmental Defense Fund" OR "World Resources Institute" OR "..." 15 results
+
+Relevance filter: 213 → 18 articles kept
+[2026-05-19T10:00:06.564Z] Saved 18 articles → /home/ks/science-model-dashboard/public/guardian_news.json
+
