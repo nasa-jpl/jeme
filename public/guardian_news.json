@@ -1,8 +1,72 @@
 {
-  "fetchedAt": "2026-05-19T10:00:06.562Z",
-  "fromDate": "2026-04-18",
-  "count": 18,
+  "fetchedAt": "2026-05-22T10:00:05.463Z",
+  "fromDate": "2026-04-21",
+  "count": 20,
   "articles": [
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/05/260521072359.htm",
+      "title": "Scientists discover towering red auroras reaching deep into space above Japan",
+      "summary": "Mysterious red auroras spotted over Japan were found reaching astonishingly high altitudes, even during space storms considered relatively mild. The discovery suggests hidden solar activity may be stronger than scientists realized — with potential consequences for satellites orbiting Earth.",
+      "section": "ScienceDaily",
+      "source": "ScienceDaily",
+      "date": "2026-05-22",
+      "models": [],
+      "sectors": []
+    },
+    {
+      "url": "https://science.nasa.gov/earth/earth-observatory/new-eruption-in-the-bismarck-sea/",
+      "title": "New Eruption in the Bismarck Sea",
+      "summary": "Satellite imagery shows a surge of new volcanic activity in the ocean near Papua New Guinea.\nThe post New Eruption in the Bismarck Sea appeared first on NASA Science.",
+      "section": "NASA Earth Observatory",
+      "source": "NASA Earth Observatory",
+      "date": "2026-05-21",
+      "models": [],
+      "sectors": []
+    },
+    {
+      "url": "https://eos.org/articles/noaa-forecasts-a-below-average-hurricane-season",
+      "title": "NOAA Forecasts a Below-Average Hurricane Season",
+      "summary": "A potentially record-breaking El Niño may reduce the likelihood of storms, but the agency still stressed the importance of preparedness.",
+      "section": "Eos / AGU",
+      "source": "Eos / AGU",
+      "date": "2026-05-21",
+      "models": [],
+      "sectors": []
+    },
+    {
+      "url": "https://eos.org/articles/in-bihar-groundwater-treatment-units-were-installed-in-regions-that-didnt-need-them",
+      "title": "In Bihar, Groundwater Treatment Units Were Installed in Regions That Didn’t Need Them",
+      "summary": "Some regions that did need systems to treat carcinogens such as arsenic went without.",
+      "section": "Eos / AGU",
+      "source": "Eos / AGU",
+      "date": "2026-05-21",
+      "models": [],
+      "sectors": []
+    },
+    {
+      "url": "https://eos.org/research-and-developments/sea-level-rise-is-accelerating-scientists-confirm",
+      "title": "Sea Level Rise is Accelerating, Scientists Confirm",
+      "summary": "New research closes the sea level budget gap and takes account of the drivers of sea level change.",
+      "section": "Eos / AGU",
+      "source": "Eos / AGU",
+      "date": "2026-05-20",
+      "models": [
+        "ISSM"
+      ],
+      "sectors": [
+        "Coastal & Sea Level"
+      ]
+    },
+    {
+      "url": "https://eos.org/articles/changes-in-sea-ice-microstructure-could-affect-climate-models",
+      "title": "Changes in Sea Ice Microstructure Could Affect Climate Models",
+      "summary": "Granular sea ice needs to be twice as porous as columnar ice to allow water to flow through it—up to 10% brine by volume.",
+      "section": "Eos / AGU",
+      "source": "Eos / AGU",
+      "date": "2026-05-20",
+      "models": [],
+      "sectors": []
+    },
     {
       "url": "https://www.sciencedaily.com/releases/2026/05/260518041417.htm",
       "title": "Antarctic glacier collapses at record speed as Hektoria retreats 15 miles in just 15 months",
@@ -14,22 +78,32 @@
       "sectors": []
     },
     {
-      "url": "https://eos.org/research-spotlights/how-much-will-western-wildfires-worsen-under-warming",
-      "title": "How Much Will Western Wildfires Worsen Under Warming?",
-      "summary": "A new study reevaluates the use of vapor pressure deficit, or VPD, in climate models to predict increases in area burned by wildfire across the U.S. West.",
+      "url": "https://eos.org/research-and-developments/why-the-ipcc-seems-poised-to-eliminate-its-most-extreme-emissions-scenario",
+      "title": "Why the IPCC Seems Poised to Eliminate Its Most Extreme Emissions Scenario",
+      "summary": "The Intergovernmental Panel on Climate Change (IPCC), the United Nations body whose mission is to “provide governments at all levels with scientific information that they can use to develop climate policies” will likely update the emissions and land use scenarios used in the models it considers in its bellwether assessment reports.",
       "section": "Eos / AGU",
       "source": "Eos / AGU",
-      "date": "2026-05-15",
+      "date": "2026-05-19",
       "models": [],
       "sectors": []
     },
     {
-      "url": "https://science.nasa.gov/earth/earth-observatory/ice-moves-out-of-aniak/",
-      "title": "Ice Moves Out of Aniak",
-      "summary": "Spring melt along Alaska’s Kuskokwim River caused ice jams and flooding.\nThe post Ice Moves Out of Aniak appeared first on NASA Science.",
-      "section": "NASA Earth Observatory",
-      "source": "NASA Earth Observatory",
-      "date": "2026-05-14",
+      "url": "https://eos.org/articles/a-new-approach-can-better-predict-debris-flow-hazards-years-after-fires",
+      "title": "A New Approach Can Better Predict Debris Flow Hazards Years After Fires",
+      "summary": "USGS hazard maps don’t always reflect real landslide risk in the years after wildfires. Fine-tuning assessments of vegetation recovery could help.",
+      "section": "Eos / AGU",
+      "source": "Eos / AGU",
+      "date": "2026-05-19",
+      "models": [],
+      "sectors": []
+    },
+    {
+      "url": "https://eos.org/research-spotlights/keeping-humans-in-the-loop-improves-flood-forecasting",
+      "title": "Keeping Humans in the Loop Improves Flood Forecasting",
+      "summary": "Artificial intelligence and machine learning can improve flood predictions—but human expertise still matters for accurate warnings, new research says.",
+      "section": "Eos / AGU",
+      "source": "Eos / AGU",
+      "date": "2026-05-19",
       "models": [],
       "sectors": []
     },
@@ -39,16 +113,6 @@
       "summary": "Scientists have finally cracked the mystery behind one of climate change’s strangest fingerprints: while Earth’s surface heats up, the upper atmosphere is rapidly cooling. Researchers at Columbia University discovered that carbon dioxide acts very differently high above the planet, where it actually helps radiate heat into space instead of trapping it. The team found that certain infrared waveleng",
       "section": "ScienceDaily",
       "source": "ScienceDaily",
-      "date": "2026-05-14",
-      "models": [],
-      "sectors": []
-    },
-    {
-      "url": "https://eos.org/science-updates/new-directions-in-mapping-ice-sheet-fabrics-and-flow",
-      "title": "New Directions in Mapping Ice Sheet Fabrics and Flow",
-      "summary": "Polarimetric radar advances enable scientists to measure orientations of crystals, bubbles, and other properties that affect the flow of glaciers and ice sheets—and their contributions to sea level.",
-      "section": "Eos / AGU",
-      "source": "Eos / AGU",
       "date": "2026-05-14",
       "models": [],
       "sectors": []
@@ -148,48 +212,6 @@
       "date": "2026-04-22",
       "models": [],
       "sectors": []
-    },
-    {
-      "url": "https://www.sciencedaily.com/releases/2026/04/260420014750.htm",
-      "title": "Hundreds of millions at risk as river deltas sink faster than rising seas",
-      "summary": "Many of the world’s largest river deltas—home to hundreds of millions of people—are sinking faster than rising seas, according to a sweeping global study. Using high-resolution satellite radar maps, researchers found that human activities like groundwater pumping, reduced sediment flow, and rapid urban growth are driving widespread land subsidence across 40 major deltas.",
-      "section": "ScienceDaily",
-      "source": "ScienceDaily",
-      "date": "2026-04-20",
-      "models": [],
-      "sectors": []
-    },
-    {
-      "url": "https://www.sciencedaily.com/releases/2026/04/260419054825.htm",
-      "title": "A new force of nature is reshaping the planet, study finds",
-      "summary": "Human societies didn’t just adapt to the planet—they learned to reshape it. From early fire use to today’s global supply chains, our cultural and social innovations have unlocked extraordinary power to transform Earth and improve human life. But that progress has come with serious costs, including climate change, pollution, and mass extinction. Instead of framing this era—the Anthropocene—as pure ",
-      "section": "ScienceDaily",
-      "source": "ScienceDaily",
-      "date": "2026-04-19",
-      "models": [],
-      "sectors": []
-    },
-    {
-      "url": "https://www.sciencedaily.com/releases/2026/04/260417224503.htm",
-      "title": "Greenland ice completely melted 7,000 years ago and could happen again",
-      "summary": "Scientists drilling deep beneath Greenland’s ice have uncovered a startling clue about its past—and future. Evidence shows that the Prudhoe Dome, a major high point of the ice sheet, completely melted around 7,000 years ago during a relatively mild natural warming period. That means this supposedly stable ice cap is far more fragile than once thought, raising concerns that today’s human-driven war",
-      "section": "ScienceDaily",
-      "source": "ScienceDaily",
-      "date": "2026-04-18",
-      "models": [],
-      "sectors": []
-    },
-    {
-      "url": "https://www.theguardian.com/environment/2026/apr/19/australia-emissions-increasing-coalmines-climate-policy-analysis",
-      "title": "Australia’s coalmine emissions are increasing. Is this how a major policy to cut climate pollution is meant to work?",
-      "summary": "The Albanese government overhauled policy and promised significant pollution cuts – but carbon offsets are still being used as an excuse",
-      "section": "Environment",
-      "source": "The Guardian",
-      "date": "2026-04-18",
-      "models": [],
-      "sectors": [
-        "Carbon & Conservation"
-      ]
     }
   ]
 }
