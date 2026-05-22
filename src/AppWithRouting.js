@@ -38,6 +38,9 @@ import GenericUncertaintyPage from './views/GenericUncertaintyPage';
 // How It Works page
 import HowItWorks from './views/HowItWorks';
 
+// Private Sector Engagement page
+import PSEPage from './views/PSE/PSEPage';
+
 // Earth System Interconnections page
 import EarthSystemPage from './views/EarthSystemPage';
 
@@ -77,7 +80,10 @@ function AppWithRouting() {
         <Route path="/:modelName/maturity" element={<GenericMaturityPage />} />
 
         {/* How It Works page */}
-        <Route path="/how-it-works" element={<HowItWorks />} />
+        <Route path="/science-model-dashboard/how-it-works" element={<HowItWorks />} />
+
+        {/* Private Sector Engagement page */}
+        <Route path="/science-model-dashboard/pse" element={<PSEPage />} />
 
         {/* Legacy routes (keeping RAPID as default for backward compatibility) */}
         <Route path="/citations" element={<CitationsPage />} />

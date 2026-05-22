@@ -1,0 +1,1778 @@
+[
+  {
+    "company": "2i2c",
+    "sector": "Analytics"
+  },
+  {
+    "company": "3 Sixty Degrees",
+    "sector": "Analytics"
+  },
+  {
+    "company": "6th Grain Corporation",
+    "sector": "Agriculture"
+  },
+  {
+    "company": "AAIS",
+    "sector": "Insurance"
+  },
+  {
+    "company": "AccuWeather",
+    "sector": "Weather & Climate"
+  },
+  {
+    "company": "Adiabat",
+    "sector": "Weather & Climate"
+  },
+  {
+    "company": "AEM",
+    "sector": "Environmental Health"
+  },
+  {
+    "company": "Aero",
+    "sector": "Other"
+  },
+  {
+    "company": "Aerscape",
+    "sector": "Energy"
+  },
+  {
+    "company": "Agrian",
+    "sector": "Agriculture"
+  },
+  {
+    "company": "AgriNerds",
+    "sector": "Agriculture"
+  },
+  {
+    "company": "Agrograph",
+    "sector": "Agriculture"
+  },
+  {
+    "company": "Agrograph Inc.",
+    "sector": "Agriculture"
+  },
+  {
+    "company": "AI 2030",
+    "sector": "Analytics"
+  },
+  {
+    "company": "AIR Parametric",
+    "sector": "Insurance"
+  },
+  {
+    "company": "Airbus",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Airbus U.S.",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Alpha Square",
+    "sector": "Finance"
+  },
+  {
+    "company": "Altana",
+    "sector": "Supply Chain"
+  },
+  {
+    "company": "Amazon",
+    "sector": "Consumer Goods"
+  },
+  {
+    "company": "Amazon - Last Mile",
+    "sector": "Consumer Goods"
+  },
+  {
+    "company": "Amelia Space Technologies",
+    "sector": "Energy"
+  },
+  {
+    "company": "American Water Works Association",
+    "sector": "Utilities"
+  },
+  {
+    "company": "Amica",
+    "sector": "Insurance"
+  },
+  {
+    "company": "Amundi",
+    "sector": "Finance"
+  },
+  {
+    "company": "Amwins",
+    "sector": "Insurance"
+  },
+  {
+    "company": "Analytic Fusions",
+    "sector": "Energy"
+  },
+  {
+    "company": "Anheuser-\nBusch, InBev",
+    "sector": "Agriculture"
+  },
+  {
+    "company": "Anthesis Group",
+    "sector": "Weather & Climate"
+  },
+  {
+    "company": "Aon Plc",
+    "sector": "Insurance"
+  },
+  {
+    "company": "APG Asset Management",
+    "sector": "Insurance"
+  },
+  {
+    "company": "Apple",
+    "sector": "Consumer Goods"
+  },
+  {
+    "company": "Applied Geosolutions LLC",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Arbol",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Arch Insurance",
+    "sector": "Insurance"
+  },
+  {
+    "company": "Arizent - Digital Insurance",
+    "sector": "Finance"
+  },
+  {
+    "company": "Array Labs",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Arusha Space",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Ascot Group",
+    "sector": "Insurance"
+  },
+  {
+    "company": "AssetAssurance Monitoring",
+    "sector": "Analytics"
+  },
+  {
+    "company": "AT&T",
+    "sector": "Communications"
+  },
+  {
+    "company": "Athena Infonomics LLC",
+    "sector": "Insurance"
+  },
+  {
+    "company": "Atomic Maps",
+    "sector": "Utilities"
+  },
+  {
+    "company": "Azavea, Inc.",
+    "sector": "Agriculture"
+  },
+  {
+    "company": "BAE Systems",
+    "sector": "Analytics"
+  },
+  {
+    "company": "BAE Systems, INC.",
+    "sector": "Analytics"
+  },
+  {
+    "company": "BASF",
+    "sector": "Agriculture"
+  },
+  {
+    "company": "Bayer",
+    "sector": "Agriculture"
+  },
+  {
+    "company": "Bezos Earth Fund",
+    "sector": "Non-profit"
+  },
+  {
+    "company": "BGC Engineering",
+    "sector": "Energy"
+  },
+  {
+    "company": "BlackRock",
+    "sector": "Finance"
+  },
+  {
+    "company": "BlackSky Technologies, Inc.",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Bloomberg",
+    "sector": "Finance"
+  },
+  {
+    "company": "Blue Marble Micro",
+    "sector": "Insurance"
+  },
+  {
+    "company": "Blue Yonder",
+    "sector": "Supply Chain"
+  },
+  {
+    "company": "BlueWater Strategies",
+    "sector": "Utilities"
+  },
+  {
+    "company": "Boeing",
+    "sector": "Supply Chain"
+  },
+  {
+    "company": "Boston Consulting Group",
+    "sector": "Consulting"
+  },
+  {
+    "company": "Boston Geospatial",
+    "sector": "Energy"
+  },
+  {
+    "company": "Bringg",
+    "sector": "Supply Chain"
+  },
+  {
+    "company": "Buoyant VC",
+    "sector": "Finance"
+  },
+  {
+    "company": "Business Roundtable",
+    "sector": "Energy"
+  },
+  {
+    "company": "Cal Tech",
+    "sector": "Energy"
+  },
+  {
+    "company": "Canfor",
+    "sector": "Consumer Goods"
+  },
+  {
+    "company": "Cape Analytics",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Capella Space",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Captura",
+    "sector": "Coastal Ocean"
+  },
+  {
+    "company": "Carbon Direct",
+    "sector": "Energy"
+  },
+  {
+    "company": "Carbon Mapper",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Carbon Mappers",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Carboneers.org by Carboneers LLC",
+    "sector": "Agriculture"
+  },
+  {
+    "company": "Care Weather Technologies, Inc.",
+    "sector": "Weather & Climate"
+  },
+  {
+    "company": "Cargill",
+    "sector": "Agriculture"
+  },
+  {
+    "company": "Case Consultants International",
+    "sector": "Weather & Climate"
+  },
+  {
+    "company": "Cecil",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Ceretune, LLC",
+    "sector": "Water Management"
+  },
+  {
+    "company": "CGIC",
+    "sector": "Insurance"
+  },
+  {
+    "company": "CH Robinson",
+    "sector": "Supply Chain"
+  },
+  {
+    "company": "CH4IQ",
+    "sector": "Energy"
+  },
+  {
+    "company": "Chevron",
+    "sector": "Energy"
+  },
+  {
+    "company": "Chubb",
+    "sector": "Insurance"
+  },
+  {
+    "company": "CIBO",
+    "sector": "Agriculture"
+  },
+  {
+    "company": "CiBO Technologies",
+    "sector": "Agriculture"
+  },
+  {
+    "company": "Climate Central",
+    "sector": "Climate"
+  },
+  {
+    "company": "Climate Resiliency Solutions",
+    "sector": "Finance"
+  },
+  {
+    "company": "ClimateCheck",
+    "sector": "Analytics"
+  },
+  {
+    "company": "ClimateGPT.ai",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Climative",
+    "sector": "Weather & Climate"
+  },
+  {
+    "company": "Climavision",
+    "sector": "Weather & Climate"
+  },
+  {
+    "company": "CMCC Foundation",
+    "sector": "Non-profit"
+  },
+  {
+    "company": "CNA",
+    "sector": "Insurance"
+  },
+  {
+    "company": "Coastal Risk Consulting",
+    "sector": "Agriculture"
+  },
+  {
+    "company": "Coca-Cola Company",
+    "sector": "Consumer Goods"
+  },
+  {
+    "company": "Columbia University",
+    "sector": "Other"
+  },
+  {
+    "company": "ConserWater Technologies",
+    "sector": "Agriculture"
+  },
+  {
+    "company": "Constellation Nuclear",
+    "sector": "Energy"
+  },
+  {
+    "company": "Consulting",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Corteva",
+    "sector": "Agriculture"
+  },
+  {
+    "company": "Corteva Agriscience",
+    "sector": "Agriculture"
+  },
+  {
+    "company": "Corvian",
+    "sector": "Agriculture"
+  },
+  {
+    "company": "Costco",
+    "sector": "Consumer Goods"
+  },
+  {
+    "company": "Cotality",
+    "sector": "Finance"
+  },
+  {
+    "company": "Cropix",
+    "sector": "Agriculture"
+  },
+  {
+    "company": "CyStellar",
+    "sector": "Analytics"
+  },
+  {
+    "company": "DailyBreath Forecast",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Danone",
+    "sector": "Consumer Goods"
+  },
+  {
+    "company": "Danti",
+    "sector": "Insurance"
+  },
+  {
+    "company": "Danti AI",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Dataminr",
+    "sector": "Analytics"
+  },
+  {
+    "company": "dClimate",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Deloitte & Touche, LLP",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Descartes Labs",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Deutsche Bank",
+    "sector": "Finance"
+  },
+  {
+    "company": "Development Seed",
+    "sector": "Analytics"
+  },
+  {
+    "company": "DevGlobal",
+    "sector": "Analytics"
+  },
+  {
+    "company": "DR3",
+    "sector": "Non-profit"
+  },
+  {
+    "company": "Duke Energy",
+    "sector": "Energy"
+  },
+  {
+    "company": "Duke University",
+    "sector": "Other"
+  },
+  {
+    "company": "DWS Group",
+    "sector": "Finance"
+  },
+  {
+    "company": "Dynamical.org",
+    "sector": "Water Management"
+  },
+  {
+    "company": "E&J Gallo",
+    "sector": "Agriculture"
+  },
+  {
+    "company": "Earth Analytics Group",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Earth Finance",
+    "sector": "Finance"
+  },
+  {
+    "company": "Earth Genome",
+    "sector": "Weather & Climate"
+  },
+  {
+    "company": "EarthDaily Analytics",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Earthena",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Earthlink",
+    "sector": "Communications"
+  },
+  {
+    "company": "Earthmover",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Earthsat Inc.",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Earthscale AI",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Ecopia AI",
+    "sector": "Insurance"
+  },
+  {
+    "company": "Electric Power Research Institute (EPRI)",
+    "sector": "Utilities"
+  },
+  {
+    "company": "Element 84",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Empire Space",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Energi.AI",
+    "sector": "Utilities"
+  },
+  {
+    "company": "Ensense AI",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Environmental Defense Fund",
+    "sector": "Non-profit"
+  },
+  {
+    "company": "EOS Data Analytics",
+    "sector": "Analytics"
+  },
+  {
+    "company": "ERT",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Esri",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Eventual Weather",
+    "sector": "Finance"
+  },
+  {
+    "company": "Exiger",
+    "sector": "Supply Chain"
+  },
+  {
+    "company": "EyeMed Vision Care",
+    "sector": "Consumer Goods"
+  },
+  {
+    "company": "Factal",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Farm Journal",
+    "sector": "Agriculture"
+  },
+  {
+    "company": "FarmBot Technology",
+    "sector": "Agriculture"
+  },
+  {
+    "company": "Farmspace Systems",
+    "sector": "Agriculture"
+  },
+  {
+    "company": "Fathom Science",
+    "sector": "Supply Chain"
+  },
+  {
+    "company": "Ferguson",
+    "sector": "Supply Chain"
+  },
+  {
+    "company": "Fire Neural Network",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Fiserv",
+    "sector": "Finance"
+  },
+  {
+    "company": "Floodbase",
+    "sector": "Weather & Climate"
+  },
+  {
+    "company": "FloodMapp",
+    "sector": "Weather & Climate"
+  },
+  {
+    "company": "FM",
+    "sector": "Insurance"
+  },
+  {
+    "company": "Folia.sh",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Forest Hills Financial Group",
+    "sector": "Finance"
+  },
+  {
+    "company": "Four Twenty Seven",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Freddie Mac",
+    "sector": "Finance"
+  },
+  {
+    "company": "Free Flight Lab",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Freese and Nichols",
+    "sector": "Consulting"
+  },
+  {
+    "company": "Front Porch Farms",
+    "sector": "Agriculture"
+  },
+  {
+    "company": "Gallagher Re",
+    "sector": "Insurance"
+  },
+  {
+    "company": "Gap Inc.",
+    "sector": "Consumer Goods"
+  },
+  {
+    "company": "GE-Data",
+    "sector": "Agriculture"
+  },
+  {
+    "company": "General Mills",
+    "sector": "Consumer Goods"
+  },
+  {
+    "company": "Geofinancial Analytics",
+    "sector": "Analytics"
+  },
+  {
+    "company": "GeoFX",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Geolava",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Geometrics",
+    "sector": "Energy"
+  },
+  {
+    "company": "George Mason University, CCRA (IUCRC)",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Geospatial Risk",
+    "sector": "Insurance"
+  },
+  {
+    "company": "GeoSystems Analysis, Inc.",
+    "sector": "Water Management"
+  },
+  {
+    "company": "GeoTek",
+    "sector": "Energy"
+  },
+  {
+    "company": "GHGSat",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Gilnrian AI",
+    "sector": "Analytics"
+  },
+  {
+    "company": "GIST Impact",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Global Inclusive Economy Society",
+    "sector": "Non-profit"
+  },
+  {
+    "company": "Godel Space",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Goldman Sachs",
+    "sector": "Finance"
+  },
+  {
+    "company": "Google",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Google (GEE)",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Gordon and Betty Moore Foundation",
+    "sector": "Non-profit"
+  },
+  {
+    "company": "Grainger",
+    "sector": "Supply Chain"
+  },
+  {
+    "company": "Great River Hydro",
+    "sector": "Energy"
+  },
+  {
+    "company": "Greenberg Traurig LLP",
+    "sector": "Other"
+  },
+  {
+    "company": "GreenSheild Risk",
+    "sector": "Insurance"
+  },
+  {
+    "company": "Guidewire",
+    "sector": "Insurance"
+  },
+  {
+    "company": "Guy Carpenter",
+    "sector": "Utilities"
+  },
+  {
+    "company": "GXO, Inc.",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Harris Corporation (L3Harris Technologies)",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Hazard Hub",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Hazen & Sawyer",
+    "sector": "Utilities"
+  },
+  {
+    "company": "Hazen and Sawyer",
+    "sector": "Water Management"
+  },
+  {
+    "company": "Headwall Photonics",
+    "sector": "Energy"
+  },
+  {
+    "company": "Health Action Alliance",
+    "sector": "Weather & Climate"
+  },
+  {
+    "company": "Helena Ag",
+    "sector": "Agriculture"
+  },
+  {
+    "company": "Hershey",
+    "sector": "Consumer Goods"
+  },
+  {
+    "company": "Howden",
+    "sector": "Insurance"
+  },
+  {
+    "company": "Hydronos Labs",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Hydrosat",
+    "sector": "Agriculture"
+  },
+  {
+    "company": "IBM Research",
+    "sector": "Analytics"
+  },
+  {
+    "company": "ICEYE US",
+    "sector": "Analytics"
+  },
+  {
+    "company": "IGNITIA",
+    "sector": "Analytics"
+  },
+  {
+    "company": "ImageCat, Inc.",
+    "sector": "Insurance"
+  },
+  {
+    "company": "IMD Insurance Agency LLC",
+    "sector": "Insurance"
+  },
+  {
+    "company": "Indji",
+    "sector": "Utilities"
+  },
+  {
+    "company": "Infor",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Innsure",
+    "sector": "Insurance"
+  },
+  {
+    "company": "Institute for Risk Management and Insurance Innovation (UNC)",
+    "sector": "Insurance"
+  },
+  {
+    "company": "Insurance Information Institute",
+    "sector": "Insurance"
+  },
+  {
+    "company": "Insurance Institute for Business and Home Safety (IBHS)",
+    "sector": "Insurance"
+  },
+  {
+    "company": "IntegraShare",
+    "sector": "Agriculture"
+  },
+  {
+    "company": "Integrated Hydro Systems, LLC",
+    "sector": "Water Management"
+  },
+  {
+    "company": "Intera",
+    "sector": "Water Management"
+  },
+  {
+    "company": "Intercontinental Exchange (ICE)",
+    "sector": "Insurance"
+  },
+  {
+    "company": "Interlink",
+    "sector": "Finance"
+  },
+  {
+    "company": "International Met Systems",
+    "sector": "Analytics"
+  },
+  {
+    "company": "International Society of Automation",
+    "sector": "Non-profit"
+  },
+  {
+    "company": "International Water Management Institute",
+    "sector": "Non-profit"
+  },
+  {
+    "company": "IQAir",
+    "sector": "Environmental Health"
+  },
+  {
+    "company": "iSeeChange",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Isle Inc.",
+    "sector": "Utilities"
+  },
+  {
+    "company": "JBA Risk Management",
+    "sector": "Weather & Climate"
+  },
+  {
+    "company": "John Deere",
+    "sector": "Agriculture"
+  },
+  {
+    "company": "JP Morgan",
+    "sector": "Finance"
+  },
+  {
+    "company": "Jupiter Intel",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Karen Clark and Co.",
+    "sector": "Insurance"
+  },
+  {
+    "company": "KatRisk",
+    "sector": "Insurance"
+  },
+  {
+    "company": "Kayrros",
+    "sector": "Energy"
+  },
+  {
+    "company": "Kellanova",
+    "sector": "Consumer Goods"
+  },
+  {
+    "company": "Kettle",
+    "sector": "Insurance"
+  },
+  {
+    "company": "Kiewit Corp.",
+    "sector": "Energy & Infrastructure"
+  },
+  {
+    "company": "Koloma",
+    "sector": "Energy"
+  },
+  {
+    "company": "KPMG",
+    "sector": "Weather & Climate"
+  },
+  {
+    "company": "Kuva Space",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Lacher Hydrological Consulting",
+    "sector": "Consulting"
+  },
+  {
+    "company": "LatentAI",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Leidos",
+    "sector": "Environmental Health"
+  },
+  {
+    "company": "Lemu Earth",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Lexis Nexis Risk",
+    "sector": "Insurance"
+  },
+  {
+    "company": "Liberty Mutual",
+    "sector": "Insurance"
+  },
+  {
+    "company": "Lockheed Martin",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Locus Robotics",
+    "sector": "Supply Chain"
+  },
+  {
+    "company": "Logiwa",
+    "sector": "Supply Chain"
+  },
+  {
+    "company": "Louis Dreyfus Company India",
+    "sector": "Agriculture"
+  },
+  {
+    "company": "LumenUS",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Lunate AI",
+    "sector": "Analytics"
+  },
+  {
+    "company": "LunateAI",
+    "sector": "Finance"
+  },
+  {
+    "company": "Macquarie Group Limited",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Mangrove Property Insurance",
+    "sector": "Insurance"
+  },
+  {
+    "company": "Mapbox",
+    "sector": "Analytics"
+  },
+  {
+    "company": "MapGuru",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Maps for Health Collaborative",
+    "sector": "Other"
+  },
+  {
+    "company": "Maptycs",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Maxar Technologies",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Mayday.ai",
+    "sector": "Analytics"
+  },
+  {
+    "company": "MDA Space",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Merck",
+    "sector": "Finance"
+  },
+  {
+    "company": "Meta",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Metaspectral",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Metropolitan Group",
+    "sector": "Water Management"
+  },
+  {
+    "company": "Micro Insurance Catastrophe Risk Organisation (MiCRO)",
+    "sector": "Insurance"
+  },
+  {
+    "company": "Microsoft",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Milliman",
+    "sector": "Insurance"
+  },
+  {
+    "company": "MITRE",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Mitti Labs",
+    "sector": "Agriculture"
+  },
+  {
+    "company": "Moody's",
+    "sector": "Finance"
+  },
+  {
+    "company": "Morgan Stanley",
+    "sector": "Finance"
+  },
+  {
+    "company": "Motivf",
+    "sector": "Carbon & Conservation"
+  },
+  {
+    "company": "Munich Re",
+    "sector": "Insurance"
+  },
+  {
+    "company": "Muon Space",
+    "sector": "Analytics"
+  },
+  {
+    "company": "n4ea",
+    "sector": "Supply Chain"
+  },
+  {
+    "company": "National Association of Wheat Growers",
+    "sector": "Agriculture"
+  },
+  {
+    "company": "National Grape Research Alliance",
+    "sector": "Agriculture"
+  },
+  {
+    "company": "Nationwide",
+    "sector": "Insurance"
+  },
+  {
+    "company": "NCX",
+    "sector": "Carbon & Conservation"
+  },
+  {
+    "company": "Nearmap",
+    "sector": "Analytics"
+  },
+  {
+    "company": "NEO/HySpex",
+    "sector": "Energy"
+  },
+  {
+    "company": "Neptune and Company",
+    "sector": "Analytics"
+  },
+  {
+    "company": "NERC",
+    "sector": "Energy"
+  },
+  {
+    "company": "NLT",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Noblis",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Northwestern Mutual",
+    "sector": "Finance"
+  },
+  {
+    "company": "Novartis",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Nutrien Ag",
+    "sector": "Agriculture"
+  },
+  {
+    "company": "NV5 Geospatial",
+    "sector": "Analytics"
+  },
+  {
+    "company": "NVIDIA",
+    "sector": "Analytics"
+  },
+  {
+    "company": "NYU / Urban Futures Lab",
+    "sector": "Other"
+  },
+  {
+    "company": "nZero",
+    "sector": "Energy"
+  },
+  {
+    "company": "Obvious Ventures",
+    "sector": "Finance"
+  },
+  {
+    "company": "Ocean Enterprise Initiative",
+    "sector": "Water Management"
+  },
+  {
+    "company": "Ocean Ledger",
+    "sector": "Water Management"
+  },
+  {
+    "company": "Odonata",
+    "sector": "Energy"
+  },
+  {
+    "company": "Oeilsat, LLC",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Oliver Wyman",
+    "sector": "Consulting"
+  },
+  {
+    "company": "OmniGeo",
+    "sector": "Energy"
+  },
+  {
+    "company": "One Concern",
+    "sector": "Finance"
+  },
+  {
+    "company": "Opal AI Inc.",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Orbital Sentry",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Organized Matter",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Origami Space Development, Inc.",
+    "sector": "Analytics"
+  },
+  {
+    "company": "OroraTech",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Overstory",
+    "sector": "Utilities"
+  },
+  {
+    "company": "Pacific Institute",
+    "sector": "Non-profit"
+  },
+  {
+    "company": "Perennial Earth",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Perry Remote Sensing Ltd.",
+    "sector": "Energy"
+  },
+  {
+    "company": "PG&E",
+    "sector": "Energy"
+  },
+  {
+    "company": "PhotoSat",
+    "sector": "Energy"
+  },
+  {
+    "company": "Pierson Ferdinand",
+    "sector": "Other"
+  },
+  {
+    "company": "Pipeline Research Council International",
+    "sector": "Energy"
+  },
+  {
+    "company": "Pixxel",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Planet",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Planet Labs",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Planet Watchers",
+    "sector": "Agriculture"
+  },
+  {
+    "company": "PlanetIQ",
+    "sector": "Analytics"
+  },
+  {
+    "company": "PlanetiQ",
+    "sector": "Analytics"
+  },
+  {
+    "company": "PolArctic LLC",
+    "sector": "Environmental Health"
+  },
+  {
+    "company": "Ponterra",
+    "sector": "Carbon & Conservation"
+  },
+  {
+    "company": "Privateer Space Inc.",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Privateer Space, Inc.",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Pulse Fund",
+    "sector": "Finance"
+  },
+  {
+    "company": "Pure Insurance",
+    "sector": "Insurance"
+  },
+  {
+    "company": "PwC",
+    "sector": "Finance"
+  },
+  {
+    "company": "Quantis",
+    "sector": "Agriculture"
+  },
+  {
+    "company": "RaceTrac",
+    "sector": "Consumer Goods"
+  },
+  {
+    "company": "Railinc Corp.",
+    "sector": "Supply Chain"
+  },
+  {
+    "company": "Refarmo",
+    "sector": "Agriculture"
+  },
+  {
+    "company": "Reinsurance Association of America",
+    "sector": "Insurance"
+  },
+  {
+    "company": "Resilitix",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Restaurant Brands International",
+    "sector": "Consumer Goods"
+  },
+  {
+    "company": "Rezatec",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Ric Platform Services, LLC",
+    "sector": "Insurance"
+  },
+  {
+    "company": "Rio Tinto Exploration (RTX)",
+    "sector": "Energy"
+  },
+  {
+    "company": "RLI",
+    "sector": "Insurance"
+  },
+  {
+    "company": "Rocky Mountain Institute (RMI)",
+    "sector": "Energy"
+  },
+  {
+    "company": "Roffer's Ocean Fishing Forecasting Service (ROFFS)",
+    "sector": "Coastal Ocean"
+  },
+  {
+    "company": "RTX",
+    "sector": "Energy"
+  },
+  {
+    "company": "RWE",
+    "sector": "Energy"
+  },
+  {
+    "company": "RWE AI Research Lab",
+    "sector": "Energy & Infrastructure"
+  },
+  {
+    "company": "S&P Global",
+    "sector": "Finance"
+  },
+  {
+    "company": "San Diego State University",
+    "sector": "Energy"
+  },
+  {
+    "company": "San Pete Financial Group",
+    "sector": "Finance"
+  },
+  {
+    "company": "Satelligence",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Satlantis US",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Satshot",
+    "sector": "Agriculture"
+  },
+  {
+    "company": "Scepter, Inc.",
+    "sector": "Environmental Health"
+  },
+  {
+    "company": "Science Systems & Applications, Inc. (SSAI)",
+    "sector": "Consulting"
+  },
+  {
+    "company": "Seerist",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Shell Oil Company Inc.",
+    "sector": "Energy & Infrastructure"
+  },
+  {
+    "company": "Silurian",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Silurian AI",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Sinecta",
+    "sector": "Finance"
+  },
+  {
+    "company": "SkyFi",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Skyfi",
+    "sector": "Analytics"
+  },
+  {
+    "company": "SkyGeo",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Skymantics",
+    "sector": "Insurance"
+  },
+  {
+    "company": "Society of Actuaries",
+    "sector": "Insurance"
+  },
+  {
+    "company": "Sonoma Tech",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Southern Company",
+    "sector": "Utilities"
+  },
+  {
+    "company": "Space Foundation",
+    "sector": "Analytics"
+  },
+  {
+    "company": "SpaceKnow Inc.",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Sparkgeo",
+    "sector": "Analytics"
+  },
+  {
+    "company": "SpecTIR",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Spectral Evolution",
+    "sector": "Energy"
+  },
+  {
+    "company": "Spire",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Squadra Ventures",
+    "sector": "Other"
+  },
+  {
+    "company": "srarportfilms, llc",
+    "sector": "Other"
+  },
+  {
+    "company": "Stanford Sustainability Accelerator",
+    "sector": "Sustainability"
+  },
+  {
+    "company": "Stantec",
+    "sector": "Environmental Health"
+  },
+  {
+    "company": "Storm Sensor",
+    "sector": "Analytics"
+  },
+  {
+    "company": "StormCenter Communications Inc.",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Strategy",
+    "sector": "Supply Chain"
+  },
+  {
+    "company": "StratMaven",
+    "sector": "Insurance"
+  },
+  {
+    "company": "Stray Blocks",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Stripe / Frontier",
+    "sector": "Carbon & Conservation"
+  },
+  {
+    "company": "Sunereum",
+    "sector": "Energy"
+  },
+  {
+    "company": "Sustainable Environmental Consultants",
+    "sector": "Environmental Health"
+  },
+  {
+    "company": "Sustainable Forestry Initiative",
+    "sector": "Environmental Health"
+  },
+  {
+    "company": "Swift Engineering",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Swiss Re",
+    "sector": "Insurance"
+  },
+  {
+    "company": "Sysco",
+    "sector": "Consumer Goods"
+  },
+  {
+    "company": "T-Mobile",
+    "sector": "Communications"
+  },
+  {
+    "company": "Target",
+    "sector": "Consumer Goods"
+  },
+  {
+    "company": "TBD Economics",
+    "sector": "Finance"
+  },
+  {
+    "company": "Tech-X Corporation",
+    "sector": "Water Management"
+  },
+  {
+    "company": "Technosylva",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Teledyne Brown Engineering (DESIS)",
+    "sector": "Analytics"
+  },
+  {
+    "company": "TerraPulse, Inc.",
+    "sector": "Analytics"
+  },
+  {
+    "company": "TerraWatch Space",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Tetra-X/Li-FT Power Ltd.",
+    "sector": "Energy"
+  },
+  {
+    "company": "TG Engine",
+    "sector": "Analytics"
+  },
+  {
+    "company": "The Center For Water Security and Cooperation",
+    "sector": "Utilities"
+  },
+  {
+    "company": "The Freshwater Trust",
+    "sector": "Water Management"
+  },
+  {
+    "company": "The MITRE Corporation",
+    "sector": "Water Management"
+  },
+  {
+    "company": "Tomorrow.io",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Tonkin + Taylor",
+    "sector": "Environmental Health"
+  },
+  {
+    "company": "Transzero Climate Risk",
+    "sector": "Insurance"
+  },
+  {
+    "company": "Travelers",
+    "sector": "Insurance"
+  },
+  {
+    "company": "Trilegal",
+    "sector": "Other"
+  },
+  {
+    "company": "Trillium",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Trimble",
+    "sector": "Analytics"
+  },
+  {
+    "company": "TruWeather",
+    "sector": "Weather & Climate"
+  },
+  {
+    "company": "UDC",
+    "sector": "Energy & Infrastructure"
+  },
+  {
+    "company": "Umbra",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Unibap AB",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Uniscrap PBC",
+    "sector": "Environmental Health"
+  },
+  {
+    "company": "Upstream Tech",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Ursa Space",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Ursa Space Systems",
+    "sector": "Analytics"
+  },
+  {
+    "company": "US Chamber of Commerce Foundation",
+    "sector": "Consumer Goods"
+  },
+  {
+    "company": "Utilis",
+    "sector": "Consumer Goods"
+  },
+  {
+    "company": "Valmont Industries",
+    "sector": "Energy"
+  },
+  {
+    "company": "Vantage Risk",
+    "sector": "Insurance"
+  },
+  {
+    "company": "Vantor",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Vassar Labs",
+    "sector": "Water Management"
+  },
+  {
+    "company": "VC3",
+    "sector": "Supply Chain"
+  },
+  {
+    "company": "Vcrsoft, LLC",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Verisk",
+    "sector": "Insurance"
+  },
+  {
+    "company": "VertiGIS",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Vibrant Planet",
+    "sector": "Environmental Health"
+  },
+  {
+    "company": "Viridien (formerlly CGG)",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Visual Teaching Technologies",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Walmart",
+    "sector": "Consumer Goods"
+  },
+  {
+    "company": "Water Research Foundation",
+    "sector": "Utilities"
+  },
+  {
+    "company": "Water's Edge Strategy",
+    "sector": "Water Management"
+  },
+  {
+    "company": "WattTime",
+    "sector": "Energy"
+  },
+  {
+    "company": "WavEC",
+    "sector": "Coastal Ocean"
+  },
+  {
+    "company": "WaWa",
+    "sector": "Consumer Goods"
+  },
+  {
+    "company": "Weather.com",
+    "sector": "Weather & Climate"
+  },
+  {
+    "company": "Welch's - National Grape Cooperative",
+    "sector": "Agriculture"
+  },
+  {
+    "company": "Wells Fargo",
+    "sector": "Finance"
+  },
+  {
+    "company": "Weyerhaeuser",
+    "sector": "Other"
+  },
+  {
+    "company": "WGI Council",
+    "sector": "Non-profit"
+  },
+  {
+    "company": "Wherobots",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Woodard and Curran",
+    "sector": "Water Management"
+  },
+  {
+    "company": "Woolpert",
+    "sector": "Analytics"
+  },
+  {
+    "company": "World Resources Institute (WRI)",
+    "sector": "Analytics"
+  },
+  {
+    "company": "WorldWinds",
+    "sector": "Weather & Climate"
+  },
+  {
+    "company": "WSP",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Wyvern",
+    "sector": "Analytics"
+  },
+  {
+    "company": "Xcel Energy",
+    "sector": "Energy"
+  },
+  {
+    "company": "Xylem",
+    "sector": "Utilities"
+  },
+  {
+    "company": "Zesty.ai",
+    "sector": "Insurance"
+  },
+  {
+    "company": "Zeus AI",
+    "sector": "Analytics"
+  }
+]
