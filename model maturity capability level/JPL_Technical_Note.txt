@@ -1,0 +1,244 @@
+A Multi-Dimensional Assessment of Earth System Model Maturity and Capability
+
+JPL Technical Note
+
+Authors: 
+
+Executive Summary
+
+1. Introduction and Motivation
+
+The most pressing Earth research, applications, and formulation questions are now interdisciplinary, requiring expert domain knowledge across a diverse range of topic areas - including Earth and data sciences; remote and in-situ sensing technologies; global to fine-scale modeling, data assimilation and computational methods, etc,  In addition, the trade space of potential remote sensing observations to explore is rapidly expanding to include a comprehensive range of instrument sizes, constellation configurations, and adaptive observing capabilities. Finally, NASA is increasingly prioritizing the use of its observations and models as decision-making tools for an ever-expanding community of end users. In this context, Earth system component models (e.g. ice sheet, ocean, atmosphere, streamflow) and coupled models (e.g. ocean+atmosphere, full Earth system/climate models) are becoming mission-essential tools for the advancement of the Earth science and decision-support enterprise.  They incorporate and integrate the known physical laws and empirical knowledge that describe Earth system component interactions, and they are the principal means of providing predictions of future environmental states (e.g. weather forecasts, climate projections, digital twin what-if scenarios). The infusion of observations into Earth system models (observation-informed modeling) is a crucial component of JPL’s modeling enterprise, enabling 1) a sophisticated and holistically accurate representation of the evolving state of the Earth, and 2) quantitative estimates of state and model uncertainty.  In short, observation-informed modeling has become critical to NASA’s Earth Science to Action Strategy (ref) for: 1) advancing science, 2) developing decision-support tools, and 3) for formulating new satellite mission. 
+
+Within NASA’s Earth Sciences, observation-informed modeling often uses data assimilation to optimally combine the modeled state with observations taken from in-situ and satellite data, where the weight given to any given observation is based on its error characteristics as well as the errors in the model and first guess. As such, proper quantification of model and observation uncertainties, and detailed knowledge of the strengths and deficiencies of the assimilating model, is central to the success of data assimilation. Global weather forecast models (e.g., NOAA NCEP’s Global Forecast System) are a well-known example of observation-informed modeling. In this case, data assimilation is used to produce forecast initial conditions, and also to generate retrospective analyses (“re-analyses”; e.g. ERA5, MERRA-2) that constitute a gridded regular-in-time estimate of the state of the atmosphere, land, and ocean surfaces. Because these datasets combine 1) the spatial/temporal continuity (e.g., 3-hour and ~50 km in the case of MERRA-2) and physical laws codified in a global model with 2) constraints provided by the global observing system, they are often considered to be the best estimate of the state of the Earth system. Hence, these datasets support vast amounts of science research, provide essential underpinning to many decision support needs, and often constitute a critical component in mission formulation by providing a realistic state to test new mission concepts.   
+
+Similar to the use of observation-informed modeling for atmospheric research and forecasting, JPL has developed highly sophisticated observation-informed modeling capabilities for several components of the Earth system.  These include: the Estimating the Climate and Circulation of the Ocean (ECCO)  system, the Ice-Sheet and Sea Level System Model (ISSM), the Carbon Monitoring System – Flux (CMS-Flux) model, the Multi-model multi-constituent chemical data assimilation (MOMO-Chem), a global streamflow model (RAPID), a model of terrestrial water and carbon budgets (CARDAMOM), and a large-eddy simulation (LES) model for the Earth’s planetary boundary layer (see Fig. 1 below).  These models are already mission-essential JPL assets for: 1) addressing Earth Science and Applications from Space Decadal Survey class questions, 2) developing applications for decision support – via retrospective analysis/attribution, forecasts and/or so-called Digital Twins, and 3) for new satellite mission formulation. However, there are two key barriers to realizing the full potential of JPL’s (or other’s) models for decision support and mission formulation:
+
+	•	Assessments of model capability and applicability for advancing science, formulation and decision support lack quantitative basis. While each of JPL’s models undergo verification and validation in the course of their development, and many of them also incorporate rigorous uncertainty quantification, they lack a framework within which they can be rapidly and objectively assessed for their suitability to perform new tasks. 
+	•	Anecdotal evidence suggests that JPL’s observation-informed modeling systems face common technological challenges that prevent them from realizing their full potential as research, decision-support and formulation tools. It is likely that many of these challenges can be addressed using tools that have already been developed at JPL, but have not yet been infused into our modeling systems. A quantitative approach to model capability assessment can be used to identify common barriers to progress so that resources can be most efficiently used to advance multiple modeling tools.
+
+2. JPL’s Earth Modeling Enterprise
+
+2.1 Overview
+
+Eight key modeling frameworks represent the pillars of JPL's Earth modeling enterprise (JEME; Fig. 1). Each was developed to address a specific, critical scientific challenge, yet together they form a complementary suite of tools for understanding and predicting the behavior of our planet, formulating new observing systems, and addressing societal challenges. These models include:
+	•	Estimating the Circulation and Climate of the Ocean (ECCO): A modeling and data assimilation framework that produces a complete, time-evolving, three-dimensional state of the global ocean.
+	•	Ice-sheet and Sea-level System Model (ISSM): A state-of-the-art numerical model and data assimilation for simulating the dynamics of Earth's ice sheets, their interactions with the solid Earth, and their contribution to sea-level rise.
+	•	Multi-mOdel Multi-cOnstituent Chemical data assimilation (MOMO-Chem): A sophisticated atmospheric chemistry analysis system that uses multiple models to quantify the composition of the troposphere and its uncertainties.
+	•	Carbon Monitoring System Flux (CMS-FLUX): A data assimilation system designed to quantify global carbon dioxide sources and sinks by integrating satellite observations with a suite of process models.
+	•	Routing Application for Parallel computation of Discharge (RAPID): An efficient river routing model used as a key component in larger integrated systems to predict water flow and flooding.
+	•	CARbon DAta MOdel fraMework (CARDAMOM): A Bayesian model-data fusion framework for understanding the processes that govern the terrestrial carbon cycle.
+	•	Eddy-Diffusivity/Mass-Flux (EDMF): A unified parameterization scheme designed to improve the representation of clouds and turbulence within global climate models.
+	•	JPL Large Eddy Simulation (JPL-LES): A collection of high resolution atmospheric process models capable of realistically representing a diverse range of precipitating and non-precipitating cloud systems.
+The following table provides a high-level overview of these frameworks, serving as a guide to the detailed explorations in the chapters that follow.
+Table 1: Overview of Key Earth System Modeling Frameworks at JPL
+Model Acronym
+Full Name
+Primary Domain
+Core  Data Assimilation Methodology
+Key JPL Collaborators/Partners
+ECCO
+Estimating the Circulation and Climate of the Ocean
+Oceanography, Climate
+Adjoint-based variational (4DVAR)
+MIT, UT Austin, AER, Scripps Institution of Oceanography (SIO)
+ISSM
+Ice-sheet and Sea-level System Model
+Cryosphere, Sea Level
+Adjoint-based variational (4DVAR)
+University of California, Irvine
+MOMO-Chem
+Multi-mOdel Multi-cOnstituent Chemical data assimilation
+Atmospheric Chemistry
+Ensemble Kalman Filter, Multi-Model Framework
+JAMSTEC
+CMS-FLUX
+Carbon Monitoring System Flux
+Carbon Cycle
+Adjoint-based variational (4DVAR)
+NASA GSFC, NASA Ames
+RAPID
+Routing Application for Parallel computation of Discharge
+Hydrology, river network routing
+Kalman Filter
+MASA GSFC. UT-Austin, NOAA NWS, UC-Boulder
+CARDAMOM
+CARbon DAta MOdel fraMework
+Terrestrial Ecosystems
+Bayesian Inference (MCMC)
+Stanford, UCSB, University of Edinburgh
+EDMF
+Eddy-Diffusivity/Mass-Flux
+Atmospheric Physics
+Bayesian Inference
+NASA GSFC, GFDL, NCAR
+JPL-LES
+Large Eddy Simulation
+Small-scale turbulence, cloud, and precipitation processes
+None 
+Univ. Connecticut
+A schematic depicting the various models in the JEME is shown below.
+
+Figure 1. Schematic representation of JPL’s Earth Modeling Enterprise, including each model’s research, applications, and formulation domain. 
+
+A core capability represented in the JEME is the coupling among models and the sophisticated representation of the interfaces in the Earth system. Many of these connections are well established, and span a decade or more of development. Others are in active development. Note that, while we have represented the ISSM as a single framework, in actuality it consists of a set of three coupled models representing solid Earth, sea level, and ice sheets. 
+
+
+Figure 2. Schematic describing the coupling connections among the models in the JEME.
+A core feature of nearly every one of JPL’s models is the integration of sophisticated data assimilation systems designed to ingest a vast array of measurements of the Earth system. 
+
+
+Figure 3. Schematic depicting the NASA Earth science missions (text along the curved arrow), along with which of the JEME models routinely assimilate their data (ovals, with colors corresponding to the specific models).
+2.2 The Use of LLMs to Gather Summary Information about JPL’s Models
+2.2.1 Motivation
+Before conducting a detailed evaluation of JPL’s Earth system models, it is critical to build a clear overview of each modeling system. This includes summary information, core publications (seed papers), software repositories, and engagement metrics. Such overviews provide both context and a foundation for comparative assessment across models.
+2.2.2 Publication Dashboard
+The system is built on configuration-driven, modular design principles. Centralized model configurations in modelConfig.js define metadata, color themes, domains, and links. A hybrid architecture combines generic components with model-specific dashboards, while unified JSON structures ({MODEL}_analyzed.json) ensure consistent analysis. Error resilience is maintained through fallbacks, rate-limiting, and graceful degradation in LLM processing.
+The Citation Analyzer constructs prompts from citation metadata, including titles, abstracts, and references, and processes them with Ollama-compatible LLMs such as Gemma3. The outputs include engagement level classification from Level 1 through Level 4, research domain categorization, geographic tagging, and identification of seed papers.
+The system functions through a structured pipeline. Input sources include raw citations from CrossRef, JSON repositories, and publication databases. A deep learning publication classifier with semantic matching assigns papers to models. The LLM analysis step extracts engagement levels, domains, geography, and seed papers. The processed results are enriched into JSON, with calculated metrics and visualization assets. These outputs are rendered in a React-based dashboard, where Recharts components display trends, geographic distribution, and model insights interactively.
+2.2.3 Results - Comprehensive Analytics Across Models 
+The system analyzes six JPL modeling systems (RAPID, CMS-Flux, ECCO, ISSM, MOMO-CHEM, and CARDAMOM) to provide a consistent view of their scientific use and influence. For each model, developers identify seed papers that establish the core algorithms, applications, and validation studies. The system then compiles publications citing these seed papers and classifies them by engagement level, ranging from background references to foundational methods.
+Publications are additionally categorized by research domain (hydrology, carbon cycle, oceanography, cryosphere, and atmospheric chemistry). Geographic analysis maps regions of application, and institutional analysis reveals collaboration patterns.
+Results are delivered through a React-based dashboard that provides interactive visualizations of citation growth, domain distribution, and geographic reach. The dashboard supports model-specific analysis, such as RAPID in hydrology or ECCO in ocean circulation, and will be extended to enable cross-model comparisons, for example, between CMS-Flux and CARDAMOM in carbon cycle research.
+
+Figure 4. Screenshot from the JEME model dashboard depicting statistics for the ECCO model.
+
+3.  Heritage in Quantifying Maturity at NASA: Technological Readiness Levels
+
+NASA's Technological Readiness Levels (TRLs) are a systematic measurement system used to assess the maturity of a particular technology. The TRL scale consists of nine levels, with TRL 1 representing the initial, conceptual stage of a technology and TRL 9 indicating a fully mature technology that has been successfully proven in an operational environment. This framework provides a common understanding of a technology's status, enabling better communication, risk management, and decision-making in complex projects. TRLs, as they have been classically defined, are effective at tracking linear stepwise maturation of physical technologies and software components. However, they are not well suited for the iterative, data-dependent, and integration-heavy realities of modern software and machine-learning systems.
+
+The concept of TRLs was born out of the unique challenges of space exploration. In the 1970s, NASA needed a method to evaluate the maturity of technologies proposed for its ambitious missions. Stan Sadin, a researcher at NASA, is credited with conceiving the initial seven-level scale in 1974. These levels were formally defined in 1989. By the 1990s, the scale was expanded to the nine levels that are in use today. The TRL framework proved so effective that it was adopted and adapted by other U.S. government agencies, including the Department of Defense (DoD), as well as international organizations like the European Space Agency (ESA). The International Organization for Standardization (ISO) further solidified its importance by publishing the ISO 16290:2013 standard based on the TRL scale.
+
+While originally conceived for hardware, the TRL framework has been adapted for assessing the maturity of software - which is more relevant for observation-informed Earth modeling systems. The application of TRLs to software provides a structured approach to track progress and manage risk in software-intensive projects, acknowledging the unique lifecycle and challenges of software development. The general principles of the TRL scale remain the same for software; however, the specific criteria for each level are tailored to reflect the software development process. 
+
+Descriptions of the nine TRL levels, as applied to software, are as follows:
+
+TRL 1: Basic Principles Observed and Reported. This level corresponds to the initial conception of a software-based technology. The focus is on the underlying computer science and mathematical principles. Key evidence includes peer-reviewed research papers or technical reports that describe the fundamental properties of a new software architecture, mathematical formulation, or algorithm. The technology exists only as a concept.
+
+TRL 2: Technology Concept and/or Application Formulated. A practical application for the basic principles is identified. This stage is still speculative, but the focus shifts to defining the concept in the context of a potential use case. Activities may include coding basic principles in small, standalone units and performing analytical studies with synthetic or non-representative data to explore feasibility.
+
+TRL 3: Analytical and Experimental Proof-of-Concept. Active R&D begins with the goal of creating a proof-of-concept. This involves developing limited functionality in non-integrated software components to validate the critical properties of the algorithm or architecture. The code is typically run on a surrogate processor in a laboratory environment, and the results are used to validate the analytical predictions from TRL 2.
+
+TRL 4: Module and/or Subsystem Validation in a Laboratory Environment. Key software components and modules are integrated for the first time to establish that they can interoperate. At this stage, the focus is on functional validation and the initial development of the software architecture. The integrated system is still primitive with regard to efficiency and reliability and may use simulated interfaces or "stubs" for missing components.
+
+TRL 5: Module and/or Subsystem Validation in a Relevant Environment. The reliability and fidelity of the integrated software increase significantly. End-to-end software elements are implemented and tested in an environment that is "relevant" to the final application. This means the software is interfaced with reasonably realistic supporting elements, such as other software systems or hardware-in-the-loop simulations, and may be running on a processor with characteristics similar to the target hardware. At this stage, the software is often considered an "Alpha" release, and formal configuration management and Verification, Validation, & Accreditation (VV&A) processes are initiated.
+
+TRL 6: System/Subsystem Model or Prototype Demonstration in a Relevant Environment. A representative prototype of the software system is demonstrated on full-scale, realistic problems in a high-fidelity relevant environment. The software is now well beyond the TRL 5 stage, is often considered a "Beta" release, and is partially integrated with existing operational hardware and software systems. This level fully demonstrates the engineering feasibility of the software to meet its performance goals.
+
+TRL 7: System Prototype Demonstration in an Operational Environment. The software prototype, containing all key functionality, is demonstrated in the actual operational environment. This requires integrating the software with the operational hardware and software systems on the target platform (e.g., a flight computer, a ground control station) and demonstrating its performance in a real-world or high-fidelity simulated operational scenario. Most software bugs have been removed, and the software support structure is in place.
+
+TRL 8: Actual System Completed and "Mission Qualified." The final version of the software has been completed and qualified for its mission. All software has been thoroughly debugged and is fully integrated with all operational hardware and software systems. The formal Verification and Validation (V&V) process is complete, providing objective evidence that the software meets all of its requirements. All user documentation, training materials, and maintenance documentation are finalized and complete.
+
+TRL 9: Actual System "Mission Proven." The final software has been successfully operated in its intended mission. This level is achieved when the software has performed its required functions under actual mission conditions, demonstrating its reliability and performance. Sustaining engineering support is in place to manage any remaining issues, and the frequency of software deficiency reports is minimal.
+
+The application of TRLs to software is not without its challenges. The wide variety of software tools, alongside iterative development methodologies, can make a direct one-to-one mapping to hardware-centric TRL definitions challenging. While the framework provides a valuable tool for assessing the maturity of individual software components, it is increasingly challenging to apply to larger and more complex systems.
+
+4. Complex Model Evaluation Metrics: The Department of Energy’s Predictive Capability Maturity Model
+
+The Predictive Capability Maturity Model (PCMM) is a tool, developed by Sandia National Laboratories, designed to characterize and communicate the completeness of the approaches employed in computational model definition, verification, validation, and uncertainty quantification (V&V/UQ).  It was initially developed for physics-based computational simulations supporting nuclear weapons applications; a domain inherently demanding extreme rigor and precision due to the high-stakes nature of its outcomes and lack of testing environments. It provides a foundation for measuring computational model rigor, but is not on its own sufficient for evaluating the data- and integration-focused metrics that are crucial for the use and development of modern data-assimilation-enabled science models. The goals of a PCMM evaluation are twofold: 1) to enable the accurate and transparent communication of computational simulation capability; and 2) to generate actionable input for effective planning. This framework has undergone several generational evolutions since its first iteration in 2007, each aimed at enhancing its clarity, rigor, and overall completeness. 
+
+The first generation of the PCMM, introduced in 2007, established six core evaluation dimensions, and defined four "Maturity Levels" (ranging from 0 to 3). These levels were initially linked to the consequence of the application, from low-impact scoping studies (Level 0) to high-consequence, decision-making applications heavily reliant on simulation results (Level 3). Subsequent developments included the second generation (Pilch, 2008), which introduced sub-elements to provide greater depth and detail, and the third generation (Pilch et al., 2011), which shifted its focus towards an "evidence-based assessment process" and emphasized the quality of the supporting evidence, alongside the introduction of a spreadsheet tool for assessments. Despite these advancements, there remained persistent concerns regarding inconsistencies in the approach and rigor across different PCMM assessments, as well as a perceived lack of tangible impact from such evaluations. These observations prompted a comprehensive, top-down review and revision by a team of PCMM Subject Matter Experts (SMEs) in Fiscal Year 2012, culminating in the development of the fourth, and most recent, generation of the PCMM.
+
+The development of Generation 4 of the PCMM was motivated by 1) identification of limitations of earlier versions, and 2) a commitment to enhance its utility. The following core principles guided the PCMM revisions:
+
+Shift from "Maturity Level" to "Level": Replacing the term "Maturity Level" with simply "Level" in the assessment headers was a direct response to negative feedback associated with the implied "grading system" of "maturity." By reframing the assessment as a descriptive "categorization" of completeness and rigor, rather than a judgmental score, the PCMM aims to reduce psychological barriers and foster more transparent and honest self-assessments. This conceptual reorientation is particularly valuable for complex and continuously evolving models like ESMs, where the pursuit of "perfection" is an ongoing journey rather than a fixed destination.
+
+Requirements-Driven Approach: PCMM evaluations are fundamentally rooted in customer requirements. These requirements must be explicitly defined, thoroughly documented, and clearly articulate how the computational simulation information will be utilized. This ensures that the assessment remains relevant and directly supports the decision-making context.
+
+Team-Based Elicitation: A cornerstone of the PCMM is its emphasis on a multi-disciplinary team approach for evaluations. Such teams are ideally composed of customers, analysts, developers, experimentalists, and a dedicated PCMM Subject Matter Expert (SME). This collaborative structure is designed to foster comprehensive and consistent evaluations by integrating diverse perspectives and expertise. The reliance on such a broad team highlights that the PCMM is not merely a technical assessment tool but also functions as a socio-technical framework. Its effectiveness is deeply intertwined with successful interdisciplinary collaboration and communication, which are well-known challenges and critical success factors in large-scale scientific endeavors like ESMs. By formalizing this collaborative assessment, the PCMM provides a mechanism to address significant organizational complexities inherent in ESM development and application.
+
+Emphasis on Evidence Quality: The PCMM mandates that assessments be grounded in the quality of the evidence supporting the computational simulation's credibility. This focus ensures that conclusions are data-driven and defensible.
+
+Continuous Improvement Feedback Loop: The framework is designed to be dynamic, incorporating "lessons learned" and feedback mechanisms throughout its application. This iterative refinement process facilitates ongoing improvements to both the PCMM tool itself and the evaluation methodology. The very evolution of the PCMM from its first to its fourth generation exemplifies a meta-level application of maturity models to the V&V/UQ process. This demonstrates that the PCMM is not a static checklist but a living framework built for continuous enhancement. This adaptive nature is crucial for ESMs, where scientific understanding, computational capabilities, and available data are constantly advancing, necessitating that V&V/UQ methodologies also mature in parallel with the models.
+
+"Gatekeepers" Concept: A critical innovation in Generation 4 is the introduction of "Gatekeepers"—necessary preconditions that must be satisfied before a PCMM evaluation is formally undertaken. These preconditions ensure that the assessment is meaningful, productive, and not a "waste of time". Key Gatekeepers include:
+	•	Clear understanding and documentation of customer requirements for the intended application.
+	•	Demonstrable minimal functionality of the computational capability (e.g., ability to mesh problems, run on available computers, and show some comparison with physical data).
+	•	An evaluation team that possesses sufficient subject matter expertise in the application domain and computational capability.
+
+The introduction of these Gatekeepers represents a fundamental shift from merely assessing maturity to actively ensuring readiness for assessment. In the case of mature ESMs, the above pre-conditions are nearly always met. 
+
+The PCMM's utility stems from its origin in a highly demanding domain. The framework's application as a tool to evaluate nuclear weapons simulations necessitated a robust and rigorous approach to V&V/UQ. The high stakes and complexity of nuclear weapons testing makes the PCMM potentially transferable to other complex and societally important computational domains, such as Earth System Models. As with nuclear weapons simulations, ESMs grapple with diverse sources of uncertainty, and are relied upon to provide high-confidence predictions for critical societal and policy decisions, including climate change mitigation and adaptation, and disaster preparedness. The parallels in the demand for robust, evidence-based assessment of computational credibility suggest that the PCMM may be adaptable for the ESM community in general, and to JPL’s Earth modeling systems in particular.
+
+The recurring challenges of "lack of impact" and "inconsistency" in the outcomes of applications of previous PCMM iterations, despite technical improvements, point to a deeper challenge related to organizational adoption and strategic alignment. This suggests that for any systematic model evaluation procedure to be truly successful within a modeling community, it requires not just a technically sound tool, but also strong institutional buy-in, clear mandates, and seamless integration into existing programmatic decision-making processes. The establishment of the JEME and the discussions that have occurred over the past two years, along with this document that summarizes our activities, serves to illustrate the work needed to establish clear guidelines, management support, and community engagement.
+
+5. A New Set of Metrics for Quantifying Earth System Model Capability
+
+While DOE’s PCMM and NASA’s TRL frameworks have proven useful in their particular domains, they are insufficient in and of themselves for evaluation of physics-based data-assimilative models. This is largely because they were developed for strict technical evaluation - of computational capability in the case of the PCMM, and of technological readiness in the case of TRLs. Our goal is the development of a comprehensive framework that is capable of quickly assessing the utility of an Earth system model for science, formulation, and applications. Computational and technological capability are necessary but not sufficient metrics.  
+
+Hence, building on the foundation of DOE’s PCMM and NASA’s TRL assessment, we define a set of model evaluation criteria applicable to JPL’s diverse modeling tools. We divide these criteria into two types: a set of qualitative descriptors (Model Qualitative Descriptors; MQD’s) and a set of quantitative capability levels (MCLs). From the TRL framework, we inherit the notion of a progression in maturity that begins at a conceptual level and proceeds to full operational implementation. It is this progression in maturity that undergirds the concept of a MQD. Because of the challenges noted above in the adaptation of TRLs to software development, we base our quantitative application largely on the PCMM. Key aspects of the PCMM that we find useful for evaluation of Earth System Models include:
+	•	A four-step scale that begins at zero: Defining zero as a starting point allows each model capability metric the possibility of having no capability at all. Restricting the remaining levels to only three possible options makes the assessment of model capability more straightforward. A given capability can be either non-existent or divided into low, medium, and high levels. 
+	•	The PCMM version 4 adopts the notion of quantitative levels that are apolitical and rigorously defensible using evidence-based analysis so that model developers and external evaluators should be able to reach the same conclusions given the same model and same evaluation criteria.
+Elements of the PCMM that we acknowledge to be important, but have not yet implemented in this version of the Earth System Model maturity assessment include:
+	•	Basis in customer defined and documented requirements.
+	•	Creation of a multi-disciplinary team of evaluators for each JPL system, composed of customers, analysts, developers, and experimentalists.
+
+In creating an initial model maturity evaluation system, we pursue three important outcomes. 
+
+	•	The system should be able to objectively identify which modeling tools are fit for purpose across diverse applications, including: scientific analysis, mission formulation, and decision making. 
+	•	Application of model maturity assessment to JPL’s models should yield a set of common development needs that can be used to maximize limited resources. 
+	•	In fields like Earth Science, where different technical approaches have been developed (for example: Ensemble Kalman Filters, 4DVAR, and ML for data assimilation), it is vital that the definition of maturity not reference a specific approach or implementation choice, but rather the demonstrated capability, independent of method used.
+
+We divide the model capability and qualitative descriptors into two levels. Tier 1 is intended to capture overarching model qualities and capabilities, and serves as an umbrella under which more specific groups of capabilities can be defined. Tier 1 qualitative descriptors address the primary science and application domain, the heritage and development status, the types of compute architecture on which the model can be run, public accessibility of the code, and the partners involved in development and implementation. Tier 1 capability levels quantify the: spatial and temporal resolution; realism of processes within the model, coupling across models, and predictive skill; degree of observational constraint (Verification and Validation), uncertainty quantification (UQ); adoption of ML and AI; sophistication of the data assimilation system and its use in producing long-term records; use of the model in new mission formulation; computational performance and flexibility; degree to which the code is available open source; and level of adoption in decision support. A full set of MQDs and MCLs can be found in Tables XX and XX.
+
+Tier 2 qualitative descriptors and capability levels are intended to provide a level of detail necessary to determine whether a model is fit for specific science, formulation, or application purpose. We define five different Tier 2 categories: Research, Data Assimilation, Machine Learning, Formulation, and Applications.
+
+2.1 Research
+
+Most of JPL’s models were designed as exploratory laboratories, often integrating theory with observational constraints to provide insight into the Earth system. Qualitative descriptors in this section document the domain areas that a particular model is considered to be best suited for within its broader scientific topic area. Quantitative capability levels measure the ability of a model to continue to push the frontiers of scientific discovery along several different dimensions. Descriptors are tabulated below, and (as in Tier 1) are designed not to be quantitative, but rather descriptive, documenting the scientific focus, heritage, model type, and science development and user community. Capability levels measure the fidelity of representation of fundamental processes, the sophistication which which the model is coupled with other adjacent Earth system models, predictive skill, and spatio-temporal resolution relative to the relevant range of real-world scales. 
+
+2.2 Data Assimilation
+
+All Earth system models benefit from comparisons with observations, and the need to verify and validate a model is central to establishing its overall trustworthiness and fitness for purpose. Similarly, quantification of uncertainty is key to understanding the contexts within which a model can be trusted to provide falsifiable hypothesis tests or actionable decision support. Both of these activities (V&V and UQ) can be accomplished without routinely combining observations with model outcomes. However, data assimilation, which formally integrates the model with observations to produce a state and/or model parameter estimate that combines the strengths of both sources of information, is a significant strength. It is also a key motivator for NASA to conduct numerical modeling. In addition, DA is useful for mitigating model biases and for providing information that is missing in the model due to incomplete representation of processes or insufficient spatial and temporal resolution.
+
+Qualitative descriptors in this sub-topic document the forms of data assimilation methodologies available, the types of observations ingested, and the ease with which new observations can be incorporated into the system. Quantitative capability levels measure: the degree to which assimilation is integrated into the modeling system, the diversity of observations assimilated, the use of DA to identify and constrain model error and aid in model development, and the interoperability of the DA system with other models.
+
+2.3 Machine Learning
+
+Machine learning as a topic covers a vast diversity of methodologies and applications. In the context of the direct use of Earth system models as tools (as opposed to analysis of their output), ML has been most frequently used to provide fast and accurate approximations to model components or to entire models. However, ML has vast potential for model sensitivity analysis, understanding of model bias, and (via incorporation of information from observations) discovery of new processes that are not yet represented in a model. In evaluating the suitability of models for research, formulation, and applications, we include metrics that capture the use of ML for model emulation, sensitivity analysis, bias correction, and discovery. As such, the qualitative descriptors document the types of algorithms used and the use of ML in the modeling system. Quantitative capability levels measure the robustness of the validation of the ML technique(s) used, the degree to which ML is integrated into the modeling system, and the availability of uncertainty estimates on the ML algorithm(s).
+
+
+2.4 Mission Formulation
+
+Models have a long history of use in the design and evaluation of new mission concepts. In the area of weather, forecast observing system simulation experiments (OSSEs) have been used for decades to estimate the impact of a new observation on forecast accuracy through their use in synthetic data assimilation experiments. Analogous experiments are possible with any assimilative model for which new observations can be simulated, and their impact evaluated via comparison with a reference. The use of models to support the design and implementation of new components of the Earth observing system is another fundamental motivation for numerical modeling within NASA. 
+
+This section addresses the use of models in the process of designing new mission concepts. The qualitative descriptors document the model’s heritage in formulation, its primary mission support focus, and its adoption by NASA and agencies beyond NASA. Quantitative capability levels measure the model’s use of the program of record, the ease with which a model can be adapted to a new mission concept, and its support for a diversity of observation types.
+
+2.5 Applications
+
+Increasingly, NASA’s Earth Science Division has focused on the use of its data for applications beyond scientific discovery, including (among many others) disaster response and short and long term decision support. While NASA has a long history of partnership with applications end users in particular areas, every new mission is now required to build applications into its strategic planning. Models produce output in consistent formats, most often at regular time and space intervals, and with variables that are more closely related to end user needs than data produced by observations. As such, they are automatically more easily tailored to suit the needs of non-scientific users. Barriers to use are often a function of the degree to which a model realistically represents a process or outcome of interest, whether it runs quickly enough to be useful for decision making, and whether its output is made accessible to end users.
+
+The qualitative descriptors in this section document the decision support focus areas enabled by the model, which stakeholders have used the model in their applications, whether the model is used for short term and/or long term planning, and the roadmap for future applications uses. Quantitative capability levels include the degree to which high impact events can be realistically and rapidly simulated, the degree to which uncertainties can be communicated, the integration with risk and economic models, and the community adoption/awareness and training.
+
+
+6. Applying Model Capability Levels to Earth System Models: Examples
+
+	•	How the MQDs and MCLs are computed
+	•	Application to JPL’s models in the IMVI
+	•	ECCO
+	•	ISSM
+	•	Include GISS Model-E and/or GMAO GEOS?
+	•	Examine models outside of NASA? (CESM, E3SM, …)
+
+7. Discussion and Path Forward
+
+	•	Quantification of model capability must be flexible - a living framework, because:
+	•	The modeling context is rapidly evolving
+	•	Rise of ML/AI
+	•	Transition to open source / open science
+	•	Changes in computing HPC - cloud, containerization, etc 
+	•	There are significant programmatic changes at NASA
+	•	Focus areas to spheres
+	•	Move toward lower-cost missions that must also be broad in scope and maximally useful for applications
+	•	These present both challenges and opportunities. Challenges associated with short term tactics and long term strategy as rapidly moving targets, and the resulting uncertainty in how modeling efforts will be funded, and the degree of support. Opportunities for JPL to provide leadership, and guide NASA’s evolving modeling activities.
+
+8. Summary and Conclusions
+
+Appendices
+
+	•	Describe each of JPL’s models and apply metrics to each of them?
+
+References
+
+
+
