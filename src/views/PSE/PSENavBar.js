@@ -16,7 +16,7 @@ const PSENavBar = ({ activeTab, setActiveTab }) => {
   return (
     <header className="bg-white border-b border-gray-200 shadow-sm sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-        <Link to="/science-model-dashboard/pse" className="flex items-center gap-3">
+        <Link to="/pse" className="flex items-center gap-3">
           <img
             src="/science-model-dashboard/favicon-pse.svg"
             alt="PSE"
