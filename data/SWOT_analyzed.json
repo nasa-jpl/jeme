@@ -17,7 +17,7 @@
     "citing_team_paper": null,
     "team_paper_id": null,
     "research_domain": "Ocean Surface Topography",
-    "engagement_level": "Simple Citation",
+    "engagement_level": "Citation",
     "missions_instruments": [
       {
         "name": "SWOT",
@@ -51,7 +51,7 @@
         "phase2_majority_domain": "Ocean Surface Topography",
         "llm_reclassification": {
           "previous_label": "Review Paper",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "The paper focuses on a new generative data assimilation framework using multi-modal satellite observations (sea surface height, temperature, salinity) but does not explicitly mention using SWOT data or products.",
           "confidence": 4,
           "abstract_used": true,
@@ -96,7 +96,7 @@
     "citing_team_paper": null,
     "team_paper_id": null,
     "research_domain": "River & Lake Monitoring",
-    "engagement_level": "Simple Citation",
+    "engagement_level": "Citation",
     "missions_instruments": [
       {
         "name": "SWOT",
@@ -130,7 +130,7 @@
         "phase2_majority_domain": "River & Lake Monitoring",
         "llm_reclassification": {
           "previous_label": "Data Usage",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "The abstract discusses global river network data products and river routing models, and satellite remote sensing for river networks, but does not mention SWOT data or products.",
           "confidence": 4,
           "abstract_used": true,
@@ -516,7 +516,7 @@
     "country": "USA",
     "citing_team_paper": null,
     "team_paper_id": null,
-    "research_domain": "General Science",
+    "research_domain": "Water Resource Management",
     "engagement_level": "Review Paper",
     "missions_instruments": [
       {
@@ -567,14 +567,10 @@
     },
     "is_peer_reviewed": true,
     "research_domains": [
-      "Remote Sensing",
+      "Water Resource Management",
       "Hydrology & Water Resources",
       "Oceanography",
-      "Satellite Altimetry",
-      "Water Resource Management",
-      "Flood Modeling",
-      "Climate Resilience",
-      "Applied Science"
+      "Remote Sensing"
     ]
   },
   {
@@ -678,7 +674,7 @@
     "country": "USA",
     "citing_team_paper": null,
     "team_paper_id": null,
-    "research_domain": "General Science",
+    "research_domain": "Hydrology & Water Resources",
     "engagement_level": "Data Usage",
     "missions_instruments": [
       {
@@ -729,13 +725,9 @@
     },
     "is_peer_reviewed": true,
     "research_domains": [
-      "Remote Sensing",
       "Hydrology & Water Resources",
-      "Wetland Ecology",
-      "Satellite Altimetry",
-      "Carbon Cycle",
-      "Ecosystem Science",
-      "Geophysics"
+      "Remote Sensing",
+      "Data Validation"
     ]
   },
   {
@@ -880,7 +872,7 @@
         "phase2_majority_domain": "Remote Sensing & Satellite",
         "llm_reclassification": {
           "previous_label": "Review Paper",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "This paper provides a comprehensive overview of the rigorous modeling and testing methodologies employed to ascertain the satellite's self-compatibility, ensuring mission success and reliability.",
           "confidence": 4,
           "abstract_used": true,
@@ -888,7 +880,7 @@
           "timestamp": "2026-04-22T16:27:11Z"
         },
         "team_paper_override": {
-          "previous_label": "Simple Citation",
+          "previous_label": "Citation",
           "new_label": "Data Usage",
           "reason": "Team paper (authored by the model/mission group); minimum engagement level is Data Usage by the by-author rule.",
           "reviewer": "rule",
@@ -968,7 +960,7 @@
         "phase2_majority_domain": "Ocean & Marine Science",
         "llm_reclassification": {
           "previous_label": "Review Paper",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "The substantial deficit of energy in the IT atlas highlights the inability for altimetric estimates to measure incoherent and fine-scale ITs and strongly supports the need to isolate ITs signature in the data collected by the new wide-swath altimetry mission SWOT.",
           "confidence": 4,
           "abstract_used": true,
@@ -976,7 +968,7 @@
           "timestamp": "2026-04-22T16:27:11Z"
         },
         "team_paper_override": {
-          "previous_label": "Simple Citation",
+          "previous_label": "Citation",
           "new_label": "Data Usage",
           "reason": "Team paper (authored by the model/mission group); minimum engagement level is Data Usage by the by-author rule.",
           "reviewer": "rule",
@@ -1137,7 +1129,7 @@
     "country": "USA",
     "citing_team_paper": null,
     "team_paper_id": null,
-    "research_domain": "General Science",
+    "research_domain": "River & Lake Monitoring",
     "engagement_level": "Data Usage",
     "missions_instruments": [
       {
@@ -1188,11 +1180,10 @@
     },
     "is_peer_reviewed": true,
     "research_domains": [
+      "River & Lake Monitoring",
       "Hydrology & Water Resources",
       "Remote Sensing",
-      "Satellite Altimetry",
-      "Hydraulic Modeling",
-      "Calibration & Validation"
+      "Data Validation"
     ]
   },
   {
@@ -1210,7 +1201,7 @@
     "country": null,
     "citing_team_paper": null,
     "team_paper_id": null,
-    "research_domain": "General Science",
+    "research_domain": "Cryosphere & Glaciology",
     "engagement_level": "Data Usage",
     "missions_instruments": [
       {
@@ -1263,9 +1254,8 @@
     "research_domains": [
       "Cryosphere & Glaciology",
       "Remote Sensing",
-      "Polar Oceanography",
       "Satellite Altimetry",
-      "Oceanography"
+      "Data Validation"
     ]
   },
   {
@@ -1359,7 +1349,7 @@
     "country": null,
     "citing_team_paper": null,
     "team_paper_id": null,
-    "research_domain": "General Science",
+    "research_domain": "Climate Change",
     "engagement_level": "Review Paper",
     "missions_instruments": [
       {
@@ -1410,11 +1400,10 @@
     },
     "is_peer_reviewed": true,
     "research_domains": [
+      "Climate Change",
       "Hydrology & Water Resources",
-      "Remote Sensing",
       "Oceanography",
-      "Satellite Altimetry",
-      "Earth System Science"
+      "Remote Sensing"
     ]
   },
   {
@@ -1475,7 +1464,7 @@
         "phase2_majority_domain": "Hydrology & Water Resources",
         "llm_reclassification": {
           "previous_label": "Data Usage",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "This is changing with the advent of the Surface Water and Ocean Topography (SWOT) mission... With the launch of SWOT, river hypsometry constraints applied to simultaneous measurement of WSE and width will support new discharge estimates globally.",
           "confidence": 4,
           "abstract_used": true,
@@ -1483,7 +1472,7 @@
           "timestamp": "2026-04-22T16:27:11Z"
         },
         "team_paper_override": {
-          "previous_label": "Simple Citation",
+          "previous_label": "Citation",
           "new_label": "Data Usage",
           "reason": "Team paper (authored by the model/mission group); minimum engagement level is Data Usage by the by-author rule.",
           "reviewer": "rule",
@@ -1566,7 +1555,7 @@
         "phase2_majority_domain": "Ocean & Marine Science",
         "llm_reclassification": {
           "previous_label": "Review Paper",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "The paper uses deep learning to improve global satellite observations of ocean eddy dynamics, synthesizing multi-modal satellite observations of sea surface height (SSH) and temperature. It does not mention SWOT data.",
           "confidence": 5,
           "abstract_used": true,
@@ -1574,7 +1563,7 @@
           "timestamp": "2026-04-22T16:27:11Z"
         },
         "team_paper_override": {
-          "previous_label": "Simple Citation",
+          "previous_label": "Citation",
           "new_label": "Data Usage",
           "reason": "Team paper (authored by the model/mission group); minimum engagement level is Data Usage by the by-author rule.",
           "reviewer": "rule",
@@ -1648,7 +1637,7 @@
         "phase2_majority_domain": "Hydrology & Water Resources",
         "llm_reclassification": {
           "previous_label": "Review Paper",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "current missions focusing on a range of hydrological variables (i.e., SWOT, SMAP, and GRACE). ... Results from this study can be used to inform ... sampling requirements of upcoming remote sensing missions in hydrology.",
           "confidence": 4,
           "abstract_used": true,
@@ -1656,7 +1645,7 @@
           "timestamp": "2026-04-22T16:27:11Z"
         },
         "team_paper_override": {
-          "previous_label": "Simple Citation",
+          "previous_label": "Citation",
           "new_label": "Data Usage",
           "reason": "Team paper (authored by the model/mission group); minimum engagement level is Data Usage by the by-author rule.",
           "reviewer": "rule",
@@ -2197,7 +2186,7 @@
         "phase2_majority_domain": "Hydrology & Water Resources",
         "llm_reclassification": {
           "previous_label": "Data Usage",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "The abstract states, \"These results are very encouraging and could be improved when the future Surface Water and Ocean Topography (SWOT) wide swath altimetry mission discharge product will be available.\"",
           "confidence": 5,
           "abstract_used": true,
@@ -2205,7 +2194,7 @@
           "timestamp": "2026-04-22T16:27:13Z"
         },
         "team_paper_override": {
-          "previous_label": "Simple Citation",
+          "previous_label": "Citation",
           "new_label": "Data Usage",
           "reason": "Team paper (authored by the model/mission group); minimum engagement level is Data Usage by the by-author rule.",
           "reviewer": "rule",
@@ -2360,7 +2349,7 @@
         "phase2_majority_domain": "Remote Sensing & Satellite",
         "llm_reclassification": {
           "previous_label": "Data Usage",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "This paper outlines some analytical multipath models that were used for instrument design, performance analysis and mitigation of the multipath signal.",
           "confidence": 4,
           "abstract_used": true,
@@ -2368,7 +2357,7 @@
           "timestamp": "2026-04-22T16:27:13Z"
         },
         "das_enrichment": {
-          "previous_label": "Simple Citation",
+          "previous_label": "Citation",
           "new_label": "Data Usage",
           "justification": "This paper outlines some analytical multipath models that were used for instrument design, performance analysis and mitigation of the multipath signal.",
           "confidence": 5,
@@ -2447,7 +2436,7 @@
         "phase2_majority_domain": "Remote Sensing & Satellite",
         "llm_reclassification": {
           "previous_label": "Data Usage",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "The paper describes a hackathon for early adopters to build skills to use anticipated SWOT data, but does not use SWOT data itself.",
           "confidence": 4,
           "abstract_used": true,
@@ -2455,7 +2444,7 @@
           "timestamp": "2026-04-22T16:27:13Z"
         },
         "team_paper_override": {
-          "previous_label": "Simple Citation",
+          "previous_label": "Citation",
           "new_label": "Data Usage",
           "reason": "Team paper (authored by the model/mission group); minimum engagement level is Data Usage by the by-author rule.",
           "reviewer": "rule",
@@ -2703,7 +2692,7 @@
         "phase2_majority_domain": "Hydrology & Water Resources",
         "llm_reclassification": {
           "previous_label": "Data Usage",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "The paper generates a synthetic dataset inspired by satellite altimetry and evaluates sampling strategies for global discharge characterization, but does not use actual SWOT data.",
           "confidence": 4,
           "abstract_used": true,
@@ -2711,7 +2700,7 @@
           "timestamp": "2026-04-22T16:27:14Z"
         },
         "team_paper_override": {
-          "previous_label": "Simple Citation",
+          "previous_label": "Citation",
           "new_label": "Data Usage",
           "reason": "Team paper (authored by the model/mission group); minimum engagement level is Data Usage by the by-author rule.",
           "reviewer": "rule",
@@ -2870,7 +2859,7 @@
         "phase2_majority_domain": "Ocean & Marine Science",
         "llm_reclassification": {
           "previous_label": "Data Usage",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "The paper discusses the implications of SWOT's future measurements for geostrophic balance but does not use any SWOT data or products in its analysis, which is based on a numerical model.",
           "confidence": 5,
           "abstract_used": true,
@@ -2878,7 +2867,7 @@
           "timestamp": "2026-04-22T16:27:14Z"
         },
         "team_paper_override": {
-          "previous_label": "Simple Citation",
+          "previous_label": "Citation",
           "new_label": "Data Usage",
           "reason": "Team paper (authored by the model/mission group); minimum engagement level is Data Usage by the by-author rule.",
           "reviewer": "rule",
@@ -3381,7 +3370,7 @@
         "phase2_majority_domain": "Ocean & Marine Science",
         "llm_reclassification": {
           "previous_label": "Data Usage",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "This is motivated by the upcoming Surface Water and Ocean Topography (SWOT) satellite mission, which will collect novel high-resolution wide-swath SSH measurements.",
           "confidence": 4,
           "abstract_used": true,
@@ -3389,7 +3378,7 @@
           "timestamp": "2026-04-22T16:27:14Z"
         },
         "team_paper_override": {
-          "previous_label": "Simple Citation",
+          "previous_label": "Citation",
           "new_label": "Data Usage",
           "reason": "Team paper (authored by the model/mission group); minimum engagement level is Data Usage by the by-author rule.",
           "reviewer": "rule",
@@ -3717,7 +3706,7 @@
         "phase2_majority_domain": "Ocean & Marine Science",
         "llm_reclassification": {
           "previous_label": "Review Paper",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "The paper uses drifter observations and a numerical model. It mentions \"future high-resolution satellite missions\" generally, but does not specifically name or use SWOT.",
           "confidence": 5,
           "abstract_used": true,
@@ -3725,7 +3714,7 @@
           "timestamp": "2026-04-22T16:27:15Z"
         },
         "team_paper_override": {
-          "previous_label": "Simple Citation",
+          "previous_label": "Citation",
           "new_label": "Data Usage",
           "reason": "Team paper (authored by the model/mission group); minimum engagement level is Data Usage by the by-author rule.",
           "reviewer": "rule",
@@ -3878,7 +3867,7 @@
         "phase2_majority_domain": "Ocean & Marine Science",
         "llm_reclassification": {
           "previous_label": "Data Usage",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "Our analysis provides model predictions for interpreting the anticipated observations from SWOT and guidance for the development of analysis methodologies.",
           "confidence": 4,
           "abstract_used": true,
@@ -3886,7 +3875,7 @@
           "timestamp": "2026-04-22T16:27:15Z"
         },
         "team_paper_override": {
-          "previous_label": "Simple Citation",
+          "previous_label": "Citation",
           "new_label": "Data Usage",
           "reason": "Team paper (authored by the model/mission group); minimum engagement level is Data Usage by the by-author rule.",
           "reviewer": "rule",
@@ -4448,7 +4437,7 @@
         "phase2_majority_domain": "Ocean & Marine Science",
         "llm_reclassification": {
           "previous_label": "Review Paper",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "Many issues may challenge standard interpolation techniques to produce high-resolution gridded maps of sea surface height in the context of future missions like Surface Water and Ocean Topography (SWOT).",
           "confidence": 4,
           "abstract_used": true,
@@ -4456,7 +4445,7 @@
           "timestamp": "2026-04-22T16:27:16Z"
         },
         "team_paper_override": {
-          "previous_label": "Simple Citation",
+          "previous_label": "Citation",
           "new_label": "Data Usage",
           "reason": "Team paper (authored by the model/mission group); minimum engagement level is Data Usage by the by-author rule.",
           "reviewer": "rule",
@@ -4680,7 +4669,7 @@
         "phase2_majority_domain": "Remote Sensing & Satellite",
         "llm_reclassification": {
           "previous_label": "Data Usage",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "The paper investigates calibration methods for the *proposed* SWOT mission using simulations, not actual SWOT data. It discusses SWOT's requirements and potential strategies.",
           "confidence": 4,
           "abstract_used": true,
@@ -4688,7 +4677,7 @@
           "timestamp": "2026-04-22T16:27:16Z"
         },
         "das_enrichment": {
-          "previous_label": "Simple Citation",
+          "previous_label": "Citation",
           "new_label": "Data Usage",
           "justification": "we carried out simulations as a contingency strategy (i.e., to be ready if roll is larger than anticipated) that could be used with ground-based data. We revisit the empirical calibration algorithms with additional solving methods (e.g., based on orbit sub-cycle) and more sophisticated performance a",
           "confidence": 5,
@@ -5326,7 +5315,7 @@
     "citing_team_paper": "SWOT Observations Over Sea Ice: A First Look",
     "team_paper_id": "aff844ce9ca439b05ccc2ebe3557e141fb7e0366",
     "research_domain": "Coastal & Estuarine Dynamics",
-    "engagement_level": "Simple Citation",
+    "engagement_level": "Citation",
     "missions_instruments": [
       {
         "name": "SWOT",
@@ -5360,7 +5349,7 @@
         "phase2_majority_domain": "Ocean Surface Topography",
         "llm_reclassification": {
           "previous_label": "Review Paper",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "Strikingly, SITs lose >80% phase coherence within similar to 2 wavelengths of propagation, posing challenges for accurate tidal signal removal in the Andaman Sea's SWOT data. ... improving SWOT-based submesoscale studies",
           "confidence": 4,
           "abstract_used": true,
@@ -6112,7 +6101,7 @@
     "citing_team_paper": "Will the Surface Water and Ocean Topography (SWOT) Satellite Mission Observe Floods?",
     "team_paper_id": "346faa768695321ece19f1e46620e267f8bac3a7",
     "research_domain": "Geodesy",
-    "engagement_level": "Simple Citation",
+    "engagement_level": "Citation",
     "missions_instruments": [
       {
         "name": "SWOT",
@@ -6146,7 +6135,7 @@
         "phase2_majority_domain": "Geodesy",
         "llm_reclassification": {
           "previous_label": "Data Usage",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "Within wavelengths shorter than 7 km, the GMGG1 model outperforms the vertical gravity gradient data obtained from the surface water and ocean topography (SWOT) mission, exhibiting superior spatial resolution and topographic response capabilities.",
           "confidence": 4,
           "abstract_used": true,
@@ -6728,7 +6717,7 @@
     "country": "China",
     "citing_team_paper": "Will the Surface Water and Ocean Topography (SWOT) Satellite Mission Observe Floods?",
     "team_paper_id": "346faa768695321ece19f1e46620e267f8bac3a7",
-    "research_domain": "General Science",
+    "research_domain": "Coastal & Estuarine Dynamics",
     "engagement_level": "Data Usage",
     "missions_instruments": [
       {
@@ -6779,11 +6768,11 @@
     },
     "is_peer_reviewed": true,
     "research_domains": [
-      "Coastal Dynamics",
-      "Remote Sensing",
-      "Satellite Altimetry",
+      "Coastal & Estuarine Dynamics",
       "Geomorphology",
-      "Digital Elevation Models"
+      "Remote Sensing",
+      "Data Processing",
+      "Altimetry Methods & Calibration"
     ]
   },
   {
@@ -7155,7 +7144,7 @@
         "phase2_majority_domain": "Coastal & Estuarine Dynamics",
         "llm_reclassification": {
           "previous_label": "Data Usage",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "The abstract discusses the potential of \"wide-swath altimetry\" to improve CTW monitoring, but does not state that SWOT data was actually used in the analysis.",
           "confidence": 4,
           "abstract_used": true,
@@ -7163,7 +7152,7 @@
           "timestamp": "2026-04-22T16:27:20Z"
         },
         "das_enrichment": {
-          "previous_label": "Simple Citation",
+          "previous_label": "Citation",
           "new_label": "Data Usage",
           "justification": "The altimetry data used in this study come from two distinct products: ... MIOST SWOT+nadirs : an experimental product distributed by AVISO that integrates nadir altimetry with swath data from the SWOT mission.",
           "confidence": 5,
@@ -7769,7 +7758,7 @@
     "country": null,
     "citing_team_paper": "Assimilation of virtual wide swath altimetry to improve Arctic river modeling",
     "team_paper_id": "4ce0b8f301db2617459043736e198a9a47939ecb",
-    "research_domain": "General Science",
+    "research_domain": "Flood Mapping & Detection",
     "engagement_level": "Data Usage",
     "missions_instruments": [
       {
@@ -7820,12 +7809,10 @@
     },
     "is_peer_reviewed": true,
     "research_domains": [
+      "Flood Mapping & Detection",
       "Hydrology & Water Resources",
       "Remote Sensing",
-      "Flood Modeling",
-      "Satellite Altimetry",
-      "Water Resource Management",
-      "Geodesy & Gravity"
+      "Data Validation"
     ]
   },
   {
@@ -8781,7 +8768,7 @@
     "country": "USA",
     "citing_team_paper": "Will the Surface Water and Ocean Topography (SWOT) Satellite Mission Observe Floods?",
     "team_paper_id": "346faa768695321ece19f1e46620e267f8bac3a7",
-    "research_domain": "General Science",
+    "research_domain": "Hydrology & Water Resources",
     "engagement_level": "Data Usage",
     "missions_instruments": [
       {
@@ -8832,10 +8819,10 @@
     },
     "is_peer_reviewed": true,
     "research_domains": [
-      "Remote Sensing",
       "Hydrology & Water Resources",
-      "Satellite Altimetry",
-      "Water Resource Management"
+      "Water Resource Management",
+      "Remote Sensing",
+      "Data Validation"
     ]
   },
   {
@@ -11019,7 +11006,7 @@
     "citing_team_paper": "Will the Surface Water and Ocean Topography (SWOT) Satellite Mission Observe Floods?",
     "team_paper_id": "346faa768695321ece19f1e46620e267f8bac3a7",
     "research_domain": "Ocean Surface Topography",
-    "engagement_level": "Simple Citation",
+    "engagement_level": "Citation",
     "missions_instruments": [
       {
         "name": "SWOT",
@@ -11053,7 +11040,7 @@
         "phase2_majority_domain": "Ocean & Marine Science",
         "llm_reclassification": {
           "previous_label": "Data Usage",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "Wide-swath satellite missions, such as Surface Water and Ocean Topography (SWOT) and Ocean Dynamics and Sea Exchanges with the Atmosphere (ODYSEA), will provide quasi-concurrent observations...",
           "confidence": 3,
           "abstract_used": true,
@@ -11481,7 +11468,7 @@
     "country": "France",
     "citing_team_paper": "Will the Surface Water and Ocean Topography (SWOT) Satellite Mission Observe Floods?",
     "team_paper_id": "346faa768695321ece19f1e46620e267f8bac3a7",
-    "research_domain": "General Science",
+    "research_domain": "River & Lake Monitoring",
     "engagement_level": "Data Usage",
     "missions_instruments": [
       {
@@ -11532,10 +11519,10 @@
     },
     "is_peer_reviewed": true,
     "research_domains": [
+      "River & Lake Monitoring",
       "Remote Sensing",
-      "Hydrology & Water Resources",
       "Satellite Altimetry",
-      "Water Resource Management"
+      "Hydrology & Water Resources"
     ]
   },
   {
@@ -12010,7 +11997,7 @@
     "country": null,
     "citing_team_paper": "Inversion of river discharge from remotely sensed river widths: A critical assessment at three-thousand global river gauges",
     "team_paper_id": "958e8fdf166ce724aa730a680eaf61f308707828",
-    "research_domain": "General Science",
+    "research_domain": "River & Lake Monitoring",
     "engagement_level": "Data Usage",
     "missions_instruments": [
       {
@@ -12061,13 +12048,11 @@
     },
     "is_peer_reviewed": true,
     "research_domains": [
-      "Hydrology & Water Resources",
-      "Remote Sensing",
-      "Satellite Altimetry",
+      "River & Lake Monitoring",
+      "Hydraulic Modeling",
       "Flood Modeling",
-      "River Routing",
-      "Data Validation",
-      "Hydraulic Modeling"
+      "Remote Sensing",
+      "Satellite Altimetry"
     ]
   },
   {
@@ -12161,7 +12146,7 @@
     "country": null,
     "citing_team_paper": "The Surface Water and Ocean Topography Mission: A Breakthrough in Radar Remote Sensing of the Ocean and Land Surface Water",
     "team_paper_id": "69c36b4bdaaf9fdbd30fa1f9cdff340c1812a1a0",
-    "research_domain": "General Science",
+    "research_domain": "River & Lake Monitoring",
     "engagement_level": "Data Usage",
     "missions_instruments": [
       {
@@ -12212,11 +12197,10 @@
     },
     "is_peer_reviewed": true,
     "research_domains": [
+      "River & Lake Monitoring",
       "Remote Sensing",
-      "Hydrology & Water Resources",
       "Satellite Altimetry",
-      "Lake Dynamics",
-      "Earth Observation"
+      "Hydrology & Water Resources"
     ]
   },
   {
@@ -12384,7 +12368,7 @@
     "country": null,
     "citing_team_paper": "Airborne observations of arctic-boreal water surface elevations from AirSWOT Ka-Band InSAR and LVIS LiDAR",
     "team_paper_id": "d9e05dc3b740082d55157caf1b4b580677cac0e5",
-    "research_domain": "General Science",
+    "research_domain": "Data Validation",
     "engagement_level": "Data Usage",
     "missions_instruments": [
       {
@@ -12435,11 +12419,11 @@
     },
     "is_peer_reviewed": true,
     "research_domains": [
+      "Data Validation",
+      "River & Lake Monitoring",
       "Remote Sensing",
-      "Hydrology & Water Resources",
       "Satellite Altimetry",
-      "River Routing",
-      "Water Resource Management"
+      "Hydrology & Water Resources"
     ]
   },
   {
@@ -12825,7 +12809,7 @@
     "citing_team_paper": "River Network Routing and Discharge Partitioning on a Multichannel River Network",
     "team_paper_id": "32c1e2e518ed1c9802404e3377d0dec2a39a855a",
     "research_domain": "River & Lake Monitoring",
-    "engagement_level": "Simple Citation",
+    "engagement_level": "Citation",
     "missions_instruments": [
       {
         "name": "SWOT",
@@ -12859,7 +12843,7 @@
         "phase2_majority_domain": "Hydrology & Water Resources",
         "llm_reclassification": {
           "previous_label": "Review Paper",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "The method is effective for estimating discharge ratios, potentially enhancing river discharge estimates from the Surface Water and Ocean Topography satellite mission, which currently lacks flow partitioning capabilities for bifurcations.",
           "confidence": 4,
           "abstract_used": true,
@@ -13130,7 +13114,7 @@
     "country": null,
     "citing_team_paper": "Assessing Submesoscale Sea Surface Height Signals From the SWOT Mission",
     "team_paper_id": "649f3354c23d7a2c244e78a6099a494b4524a410",
-    "research_domain": "General Science",
+    "research_domain": "Altimetry Methods & Calibration",
     "engagement_level": "Data Usage",
     "missions_instruments": [
       {
@@ -13181,11 +13165,10 @@
     },
     "is_peer_reviewed": true,
     "research_domains": [
+      "Altimetry Methods & Calibration",
+      "Data Processing",
       "Satellite Altimetry",
-      "Remote Sensing",
-      "Oceanography",
-      "Measurement Science",
-      "Geodesy & Gravity"
+      "Remote Sensing"
     ]
   },
   {
@@ -13432,7 +13415,7 @@
     "country": null,
     "citing_team_paper": "Will the Surface Water and Ocean Topography (SWOT) Satellite Mission Observe Floods?",
     "team_paper_id": "346faa768695321ece19f1e46620e267f8bac3a7",
-    "research_domain": "General Science",
+    "research_domain": "Coastal & Estuarine Dynamics",
     "engagement_level": "Data Usage",
     "missions_instruments": [
       {
@@ -13483,11 +13466,11 @@
     },
     "is_peer_reviewed": true,
     "research_domains": [
+      "Coastal & Estuarine Dynamics",
+      "River & Lake Monitoring",
+      "Data Validation",
       "Remote Sensing",
-      "Hydrology & Water Resources",
-      "Coastal Dynamics",
-      "Satellite Altimetry",
-      "Urban Hydrology"
+      "Satellite Altimetry"
     ]
   },
   {
@@ -13589,7 +13572,7 @@
     "citing_team_paper": "Will the Surface Water and Ocean Topography (SWOT) Satellite Mission Observe Floods?",
     "team_paper_id": "346faa768695321ece19f1e46620e267f8bac3a7",
     "research_domain": "Ocean Surface Topography",
-    "engagement_level": "Simple Citation",
+    "engagement_level": "Citation",
     "missions_instruments": [
       {
         "name": "SWOT",
@@ -13623,7 +13606,7 @@
         "phase2_majority_domain": "Remote Sensing & Satellite",
         "llm_reclassification": {
           "previous_label": "Review Paper",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "The achieved results of TG2 InIRA make us believe that more powerful wide-swath altimeters, e.g., the Surface Water and Ocean Topography (SWOT) mission, can bring a revolutionary contribution...",
           "confidence": 5,
           "abstract_used": true,
@@ -13747,7 +13730,7 @@
     "citing_team_paper": "Wide-swath satellite altimetry unveils global submesoscale ocean dynamics",
     "team_paper_id": "ef09273447e127fb7ef62cd6171fb3c9ffb22072",
     "research_domain": "Ocean Surface Topography",
-    "engagement_level": "Simple Citation",
+    "engagement_level": "Citation",
     "missions_instruments": [
       {
         "name": "SWOT",
@@ -13781,7 +13764,7 @@
         "phase2_majority_domain": "Ocean & Marine Science",
         "llm_reclassification": {
           "previous_label": "Data Usage",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "The abstract mentions \"challenging the exploitation of new-generation wide-swath satellite altimeters\" in the context of internal tide incoherence, but does not indicate actual use of SWOT data.",
           "confidence": 4,
           "abstract_used": true,
@@ -13823,7 +13806,7 @@
     "citing_team_paper": "Wide-swath satellite altimetry unveils global submesoscale ocean dynamics",
     "team_paper_id": "ef09273447e127fb7ef62cd6171fb3c9ffb22072",
     "research_domain": "Ocean Surface Topography",
-    "engagement_level": "Simple Citation",
+    "engagement_level": "Citation",
     "missions_instruments": [
       {
         "name": "SWOT",
@@ -13857,7 +13840,7 @@
         "phase2_majority_domain": "Ocean & Marine Science",
         "llm_reclassification": {
           "previous_label": "Data Usage",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "The paper discusses 'two high resolution altimetry mission concepts envisioned for the long-term evolution (post-2032) of the Copernicus Sentinel-3 topography mission' and compares them, but does not use SWOT data.",
           "confidence": 5,
           "abstract_used": true,
@@ -13901,7 +13884,7 @@
     "citing_team_paper": "A new look at Earth's water and energy with SWOT",
     "team_paper_id": "638fb3c39ff35b6337e294c8c9247d2742cff2c9",
     "research_domain": "River & Lake Monitoring",
-    "engagement_level": "Simple Citation",
+    "engagement_level": "Citation",
     "missions_instruments": [
       {
         "name": "SWOT",
@@ -13935,7 +13918,7 @@
         "phase2_majority_domain": "Hydrology & Water Resources",
         "llm_reclassification": {
           "previous_label": "Data Usage",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "The abstract mentions SWOT as providing WSS observations but explicitly states, \"We illustrate these phenomena at selected river sites around the world, using ICESat-2 data and river discharge estimates.\"",
           "confidence": 4,
           "abstract_used": true,
@@ -14218,7 +14201,7 @@
     "citing_team_paper": "Will the Surface Water and Ocean Topography (SWOT) Satellite Mission Observe Floods?",
     "team_paper_id": "346faa768695321ece19f1e46620e267f8bac3a7",
     "research_domain": "Ocean Surface Topography",
-    "engagement_level": "Simple Citation",
+    "engagement_level": "Citation",
     "missions_instruments": [
       {
         "name": "SWOT",
@@ -14252,7 +14235,7 @@
         "phase2_majority_domain": "Ocean & Marine Science",
         "llm_reclassification": {
           "previous_label": "Data Usage",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "The paper uses Observing System Simulation Experiments (OSSEs) to compare the impact of additional altimeter observations from two proposed future satellite constellations, one of which includes 2 wide-swath altimeters, but does not use actual SWOT data.",
           "confidence": 4,
           "abstract_used": true,
@@ -14366,7 +14349,7 @@
     "citing_team_paper": "A Kalman Filter Approach for Estimating Daily Discharge Using Space-Based Discharge Estimates",
     "team_paper_id": "f1325838b5eb30e656c537591d73dad1c2a033fa",
     "research_domain": "River & Lake Monitoring",
-    "engagement_level": "Simple Citation",
+    "engagement_level": "Citation",
     "missions_instruments": [
       {
         "name": "SWOT",
@@ -14400,7 +14383,7 @@
         "phase2_majority_domain": "River & Lake Monitoring",
         "llm_reclassification": {
           "previous_label": "Data Usage",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "The paper discusses satellite observation of river discharge generally and mentions satellite-based discharge estimates, but does not explicitly state using SWOT data or products.",
           "confidence": 3,
           "abstract_used": true,
@@ -14742,7 +14725,7 @@
     "country": null,
     "citing_team_paper": "Will the Surface Water and Ocean Topography (SWOT) Satellite Mission Observe Floods?",
     "team_paper_id": "346faa768695321ece19f1e46620e267f8bac3a7",
-    "research_domain": "General Science",
+    "research_domain": "River & Lake Monitoring",
     "engagement_level": "Data Usage",
     "missions_instruments": [
       {
@@ -14793,14 +14776,11 @@
     },
     "is_peer_reviewed": true,
     "research_domains": [
+      "River & Lake Monitoring",
+      "Fluvial Geomorphology",
       "Hydrology & Water Resources",
       "Remote Sensing",
-      "River Routing",
-      "Flood Modeling",
-      "Geomorphology",
-      "Ecosystem Science",
-      "Climate Change Impacts",
-      "Water Resource Management"
+      "Satellite Altimetry"
     ]
   },
   {
@@ -14818,7 +14798,7 @@
     "country": null,
     "citing_team_paper": "Seasonal and Fortnight Variations in Internal Solitary Waves in the Indonesian Seas From the SWOT Measurements",
     "team_paper_id": "5b4b9ceac921efff0c0bbca1bb9a5c6407cd80d9",
-    "research_domain": "General Science",
+    "research_domain": "Ocean Waves",
     "engagement_level": "Data Usage",
     "missions_instruments": [
       {
@@ -14869,11 +14849,11 @@
     },
     "is_peer_reviewed": true,
     "research_domains": [
-      "Ocean Dynamics",
-      "Satellite Altimetry",
+      "Ocean Waves",
+      "Physical Oceanography",
+      "Oceanography",
       "Remote Sensing",
-      "Ocean Circulation",
-      "Physical Oceanography"
+      "Satellite Altimetry"
     ]
   },
   {
@@ -15205,7 +15185,7 @@
     "country": null,
     "citing_team_paper": "Mapping Water Surface Elevation and Slope in the Mississippi River Delta Using the AirSWOT Ka-Band Interferometric Synthetic Aperture Radar",
     "team_paper_id": "66560775c6ea86fabb609cd6ad391a16f861fa73",
-    "research_domain": "General Science",
+    "research_domain": "Remote Sensing",
     "engagement_level": "Data Usage",
     "missions_instruments": [
       {
@@ -15258,10 +15238,9 @@
     "research_domains": [
       "Remote Sensing",
       "Coastal Dynamics",
-      "Geodesy & Gravity",
-      "Satellite Altimetry",
-      "Digital Elevation Models (DEMs)",
-      "Unmanned Aerial Vehicles (UAVs)"
+      "Geomorphology",
+      "Altimetry Methods & Calibration",
+      "Data Validation"
     ]
   },
   {
@@ -15280,7 +15259,7 @@
     "citing_team_paper": "Sub-100 km Ocean Processes Revealed by Structure Functions of SWOT Sea Surface Height and In Situ Observing Network",
     "team_paper_id": "36e6498014797ae8d6bef7f615e7a4e700e2a84c",
     "research_domain": "Ocean Surface Topography",
-    "engagement_level": "Simple Citation",
+    "engagement_level": "Citation",
     "missions_instruments": [
       {
         "name": "SWOT",
@@ -15314,7 +15293,7 @@
         "phase2_majority_domain": "Ocean Surface Topography",
         "llm_reclassification": {
           "previous_label": "Review Paper",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "The paper mentions \"new, high-resolution satellite altimetry is starting to reveal them\" but does not explicitly state using SWOT data or products.",
           "confidence": 4,
           "abstract_used": true,
@@ -15910,7 +15889,7 @@
     "country": "China",
     "citing_team_paper": "Will the Surface Water and Ocean Topography (SWOT) Satellite Mission Observe Floods?",
     "team_paper_id": "346faa768695321ece19f1e46620e267f8bac3a7",
-    "research_domain": "General Science",
+    "research_domain": "Data Validation",
     "engagement_level": "Data Usage",
     "missions_instruments": [
       {
@@ -15961,12 +15940,11 @@
     },
     "is_peer_reviewed": true,
     "research_domains": [
-      "Hydrology & Water Resources",
-      "Remote Sensing",
-      "Satellite Altimetry",
       "Data Validation",
-      "Ecosystem Science",
-      "Climate Change"
+      "Hydrology & Water Resources",
+      "River & Lake Monitoring",
+      "Remote Sensing",
+      "Satellite Altimetry"
     ]
   },
   {
@@ -16064,7 +16042,7 @@
     "citing_team_paper": "Will the Surface Water and Ocean Topography (SWOT) Satellite Mission Observe Floods?",
     "team_paper_id": "346faa768695321ece19f1e46620e267f8bac3a7",
     "research_domain": "Ocean Surface Topography",
-    "engagement_level": "Simple Citation",
+    "engagement_level": "Citation",
     "missions_instruments": [
       {
         "name": "SWOT",
@@ -16098,7 +16076,7 @@
         "phase2_majority_domain": "Ocean & Marine Science",
         "llm_reclassification": {
           "previous_label": "Data Usage",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "Most of these models suggest that the SSH signature of the internal-wave continuum will be visible in SSH measurements from the Surface Water and Ocean Topography ( SWOT ) wide-swath satellite altimeter.",
           "confidence": 4,
           "abstract_used": true,
@@ -17073,7 +17051,7 @@
     "citing_team_paper": "Assessing the Potential of the Surface Water and Ocean Topography Mission for Reservoir Monitoring in the Mekong River Basin",
     "team_paper_id": "00374c7ad6aa19bde75ad9f54b69991ccb869e17",
     "research_domain": "River & Lake Monitoring",
-    "engagement_level": "Simple Citation",
+    "engagement_level": "Citation",
     "missions_instruments": [
       {
         "name": "SWOT",
@@ -17107,7 +17085,7 @@
         "phase2_majority_domain": "Hydrology & Water Resources",
         "llm_reclassification": {
           "previous_label": "Review Paper",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "The abstract describes a framework for lake typology classification using HydroSHEDS, Köppen-Geiger climate classification, spectral satellite images, and literature. It does not mention using SWOT data or products.",
           "confidence": 5,
           "abstract_used": true,
@@ -17260,7 +17238,7 @@
         "phase2_majority_domain": "Ocean & Marine Science",
         "llm_reclassification": {
           "previous_label": "Data Usage",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "The paper discusses the *expected* observations from SWOT and uses simulations to test methods for estimating surface velocities from *future* SWOT observations, but does not use actual SWOT data.",
           "confidence": 5,
           "abstract_used": true,
@@ -17268,7 +17246,7 @@
           "timestamp": "2026-04-22T16:27:38Z"
         },
         "das_enrichment": {
-          "previous_label": "Simple Citation",
+          "previous_label": "Citation",
           "new_label": "Data Usage",
           "justification": "The Surface Water and Ocean Topography (SWOT) satellite is expected to observe sea surface height (SSH) down to scales approaching ~15 km...presenting a serious challenge for estimating surface velocities from SWOT observations.",
           "confidence": 4,
@@ -17344,7 +17322,7 @@
         "phase2_majority_domain": "Ocean & Marine Science",
         "llm_reclassification": {
           "previous_label": "Data Usage",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "The paper aims to optimize the design of in situ experiments for reconstructing fine-scale ocean currents, such as those that will be conducted to validate the first available tranche of SWOT data. It does not use SWOT data itself.",
           "confidence": 4,
           "abstract_used": true,
@@ -17352,7 +17330,7 @@
           "timestamp": "2026-04-22T16:27:38Z"
         },
         "das_enrichment": {
-          "previous_label": "Simple Citation",
+          "previous_label": "Citation",
           "new_label": "Data Usage",
           "justification": "Our goal is to optimize the design of in situ experiments aimed to reconstruct fine-scale ocean currents (similar to 20 km), such as those that will be conducted to validate the first available tranche of SWOT data.",
           "confidence": 5,
@@ -17397,7 +17375,7 @@
     "citing_team_paper": "Will the Surface Water and Ocean Topography (SWOT) Satellite Mission Observe Floods?",
     "team_paper_id": "346faa768695321ece19f1e46620e267f8bac3a7",
     "research_domain": "Altimetry Methods & Calibration",
-    "engagement_level": "Simple Citation",
+    "engagement_level": "Citation",
     "missions_instruments": [
       {
         "name": "SWOT",
@@ -17431,7 +17409,7 @@
         "phase2_majority_domain": "Ocean & Marine Science",
         "llm_reclassification": {
           "previous_label": "Data Usage",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "The paper investigates SST impact on wind and sea level estimates 'in advance of SWOT using existing long-term Ku and Ka band satellite altimeter datasets.' It does not use SWOT data.",
           "confidence": 4,
           "abstract_used": true,
@@ -17955,7 +17933,7 @@
     "country": "USA",
     "citing_team_paper": "Will the Surface Water and Ocean Topography (SWOT) Satellite Mission Observe Floods?",
     "team_paper_id": "346faa768695321ece19f1e46620e267f8bac3a7",
-    "research_domain": "General Science",
+    "research_domain": "Hydrology & Water Resources",
     "engagement_level": "Review Paper",
     "missions_instruments": [
       {
@@ -18007,10 +17985,9 @@
     "is_peer_reviewed": true,
     "research_domains": [
       "Hydrology & Water Resources",
+      "River & Lake Monitoring",
       "Remote Sensing",
-      "Satellite Altimetry",
-      "River Routing",
-      "Data Assimilation"
+      "Data Analysis"
     ]
   },
   {
@@ -18280,7 +18257,7 @@
     "citing_team_paper": "Global Relationships Between River Width, Slope, Catchment Area, Meander Wavelength, Sinuosity, and Discharge",
     "team_paper_id": "d78715721d9d530caf56084bb7ee09a70bead7af",
     "research_domain": "River & Lake Monitoring",
-    "engagement_level": "Simple Citation",
+    "engagement_level": "Citation",
     "missions_instruments": [
       {
         "name": "SWOT",
@@ -18314,7 +18291,7 @@
         "phase2_majority_domain": "Hydrology & Water Resources",
         "llm_reclassification": {
           "previous_label": "Review Paper",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "The paper uses in situ measurements and Landsat satellite imagery to study river changes. There is no mention of SWOT data, instruments, or products in the abstract.",
           "confidence": 5,
           "abstract_used": true,
@@ -18774,7 +18751,7 @@
     "citing_team_paper": "Wide-swath satellite altimetry unveils global submesoscale ocean dynamics",
     "team_paper_id": "ef09273447e127fb7ef62cd6171fb3c9ffb22072",
     "research_domain": "Altimetry Methods & Calibration",
-    "engagement_level": "Simple Citation",
+    "engagement_level": "Citation",
     "missions_instruments": [
       {
         "name": "SWOT",
@@ -18808,7 +18785,7 @@
         "phase2_majority_domain": "Remote Sensing & Satellite",
         "llm_reclassification": {
           "previous_label": "Data Usage",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "The paper focuses on C-band Radar Constellation Mission (RCM) and RADARSAT-2 observations of hurricanes, with no mention of SWOT data or products.",
           "confidence": 5,
           "abstract_used": true,
@@ -19007,7 +18984,7 @@
     "citing_team_paper": "Will the Surface Water and Ocean Topography (SWOT) Satellite Mission Observe Floods?",
     "team_paper_id": "346faa768695321ece19f1e46620e267f8bac3a7",
     "research_domain": "Coastal & Estuarine Dynamics",
-    "engagement_level": "Simple Citation",
+    "engagement_level": "Citation",
     "missions_instruments": [
       {
         "name": "SWOT",
@@ -19041,7 +19018,7 @@
         "phase2_majority_domain": "Ocean & Marine Science",
         "llm_reclassification": {
           "previous_label": "Review Paper",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "These results have implications for the separation of balanced flow and internal tides signals in the sea level data collected by the future Surface Water and Ocean Topography (SWOT') satellite mission.",
           "confidence": 4,
           "abstract_used": true,
@@ -19169,7 +19146,7 @@
     "citing_team_paper": "Will the Surface Water and Ocean Topography (SWOT) Satellite Mission Observe Floods?",
     "team_paper_id": "346faa768695321ece19f1e46620e267f8bac3a7",
     "research_domain": "Altimetry Methods & Calibration",
-    "engagement_level": "Simple Citation",
+    "engagement_level": "Citation",
     "missions_instruments": [
       {
         "name": "SWOT",
@@ -19203,7 +19180,7 @@
         "phase2_majority_domain": "Remote Sensing & Satellite",
         "llm_reclassification": {
           "previous_label": "Data Usage",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "The successful launch of Tiangong-2, the future Surface Water and Ocean Topography (SWOT) mission, and demonstrating GaoFen Project provides the future understanding for the generation of new wide-swath imaging altimeter.",
           "confidence": 4,
           "abstract_used": true,
@@ -19404,7 +19381,7 @@
     "country": "India",
     "citing_team_paper": "Assessing the Potential of the Surface Water and Ocean Topography Mission for Reservoir Monitoring in the Mekong River Basin",
     "team_paper_id": "00374c7ad6aa19bde75ad9f54b69991ccb869e17",
-    "research_domain": "General Science",
+    "research_domain": "Hydrology & Water Resources",
     "engagement_level": "Data Usage",
     "missions_instruments": [
       {
@@ -19456,10 +19433,9 @@
     "is_peer_reviewed": true,
     "research_domains": [
       "Hydrology & Water Resources",
-      "Remote Sensing",
-      "Satellite Altimetry",
       "Water Resource Management",
-      "Numerical Methods"
+      "Hydrologic Modeling",
+      "Remote Sensing"
     ]
   },
   {
@@ -19627,7 +19603,7 @@
     "citing_team_paper": "SWOT Observations Over Sea Ice: A First Look",
     "team_paper_id": "aff844ce9ca439b05ccc2ebe3557e141fb7e0366",
     "research_domain": "River & Lake Monitoring",
-    "engagement_level": "Simple Citation",
+    "engagement_level": "Citation",
     "missions_instruments": [
       {
         "name": "SWOT",
@@ -19661,7 +19637,7 @@
         "phase2_majority_domain": "Hydrology & Water Resources",
         "llm_reclassification": {
           "previous_label": "Data Usage",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "The paper focuses on using Landsat imagery and multiple DEMs (ALOS, SRTM, NED) to track lake surface elevations, with no mention of SWOT data or products in the abstract.",
           "confidence": 5,
           "abstract_used": true,
@@ -19700,8 +19676,8 @@
     "country": "France",
     "citing_team_paper": "Will the Surface Water and Ocean Topography (SWOT) Satellite Mission Observe Floods?",
     "team_paper_id": "346faa768695321ece19f1e46620e267f8bac3a7",
-    "research_domain": "General Science",
-    "engagement_level": "Simple Citation",
+    "research_domain": "Altimetry Methods & Calibration",
+    "engagement_level": "Citation",
     "missions_instruments": [
       {
         "name": "SWOT",
@@ -19735,7 +19711,7 @@
         "phase2_majority_domain": "Ocean & Marine Science",
         "llm_reclassification": {
           "previous_label": "Data Usage",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "The paper discusses the 'implications for future datasets and mission' and develops a 'simple prediction model' for SWOT, but does not use SWOT data.",
           "confidence": 4,
           "abstract_used": true,
@@ -19751,11 +19727,11 @@
     },
     "is_peer_reviewed": true,
     "research_domains": [
+      "Altimetry Methods & Calibration",
       "Satellite Altimetry",
-      "Remote Sensing",
-      "Sea Level Change",
-      "Geodesy & Gravity",
-      "Oceanography"
+      "Ocean Surface Topography",
+      "Data Processing",
+      "Geodesy"
     ]
   },
   {
@@ -19780,7 +19756,7 @@
     "citing_team_paper": "Will the Surface Water and Ocean Topography (SWOT) Satellite Mission Observe Floods?",
     "team_paper_id": "346faa768695321ece19f1e46620e267f8bac3a7",
     "research_domain": "Altimetry Methods & Calibration",
-    "engagement_level": "Simple Citation",
+    "engagement_level": "Citation",
     "missions_instruments": [
       {
         "name": "SWOT",
@@ -19814,7 +19790,7 @@
         "phase2_majority_domain": "Hydrology & Water Resources",
         "llm_reclassification": {
           "previous_label": "Review Paper",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "MLS can serve as a validation dataset for any future geoid model. It will also be useful for validation of the future mission SWOT (Surface Water and Ocean Topography) which will measure and map water heights over the lakes with a high horizontal resolution of 250 by 250 m.",
           "confidence": 5,
           "abstract_used": true,
@@ -19858,7 +19834,7 @@
     "citing_team_paper": "Will the Surface Water and Ocean Topography (SWOT) Satellite Mission Observe Floods?",
     "team_paper_id": "346faa768695321ece19f1e46620e267f8bac3a7",
     "research_domain": "Coastal & Estuarine Dynamics",
-    "engagement_level": "Simple Citation",
+    "engagement_level": "Citation",
     "missions_instruments": [
       {
         "name": "SWOT",
@@ -19892,7 +19868,7 @@
         "phase2_majority_domain": "Ocean & Marine Science",
         "llm_reclassification": {
           "previous_label": "Review Paper",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "This will be crucial in the scope of the future SWOT mission, for which the tide correction accuracy must be assessed over the large-extent areas covered by swaths observations.",
           "confidence": 4,
           "abstract_used": true,
@@ -19950,7 +19926,7 @@
     "citing_team_paper": "Will the Surface Water and Ocean Topography (SWOT) Satellite Mission Observe Floods?",
     "team_paper_id": "346faa768695321ece19f1e46620e267f8bac3a7",
     "research_domain": "Ocean Surface Topography",
-    "engagement_level": "Simple Citation",
+    "engagement_level": "Citation",
     "missions_instruments": [
       {
         "name": "SWOT",
@@ -19984,7 +19960,7 @@
         "phase2_majority_domain": "Ocean & Marine Science",
         "llm_reclassification": {
           "previous_label": "Data Usage",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "After the launch of the Surface Water and Ocean Topography (SWOT) satellite planned for 2022, the region around the Balearic Islands (western Mediterranean Sea) will be the target of several in situ sampling campaigns aimed at validating the first available tranche of SWOT data. In preparation for t",
           "confidence": 5,
           "abstract_used": true,
@@ -20181,7 +20157,7 @@
     "country": "USA",
     "citing_team_paper": "Will the Surface Water and Ocean Topography (SWOT) Satellite Mission Observe Floods?",
     "team_paper_id": "346faa768695321ece19f1e46620e267f8bac3a7",
-    "research_domain": "General Science",
+    "research_domain": "Hydrologic Modeling",
     "engagement_level": "Data Usage",
     "missions_instruments": [
       {
@@ -20234,10 +20210,8 @@
     "research_domains": [
       "Hydrologic Modeling",
       "Hydrology & Water Resources",
-      "Remote Sensing",
-      "Data Assimilation",
       "Numerical Methods",
-      "River Routing"
+      "Remote Sensing"
     ]
   },
   {
@@ -20416,7 +20390,7 @@
     "citing_team_paper": "Wide-swath satellite altimetry unveils global submesoscale ocean dynamics",
     "team_paper_id": "ef09273447e127fb7ef62cd6171fb3c9ffb22072",
     "research_domain": "Altimetry Methods & Calibration",
-    "engagement_level": "Simple Citation",
+    "engagement_level": "Citation",
     "missions_instruments": [
       {
         "name": "SWOT",
@@ -20450,7 +20424,7 @@
         "phase2_majority_domain": "Ocean & Marine Science",
         "llm_reclassification": {
           "previous_label": "Data Usage",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "Although idealized, this study represents a step forward towards the disentanglement of BMs and ITs signals from real wide-swath altimetry data.",
           "confidence": 4,
           "abstract_used": true,
@@ -20670,7 +20644,7 @@
     "citing_team_paper": "Will the Surface Water and Ocean Topography (SWOT) Satellite Mission Observe Floods?",
     "team_paper_id": "346faa768695321ece19f1e46620e267f8bac3a7",
     "research_domain": "Ocean Surface Topography",
-    "engagement_level": "Simple Citation",
+    "engagement_level": "Citation",
     "missions_instruments": [
       {
         "name": "SWOT",
@@ -20704,7 +20678,7 @@
         "phase2_majority_domain": "Ocean & Marine Science",
         "llm_reclassification": {
           "previous_label": "Review Paper",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "The sea-surface height measurements of the upcoming Surface Water and Ocean Topography (SWOT) altimeter mission should provide information on kinetic energy exchanges in the upper ocean down to 10-15 km. Numerical ocean models, able to describe ocean dynamics down to similar to 10 km, have been deve",
           "confidence": 4,
           "abstract_used": true,
@@ -21215,7 +21189,7 @@
     "country": "France",
     "citing_team_paper": "Will the Surface Water and Ocean Topography (SWOT) Satellite Mission Observe Floods?",
     "team_paper_id": "346faa768695321ece19f1e46620e267f8bac3a7",
-    "research_domain": "General Science",
+    "research_domain": "Coastal Dynamics",
     "engagement_level": "Data Usage",
     "missions_instruments": [
       {
@@ -21267,12 +21241,10 @@
     "is_peer_reviewed": true,
     "research_domains": [
       "Coastal Dynamics",
-      "Remote Sensing",
-      "Sea Level Change",
-      "Oceanography",
       "Geomorphology",
-      "Water Resource Management",
-      "Satellite Altimetry"
+      "Remote Sensing",
+      "Satellite Altimetry",
+      "Ocean Surface Topography"
     ]
   },
   {
@@ -21537,7 +21509,7 @@
     "citing_team_paper": "SWOT Observations Over Sea Ice: A First Look",
     "team_paper_id": "aff844ce9ca439b05ccc2ebe3557e141fb7e0366",
     "research_domain": "Coastal & Estuarine Dynamics",
-    "engagement_level": "Simple Citation",
+    "engagement_level": "Citation",
     "missions_instruments": [
       {
         "name": "SWOT",
@@ -21571,7 +21543,7 @@
         "phase2_majority_domain": "Remote Sensing & Satellite",
         "llm_reclassification": {
           "previous_label": "Review Paper",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "The paper focuses on intertidal topography mapping using Sentinel-1 and Sentinel-2 images, with no mention of SWOT data or products in its methodology or results.",
           "confidence": 5,
           "abstract_used": true,
@@ -21774,7 +21746,7 @@
     "citing_team_paper": "Will the Surface Water and Ocean Topography (SWOT) Satellite Mission Observe Floods?",
     "team_paper_id": "346faa768695321ece19f1e46620e267f8bac3a7",
     "research_domain": "Altimetry Methods & Calibration",
-    "engagement_level": "Simple Citation",
+    "engagement_level": "Citation",
     "missions_instruments": [
       {
         "name": "SWOT",
@@ -21808,7 +21780,7 @@
         "phase2_majority_domain": "Remote Sensing & Satellite",
         "llm_reclassification": {
           "previous_label": "Data Usage",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "The paper describes the development of an antenna for the KaRIn instrument, which is part of SWOT, but does not use SWOT data itself.",
           "confidence": 4,
           "abstract_used": true,
@@ -22012,7 +21984,7 @@
     "country": "USA",
     "citing_team_paper": "Will the Surface Water and Ocean Topography (SWOT) Satellite Mission Observe Floods?",
     "team_paper_id": "346faa768695321ece19f1e46620e267f8bac3a7",
-    "research_domain": "General Science",
+    "research_domain": "Hydrologic Modeling",
     "engagement_level": "Data Usage",
     "missions_instruments": [
       {
@@ -22064,11 +22036,9 @@
     "is_peer_reviewed": true,
     "research_domains": [
       "Hydrologic Modeling",
-      "Remote Sensing",
-      "Satellite Hydrology",
       "Hydrology & Water Resources",
       "Data Assimilation",
-      "River Routing"
+      "Remote Sensing"
     ]
   },
   {
@@ -22090,7 +22060,7 @@
     "country": "USA",
     "citing_team_paper": "Will the Surface Water and Ocean Topography (SWOT) Satellite Mission Observe Floods?",
     "team_paper_id": "346faa768695321ece19f1e46620e267f8bac3a7",
-    "research_domain": "General Science",
+    "research_domain": "Hydrologic Modeling",
     "engagement_level": "Data Usage",
     "missions_instruments": [
       {
@@ -22143,11 +22113,7 @@
     "research_domains": [
       "Hydrologic Modeling",
       "Remote Sensing",
-      "Satellite Hydrology",
-      "Observing System Simulation Experiment (OSSE)",
-      "Hydrology & Water Resources",
-      "Numerical Modeling",
-      "Data Assimilation"
+      "Numerical Modeling"
     ]
   },
   {
@@ -22251,7 +22217,7 @@
     "citing_team_paper": "Will the Surface Water and Ocean Topography (SWOT) Satellite Mission Observe Floods?",
     "team_paper_id": "346faa768695321ece19f1e46620e267f8bac3a7",
     "research_domain": "Altimetry Methods & Calibration",
-    "engagement_level": "Simple Citation",
+    "engagement_level": "Citation",
     "missions_instruments": [
       {
         "name": "SWOT",
@@ -22285,7 +22251,7 @@
         "phase2_majority_domain": "Hydrology & Water Resources",
         "llm_reclassification": {
           "previous_label": "Data Usage",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "Our goals are to promote the use of satellite-derived products for the study of large inland water bodies and to set the stage for the expected availability of products from the Surface Water and Ocean Topography (SWOT) mission, which will vastly expand the spatial coverage of such products, expecte",
           "confidence": 5,
           "abstract_used": true,
@@ -22332,7 +22298,7 @@
     "citing_team_paper": "Will the Surface Water and Ocean Topography (SWOT) Satellite Mission Observe Floods?",
     "team_paper_id": "346faa768695321ece19f1e46620e267f8bac3a7",
     "research_domain": "River & Lake Monitoring",
-    "engagement_level": "Simple Citation",
+    "engagement_level": "Citation",
     "missions_instruments": [
       {
         "name": "SWOT",
@@ -22366,7 +22332,7 @@
         "phase2_majority_domain": "Ecosystem & Biogeochemistry",
         "llm_reclassification": {
           "previous_label": "Review Paper",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "In the future, the use of higher-resolution remote sensing products from sensor fusion or new sensors like the Surface Water and Ocean Topography (SWOT) mission will permit the transposition of the approach to other large-scale watersheds in tropical environments.",
           "confidence": 5,
           "abstract_used": true,
@@ -22412,7 +22378,7 @@
     "citing_team_paper": "Benchmarking Wide Swath Altimetry Based River Discharge Estimation Algorithms for the Ganges River System",
     "team_paper_id": "076457d700a46c2e4d8ebd4dde02c13177abe42c",
     "research_domain": "River & Lake Monitoring",
-    "engagement_level": "Simple Citation",
+    "engagement_level": "Citation",
     "missions_instruments": [
       {
         "name": "SWOT",
@@ -22446,7 +22412,7 @@
         "phase2_majority_domain": "Hydrology & Water Resources",
         "llm_reclassification": {
           "previous_label": "Review Paper",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "The paper focuses on a USGS streamflow measurement data set (HYDRoSWOT) and acoustic Doppler current profiler measurements, without mentioning the use of SWOT data.",
           "confidence": 4,
           "abstract_used": true,
@@ -22574,7 +22540,7 @@
     "country": "USA",
     "citing_team_paper": "Will the Surface Water and Ocean Topography (SWOT) Satellite Mission Observe Floods?",
     "team_paper_id": "346faa768695321ece19f1e46620e267f8bac3a7",
-    "research_domain": "General Science",
+    "research_domain": "Data Assimilation",
     "engagement_level": "Data Usage",
     "missions_instruments": [
       {
@@ -22626,11 +22592,9 @@
     "is_peer_reviewed": true,
     "research_domains": [
       "Data Assimilation",
-      "Hydrology & Water Resources",
-      "Remote Sensing",
-      "Satellite Altimetry",
-      "Numerical Methods",
-      "River Routing"
+      "River & Lake Monitoring",
+      "Hydrodynamic Modeling",
+      "Remote Sensing"
     ]
   },
   {
@@ -22658,7 +22622,7 @@
     "citing_team_paper": "Will the Surface Water and Ocean Topography (SWOT) Satellite Mission Observe Floods?",
     "team_paper_id": "346faa768695321ece19f1e46620e267f8bac3a7",
     "research_domain": "Altimetry Methods & Calibration",
-    "engagement_level": "Simple Citation",
+    "engagement_level": "Citation",
     "missions_instruments": [
       {
         "name": "SWOT",
@@ -22692,7 +22656,7 @@
         "phase2_majority_domain": "Hydrology & Water Resources",
         "llm_reclassification": {
           "previous_label": "Data Usage",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "The paper proposes approaches to improve Sentinel-3 data availability over reservoirs and states these can be used to prepare onboard elevations for future missions such as SWOT.",
           "confidence": 5,
           "abstract_used": true,
@@ -22833,7 +22797,7 @@
     "country": "Brazil",
     "citing_team_paper": "Will the Surface Water and Ocean Topography (SWOT) Satellite Mission Observe Floods?",
     "team_paper_id": "346faa768695321ece19f1e46620e267f8bac3a7",
-    "research_domain": "General Science",
+    "research_domain": "Hydrologic Modeling",
     "engagement_level": "Data Usage",
     "missions_instruments": [
       {
@@ -22884,13 +22848,10 @@
     },
     "is_peer_reviewed": true,
     "research_domains": [
+      "Hydrologic Modeling",
       "Data Assimilation",
-      "Hydrology & Water Resources",
-      "Hydrological Modeling",
-      "Remote Sensing",
-      "Satellite Altimetry",
-      "Numerical Methods",
-      "River Routing"
+      "River & Lake Monitoring",
+      "Remote Sensing"
     ]
   },
   {
@@ -23066,7 +23027,7 @@
     "citing_team_paper": "Assessing the Potential of the Surface Water and Ocean Topography Mission for Reservoir Monitoring in the Mekong River Basin",
     "team_paper_id": "00374c7ad6aa19bde75ad9f54b69991ccb869e17",
     "research_domain": "River & Lake Monitoring",
-    "engagement_level": "Simple Citation",
+    "engagement_level": "Citation",
     "missions_instruments": [
       {
         "name": "SWOT",
@@ -23100,7 +23061,7 @@
         "phase2_majority_domain": "Hydrology & Water Resources",
         "llm_reclassification": {
           "previous_label": "Data Usage",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "The abstract details the use of Landsat imagery, bathymetry, and SRTM data for lake dynamics, but does not mention SWOT data or products.",
           "confidence": 5,
           "abstract_used": true,
@@ -23231,7 +23192,7 @@
     "citing_team_paper": "Will the Surface Water and Ocean Topography (SWOT) Satellite Mission Observe Floods?",
     "team_paper_id": "346faa768695321ece19f1e46620e267f8bac3a7",
     "research_domain": "River & Lake Monitoring",
-    "engagement_level": "Simple Citation",
+    "engagement_level": "Citation",
     "missions_instruments": [
       {
         "name": "SWOT",
@@ -23265,7 +23226,7 @@
         "phase2_majority_domain": "Hydrology & Water Resources",
         "llm_reclassification": {
           "previous_label": "Data Usage",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "This study is timely because the upcoming Surface Water and Ocean Topography mission will significantly improve spatial and temporal resolution of spaceborne observations of water surface elevation, and hydraulic models need to be prepared for the uptake of these data.",
           "confidence": 4,
           "abstract_used": true,
@@ -23403,7 +23364,7 @@
     "country": "France",
     "citing_team_paper": "Will the Surface Water and Ocean Topography (SWOT) Satellite Mission Observe Floods?",
     "team_paper_id": "346faa768695321ece19f1e46620e267f8bac3a7",
-    "research_domain": "General Science",
+    "research_domain": "River & Lake Monitoring",
     "engagement_level": "Data Usage",
     "missions_instruments": [
       {
@@ -23454,10 +23415,9 @@
     },
     "is_peer_reviewed": true,
     "research_domains": [
-      "Remote Sensing",
+      "River & Lake Monitoring",
       "Hydrology & Water Resources",
-      "Satellite Altimetry",
-      "Ecosystem Science"
+      "Remote Sensing"
     ]
   },
   {
@@ -23579,7 +23539,7 @@
     "country": "Canada",
     "citing_team_paper": "Will the Surface Water and Ocean Topography (SWOT) Satellite Mission Observe Floods?",
     "team_paper_id": "346faa768695321ece19f1e46620e267f8bac3a7",
-    "research_domain": "General Science",
+    "research_domain": "Hydrology & Water Resources",
     "engagement_level": "Review Paper",
     "missions_instruments": [
       {
@@ -23638,11 +23598,9 @@
     },
     "is_peer_reviewed": true,
     "research_domains": [
-      "Remote Sensing",
-      "Satellite Altimetry",
       "Hydrology & Water Resources",
-      "Ocean Circulation",
-      "Geodesy & Gravity"
+      "Remote Sensing",
+      "Satellite Altimetry"
     ]
   },
   {
@@ -24204,7 +24162,7 @@
     "citing_team_paper": "Observing Rivers With Varying Spatial Scales",
     "team_paper_id": "73b5e10cf231dfac5cfd8b3c5a5da19f61f1a7a5",
     "research_domain": "River & Lake Monitoring",
-    "engagement_level": "Simple Citation",
+    "engagement_level": "Citation",
     "missions_instruments": [
       {
         "name": "SWOT",
@@ -24238,7 +24196,7 @@
         "phase2_majority_domain": "Hydrology & Water Resources",
         "llm_reclassification": {
           "previous_label": "Data Usage",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "The title focuses on Manning's Equation and in-situ data, with no mention of SWOT or its data products. Without an abstract, there's no evidence of SWOT data usage.",
           "confidence": 3,
           "abstract_used": false,
@@ -24275,7 +24233,7 @@
     "country": null,
     "citing_team_paper": "SWOT and the ice-covered polar oceans: An exploratory analysis",
     "team_paper_id": "efa86109e7779b7ce49c94b358cabf2e68c230b3",
-    "research_domain": "General Science",
+    "research_domain": "Cryosphere & Glaciology",
     "engagement_level": "Data Usage",
     "missions_instruments": [
       {
@@ -24334,12 +24292,10 @@
     },
     "is_peer_reviewed": true,
     "research_domains": [
-      "Remote Sensing",
       "Cryosphere & Glaciology",
-      "Polar Oceanography",
-      "Satellite Altimetry",
       "Oceanography",
-      "Sea Level Change"
+      "Remote Sensing",
+      "Satellite Altimetry"
     ]
   },
   {
@@ -24358,7 +24314,7 @@
     "citing_team_paper": "Exploring the Factors Controlling the Error Characteristics of the Surface Water and Ocean Topography Mission Discharge Estimates",
     "team_paper_id": "95c5ad21489f373d15b2264cd81b6bf9619f9663",
     "research_domain": "River & Lake Monitoring",
-    "engagement_level": "Simple Citation",
+    "engagement_level": "Citation",
     "missions_instruments": [
       {
         "name": "SWOT",
@@ -24392,7 +24348,7 @@
         "phase2_majority_domain": "Hydrology & Water Resources",
         "llm_reclassification": {
           "previous_label": "Data Usage",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "Title does not mention SWOT, its instruments, or data products. Focuses on a general method for river segmentation.",
           "confidence": 3,
           "abstract_used": false,
@@ -24577,7 +24533,7 @@
     "citing_team_paper": "Assessing Submesoscale Sea Surface Height Signals From the SWOT Mission",
     "team_paper_id": "649f3354c23d7a2c244e78a6099a494b4524a410",
     "research_domain": "Ocean Surface Topography",
-    "engagement_level": "Simple Citation",
+    "engagement_level": "Citation",
     "missions_instruments": [
       {
         "name": "SWOT",
@@ -24611,7 +24567,7 @@
         "phase2_majority_domain": "Ocean & Marine Science",
         "llm_reclassification": {
           "previous_label": "Data Usage",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "The abstract describes the SWOT mission's capabilities and future plans, but does not indicate that the paper itself uses SWOT data. The title is about SWOT, but the abstract indicates it's a descriptive paper about the mission itself, not a data usage paper.",
           "confidence": 4,
           "abstract_used": true,
@@ -25057,7 +25013,7 @@
         "phase2_majority_domain": "Ocean & Marine Science",
         "llm_reclassification": {
           "previous_label": "Data Usage",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "Our analysis provides model predictions for interpreting the anticipated observations from SWOT and guidance for the development of analysis methodologies.",
           "confidence": 4,
           "abstract_used": true,
@@ -25065,7 +25021,7 @@
           "timestamp": "2026-04-22T16:27:50Z"
         },
         "team_paper_override": {
-          "previous_label": "Simple Citation",
+          "previous_label": "Citation",
           "new_label": "Data Usage",
           "reason": "Team paper (authored by the model/mission group); minimum engagement level is Data Usage by the by-author rule.",
           "reviewer": "rule",
@@ -25177,7 +25133,7 @@
     "citing_team_paper": "Enhancing SWOT discharge assimilation through spatiotemporal correlations",
     "team_paper_id": "125879350794df273038b359af20e564bc15c809",
     "research_domain": "River & Lake Monitoring",
-    "engagement_level": "Simple Citation",
+    "engagement_level": "Citation",
     "missions_instruments": [
       {
         "name": "SWOT",
@@ -25211,7 +25167,7 @@
         "phase2_majority_domain": "Hydrology & Water Resources",
         "llm_reclassification": {
           "previous_label": "Review Paper",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "The paper discusses methods to integrate discrete observations of river discharge from in situ gauging sites and satellite-based systems, but does not explicitly mention using SWOT data or products.",
           "confidence": 3,
           "abstract_used": true,
@@ -25488,7 +25444,7 @@
     "citing_team_paper": "Will the Surface Water and Ocean Topography (SWOT) Satellite Mission Observe Floods?",
     "team_paper_id": "346faa768695321ece19f1e46620e267f8bac3a7",
     "research_domain": "River & Lake Monitoring",
-    "engagement_level": "Simple Citation",
+    "engagement_level": "Citation",
     "missions_instruments": [
       {
         "name": "SWOT",
@@ -25522,7 +25478,7 @@
         "phase2_majority_domain": "Hydrology & Water Resources",
         "llm_reclassification": {
           "previous_label": "Data Usage",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "Observation of these changes is a goal of the Surface Water and Ocean Topography satellite mission, which has a final objective of determining river discharge.",
           "confidence": 4,
           "abstract_used": true,
@@ -25566,7 +25522,7 @@
     "citing_team_paper": "Wide-swath satellite altimetry unveils global submesoscale ocean dynamics",
     "team_paper_id": "ef09273447e127fb7ef62cd6171fb3c9ffb22072",
     "research_domain": "Coastal & Estuarine Dynamics",
-    "engagement_level": "Simple Citation",
+    "engagement_level": "Citation",
     "missions_instruments": [
       {
         "name": "SWOT",
@@ -25600,7 +25556,7 @@
         "phase2_majority_domain": "Ocean & Marine Science",
         "llm_reclassification": {
           "previous_label": "Data Usage",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "The paper focuses on Jason-1 and Jason-2 data for Hurricane Isaac storm surges. It mentions \"a constellation of altimeter missions especially with wide-swath altimetry could be suited to monitor storm surges\" as a future suggestion, which is a simple background/motivation reference to SWOT's capabil",
           "confidence": 5,
           "abstract_used": true,
@@ -25866,7 +25822,7 @@
     "citing_team_paper": "Submesoscale Eddy Contribution to Ocean Vertical Heat Flux Diagnosed From Airborne Observations",
     "team_paper_id": "645631e1dd5c260a817222daaabfd304bd607b9d",
     "research_domain": "Ocean Surface Topography",
-    "engagement_level": "Simple Citation",
+    "engagement_level": "Citation",
     "missions_instruments": [
       {
         "name": "SWOT",
@@ -25900,7 +25856,7 @@
         "phase2_majority_domain": "Ocean & Marine Science",
         "llm_reclassification": {
           "previous_label": "Data Usage",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "Understanding and predicting how internal tides distort and lose coherence as they propagate through the ocean has been identified as a key issue for interpreting data from the upcoming wide-swath altimeter mission Surface Water and Ocean Topography (SWOT). ... The upcoming SWOT satellite mission ma",
           "confidence": 4,
           "abstract_used": true,
@@ -26024,7 +25980,7 @@
     "country": "France",
     "citing_team_paper": "Will the Surface Water and Ocean Topography (SWOT) Satellite Mission Observe Floods?",
     "team_paper_id": "346faa768695321ece19f1e46620e267f8bac3a7",
-    "research_domain": "General Science",
+    "research_domain": "Hydrology & Water Resources",
     "engagement_level": "Review Paper",
     "missions_instruments": [
       {
@@ -26077,9 +26033,7 @@
     "research_domains": [
       "Hydrology & Water Resources",
       "Remote Sensing",
-      "Satellite Altimetry",
-      "Global Hydrology",
-      "Geodesy & Gravity"
+      "River & Lake Monitoring"
     ]
   },
   {
@@ -26136,7 +26090,7 @@
         "phase2_majority_domain": "Ocean & Marine Science",
         "llm_reclassification": {
           "previous_label": "Data Usage",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "The paper uses data from Jason-2, Cryosat-2, and SARAL/Altika. SWOT is only mentioned in the last sentence for a \"prediction of the future 2-D mesoscale sea level resolution capability...using a simulated error level.\"",
           "confidence": 4,
           "abstract_used": true,
@@ -26144,7 +26098,7 @@
           "timestamp": "2026-04-22T16:27:52Z"
         },
         "das_enrichment": {
-          "previous_label": "Simple Citation",
+          "previous_label": "Citation",
           "new_label": "Data Usage",
           "justification": "Finally, a prediction of the future 2-D mesoscale sea level resolution capability of the Surface Water and Ocean Topography (SWOT) mission is given using a simulated error level.",
           "confidence": 5,
@@ -26190,7 +26144,7 @@
     "citing_team_paper": "Will the Surface Water and Ocean Topography (SWOT) Satellite Mission Observe Floods?",
     "team_paper_id": "346faa768695321ece19f1e46620e267f8bac3a7",
     "research_domain": "Flood Mapping & Detection",
-    "engagement_level": "Simple Citation",
+    "engagement_level": "Citation",
     "missions_instruments": [
       {
         "name": "SWOT",
@@ -26224,7 +26178,7 @@
         "phase2_majority_domain": "Remote Sensing & Satellite",
         "llm_reclassification": {
           "previous_label": "Review Paper",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "The method should also be capable of improving the final TanDEM-X DEM and other DEMs, and may also be of use with data from the SWOT (Surface Water and Ocean Topography) satellite.",
           "confidence": 4,
           "abstract_used": true,
@@ -26424,7 +26378,7 @@
     "citing_team_paper": "Will the Surface Water and Ocean Topography (SWOT) Satellite Mission Observe Floods?",
     "team_paper_id": "346faa768695321ece19f1e46620e267f8bac3a7",
     "research_domain": "Altimetry Methods & Calibration",
-    "engagement_level": "Simple Citation",
+    "engagement_level": "Citation",
     "missions_instruments": [
       {
         "name": "SWOT",
@@ -26458,7 +26412,7 @@
         "phase2_majority_domain": "Geophysics & Geodesy",
         "llm_reclassification": {
           "previous_label": "Review Paper",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "The next missions to use DORIS will be Jason-3 and Sentinel-3, and then Jason-CS and SWOT (Surface Water and Ocean Topography).",
           "confidence": 5,
           "abstract_used": true,
@@ -26644,7 +26598,7 @@
     "citing_team_paper": "Assimilation of virtual wide swath altimetry to improve Arctic river modeling",
     "team_paper_id": "4ce0b8f301db2617459043736e198a9a47939ecb",
     "research_domain": "River & Lake Monitoring",
-    "engagement_level": "Simple Citation",
+    "engagement_level": "Citation",
     "missions_instruments": [
       {
         "name": "SWOT",
@@ -26678,7 +26632,7 @@
         "phase2_majority_domain": "Hydrology & Water Resources",
         "llm_reclassification": {
           "previous_label": "Data Usage",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "Observation of these changes is a goal of the Surface Water and Ocean Topography satellite mission... The results of this study suggest that longitudinal variations of the slope might be an interesting criteria for the analysis of river segmentation for the Surface Water Ocean Topography mission.",
           "confidence": 4,
           "abstract_used": true,
@@ -27108,7 +27062,7 @@
     "citing_team_paper": "Will the Surface Water and Ocean Topography (SWOT) Satellite Mission Observe Floods?",
     "team_paper_id": "346faa768695321ece19f1e46620e267f8bac3a7",
     "research_domain": "Flood Mapping & Detection",
-    "engagement_level": "Simple Citation",
+    "engagement_level": "Citation",
     "missions_instruments": [
       {
         "name": "SWOT",
@@ -27142,7 +27096,7 @@
         "phase2_majority_domain": "Hydrology & Water Resources",
         "llm_reclassification": {
           "previous_label": "Review Paper",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "The results provide guidance to engineers and scientists when defining the observation scales of future altimetry missions such as the Surface Water and Ocean Topography (SWOT) mission from the perspective of numerical modeling requirements for large floodplains.",
           "confidence": 4,
           "abstract_used": true,
@@ -27270,7 +27224,7 @@
     "citing_team_paper": "Wide-swath satellite altimetry unveils global submesoscale ocean dynamics",
     "team_paper_id": "ef09273447e127fb7ef62cd6171fb3c9ffb22072",
     "research_domain": "Ocean Surface Topography",
-    "engagement_level": "Simple Citation",
+    "engagement_level": "Citation",
     "missions_instruments": [
       {
         "name": "SWOT",
@@ -27304,7 +27258,7 @@
         "phase2_majority_domain": "Ocean & Marine Science",
         "llm_reclassification": {
           "previous_label": "Data Usage",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "The implications of such idealized numerical simulations for wide-swath altimetry are discussed.",
           "confidence": 4,
           "abstract_used": true,
@@ -27346,7 +27300,7 @@
     "citing_team_paper": "Assessing the Potential of the Surface Water and Ocean Topography Mission for Reservoir Monitoring in the Mekong River Basin",
     "team_paper_id": "00374c7ad6aa19bde75ad9f54b69991ccb869e17",
     "research_domain": "Altimetry Methods & Calibration",
-    "engagement_level": "Simple Citation",
+    "engagement_level": "Citation",
     "missions_instruments": [
       {
         "name": "SWOT",
@@ -27380,7 +27334,7 @@
         "phase2_majority_domain": "Hydrology & Water Resources",
         "llm_reclassification": {
           "previous_label": "Review Paper",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "With future missions such as Sentinel-3A (S3A), Sentinel-3B (S3B) and surface water and ocean topography (SWOT), significant improvement is expected. The SWOT mission's main payload (a radar interferometer in Ka band) will furthermore provide 2D maps of water height, reservoirs, lakes, rivers and fl",
           "confidence": 5,
           "abstract_used": true,
@@ -27418,7 +27372,7 @@
     "country": null,
     "citing_team_paper": "Preliminary Characterization of SWOT Hydrology Error Budget and Global Capabilities",
     "team_paper_id": "34e3665882a5a05e6f33dff0c6a28685681e626b",
-    "research_domain": "General Science",
+    "research_domain": "Hydrology & Water Resources",
     "engagement_level": "Review Paper",
     "missions_instruments": [
       {
@@ -27471,9 +27425,7 @@
     "research_domains": [
       "Hydrology & Water Resources",
       "Remote Sensing",
-      "Satellite Altimetry",
-      "Water Resource Management",
-      "Geodesy & Gravity"
+      "River & Lake Monitoring"
     ]
   },
   {
@@ -27492,7 +27444,7 @@
     "citing_team_paper": "Geostrophy Assessment and Momentum Balance of the Global Oceans in a Tide- and Eddy-Resolving Model",
     "team_paper_id": "f0d4e7176473b8cf47c14c84dc9cc68dc9d781ad",
     "research_domain": "Bathymetry & Seafloor",
-    "engagement_level": "Simple Citation",
+    "engagement_level": "Citation",
     "missions_instruments": [
       {
         "name": "SWOT",
@@ -27526,7 +27478,7 @@
         "phase2_majority_domain": "Ecosystem & Biogeochemistry",
         "llm_reclassification": {
           "previous_label": "Review Paper",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "The abstract discusses nitrogen fixation by Trichodesmium spp. and a Video Plankton Recorder survey, with no mention of SWOT data, instruments, or products.",
           "confidence": 5,
           "abstract_used": true,
@@ -27571,7 +27523,7 @@
     "country": null,
     "citing_team_paper": "Success Stories of Satellite Radar Altimeter Applications",
     "team_paper_id": "12d4ed76e4bf8fe2625cd96e41b02a3c9f812d8f",
-    "research_domain": "General Science",
+    "research_domain": "Remote Sensing",
     "engagement_level": "Review Paper",
     "missions_instruments": [
       {
@@ -27623,14 +27575,8 @@
     "is_peer_reviewed": true,
     "research_domains": [
       "Remote Sensing",
-      "Satellite Altimetry",
       "Hydrology & Water Resources",
-      "Oceanography",
-      "Sea Level Change",
-      "River Routing",
-      "Flood Modeling",
-      "Earth System Science",
-      "Water Resource Management"
+      "Ocean Surface Topography"
     ]
   },
   {
@@ -27649,7 +27595,7 @@
     "citing_team_paper": "Assessing Submesoscale Sea Surface Height Signals From the SWOT Mission",
     "team_paper_id": "649f3354c23d7a2c244e78a6099a494b4524a410",
     "research_domain": "Ocean Surface Topography",
-    "engagement_level": "Simple Citation",
+    "engagement_level": "Citation",
     "missions_instruments": [
       {
         "name": "SWOT",
@@ -27683,7 +27629,7 @@
         "phase2_majority_domain": "Ocean & Marine Science",
         "llm_reclassification": {
           "previous_label": "Review Paper",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "The abstract discusses submesoscale water-mass variability using tow-yo and autonomous platforms, and numerical modeling. It does not mention using SWOT data or products.",
           "confidence": 5,
           "abstract_used": true,
@@ -27719,7 +27665,7 @@
     "country": null,
     "citing_team_paper": "The Surface Water and Ocean Topography Mission: A Breakthrough in Radar Remote Sensing of the Ocean and Land Surface Water",
     "team_paper_id": "69c36b4bdaaf9fdbd30fa1f9cdff340c1812a1a0",
-    "research_domain": "General Science",
+    "research_domain": "Coastal Dynamics",
     "engagement_level": "Data Usage",
     "missions_instruments": [
       {
@@ -27770,13 +27716,10 @@
     },
     "is_peer_reviewed": true,
     "research_domains": [
-      "Satellite Altimetry",
-      "Sea Level Change",
-      "Remote Sensing",
       "Coastal Dynamics",
+      "Ocean Surface Topography",
       "Physical Oceanography",
-      "Hydrology & Water Resources",
-      "Ocean Tides"
+      "Remote Sensing"
     ]
   },
   {
@@ -28033,7 +27976,7 @@
     "citing_team_paper": "Wide-swath satellite altimetry unveils global submesoscale ocean dynamics",
     "team_paper_id": "ef09273447e127fb7ef62cd6171fb3c9ffb22072",
     "research_domain": "Ocean Surface Topography",
-    "engagement_level": "Simple Citation",
+    "engagement_level": "Citation",
     "missions_instruments": [
       {
         "name": "SWOT",
@@ -28067,7 +28010,7 @@
         "phase2_majority_domain": "Ocean & Marine Science",
         "llm_reclassification": {
           "previous_label": "Review Paper",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "Perspectives in terms of the impacts on climate dynamics and future satellite observational systems are briefly discussed.",
           "confidence": 4,
           "abstract_used": true,
@@ -28104,7 +28047,7 @@
     "citing_team_paper": "Dynamic Interpolation of Sea Surface Height and Potential Applications for Future High-Resolution Altimetry Mapping",
     "team_paper_id": "8239ce4921a9e7c53945c0f57011ed0123455a08",
     "research_domain": "Ocean Surface Topography",
-    "engagement_level": "Simple Citation",
+    "engagement_level": "Citation",
     "missions_instruments": [
       {
         "name": "SWOT",
@@ -28138,7 +28081,7 @@
         "phase2_majority_domain": "Ocean & Marine Science",
         "llm_reclassification": {
           "previous_label": "Review Paper",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "The study proposes a new method for interpolating sea surface height in the context of future missions like SWOT, but does not use SWOT data itself.",
           "confidence": 4,
           "abstract_used": true,
@@ -28178,7 +28121,7 @@
     "citing_team_paper": "Evaluation of a 4DVAR Assimilation System in the California Current at the SWOT Calibration/Validation Site",
     "team_paper_id": "83b6ef0179d16a5cc1d07cb5c0ec35438bcd6081",
     "research_domain": "River & Lake Monitoring",
-    "engagement_level": "Simple Citation",
+    "engagement_level": "Citation",
     "missions_instruments": [
       {
         "name": "SWOT",
@@ -28212,7 +28155,7 @@
         "phase2_majority_domain": "Hydrology & Water Resources",
         "llm_reclassification": {
           "previous_label": "Review Paper",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "The abstract discusses hydrological-hydrogeological models and stream-aquifer interfaces across scales, mentioning 'space borne data' generally but not SWOT specifically or its data products.",
           "confidence": 4,
           "abstract_used": true,
@@ -28325,7 +28268,7 @@
     "citing_team_paper": "Observing Rivers With Varying Spatial Scales",
     "team_paper_id": "73b5e10cf231dfac5cfd8b3c5a5da19f61f1a7a5",
     "research_domain": "River & Lake Monitoring",
-    "engagement_level": "Simple Citation",
+    "engagement_level": "Citation",
     "missions_instruments": [
       {
         "name": "SWOT",
@@ -28359,7 +28302,7 @@
         "phase2_majority_domain": "Hydrology & Water Resources",
         "llm_reclassification": {
           "previous_label": "Data Usage",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "This algorithm has potential application to river h and S measurements from the forthcoming Surface Water and Ocean Topography (SWOT) satellite mission. ... These results suggest that it should be possible to estimate river discharge via SWOT observations...",
           "confidence": 4,
           "abstract_used": true,
@@ -28471,7 +28414,7 @@
     "country": null,
     "citing_team_paper": "Combining surface drifters and high resolution global simulations enables the mapping of internal tide surface energy",
     "team_paper_id": "04ddc3d2f094f3553470c7b4bd23c06415524615",
-    "research_domain": "General Science",
+    "research_domain": "Numerical Methods",
     "engagement_level": "Data Usage",
     "missions_instruments": [
       {
@@ -28522,10 +28465,9 @@
     },
     "is_peer_reviewed": true,
     "research_domains": [
-      "Remote Sensing",
-      "Satellite Altimetry",
-      "Hydrology & Water Resources",
-      "Geostatistics"
+      "Numerical Methods",
+      "Data Analysis",
+      "Remote Sensing"
     ]
   },
   {
@@ -28866,7 +28808,7 @@
     "citing_team_paper": "Will the Surface Water and Ocean Topography (SWOT) Satellite Mission Observe Floods?",
     "team_paper_id": "346faa768695321ece19f1e46620e267f8bac3a7",
     "research_domain": "Ocean Surface Topography",
-    "engagement_level": "Simple Citation",
+    "engagement_level": "Citation",
     "missions_instruments": [
       {
         "name": "SWOT",
@@ -28900,7 +28842,7 @@
         "phase2_majority_domain": "Ocean & Marine Science",
         "llm_reclassification": {
           "previous_label": "Data Usage",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "From the model results, the pending Surface Water and Ocean Topography (SWOT) wide-swath altimeter appears accurate enough, and with good-enough coverage, to allow the transport fluctuations to be reconstructed.",
           "confidence": 4,
           "abstract_used": true,
@@ -28948,7 +28890,7 @@
     "citing_team_paper": "Will the Surface Water and Ocean Topography (SWOT) Satellite Mission Observe Floods?",
     "team_paper_id": "346faa768695321ece19f1e46620e267f8bac3a7",
     "research_domain": "Altimetry Methods & Calibration",
-    "engagement_level": "Simple Citation",
+    "engagement_level": "Citation",
     "missions_instruments": [
       {
         "name": "SWOT",
@@ -28982,7 +28924,7 @@
         "phase2_majority_domain": "Hydrology & Water Resources",
         "llm_reclassification": {
           "previous_label": "Data Usage",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "This paper illustrates the utility of existing remote sensing measurements... and highlight the potential of SWOT measurements for fluvial hydrology.",
           "confidence": 4,
           "abstract_used": true,
@@ -29183,7 +29125,7 @@
     "citing_team_paper": "Will the Surface Water and Ocean Topography (SWOT) Satellite Mission Observe Floods?",
     "team_paper_id": "346faa768695321ece19f1e46620e267f8bac3a7",
     "research_domain": "Ocean Surface Topography",
-    "engagement_level": "Simple Citation",
+    "engagement_level": "Citation",
     "missions_instruments": [
       {
         "name": "SWOT",
@@ -29217,7 +29159,7 @@
         "phase2_majority_domain": "Hydrology & Water Resources",
         "llm_reclassification": {
           "previous_label": "Review Paper",
-          "new_label": "Simple Citation",
+          "new_label": "Citation",
           "justification": "The implication for remote sensing studies of the central Amazon channel, such as those proposed with the Surface Water and Ocean Topography mission (SWOT), is that even relatively crude assumptions regarding the channel bathymetry will be valid in order to derive discharge from water surface slope ",
           "confidence": 4,
           "abstract_used": true,

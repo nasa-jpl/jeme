@@ -1,0 +1,255 @@
+{
+  "fetchedAt": "2026-06-05T10:00:05.771Z",
+  "fromDate": "2026-05-05",
+  "count": 23,
+  "articles": [
+    {
+      "url": "https://science.nasa.gov/photojournal/international-sea-level-satellite-observes-el-nino-precursor/",
+      "title": "International Sea Level Satellite Observes El Niño Precursor",
+      "summary": "Description Sea level height data from the international Sentinel-6 Michael Freilich satellite collected from March to May 2026 show higher, warmer water moving from the western Pacific Ocean to just off the coast of Colombia, Ecuador, and Peru. This phenomenon is known as a warm Kelvin wave, signified in this animation of the data by [&#8230;]\nThe post International Sea Level Satellite Observes E",
+      "section": "NASA Earth Observatory",
+      "source": "NASA Earth Observatory",
+      "date": "2026-06-03",
+      "models": [],
+      "sectors": []
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/06/260603023113.htm",
+      "title": "Super Typhoon Sinlaku triggered atmospheric gravity waves visible from space",
+      "summary": "One of the most powerful typhoons ever recorded this early in the Pacific season did more than unleash flooding and extreme winds—it sent enormous ripples all the way into the upper atmosphere. As Super Typhoon Sinlaku rapidly exploded into a category 5-equivalent storm, satellites captured rare gravity waves spreading outward like rings on a pond, visible high above Earth through a faint glow in ",
+      "section": "ScienceDaily",
+      "source": "ScienceDaily",
+      "date": "2026-06-03",
+      "models": [],
+      "sectors": []
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/06/260603023110.htm",
+      "title": "Typhoon Jangmi’s giant eye lights up the night as it approaches Japan",
+      "summary": "Typhoon Jangmi powered toward southern Japan with heavy rain, strong winds, and a striking appearance from space. Nighttime satellite images revealed a large eye and intricate swirling structures within the storm. As Jangmi intensified, its outer bands spread over land, raising concerns about flooding and prolonged downpours across parts of Japan.",
+      "section": "ScienceDaily",
+      "source": "ScienceDaily",
+      "date": "2026-06-03",
+      "models": [],
+      "sectors": []
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/06/260602021655.htm",
+      "title": "New discovery upends an 80-year-old theory of turbulence",
+      "summary": "Researchers discovered a way to reverse the direction of energy flow in turbulence, challenging a theory that has stood for more than 80 years. The finding could open new possibilities for controlling ocean currents, improving medical technologies, and enhancing climate forecasting.",
+      "section": "ScienceDaily",
+      "source": "ScienceDaily",
+      "date": "2026-06-03",
+      "models": [],
+      "sectors": []
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/06/260602021659.htm",
+      "title": "A hidden pollutant is changing how the world&#039;s forests breathe",
+      "summary": "A massive global analysis found that nitrogen pollution can either speed up or dramatically slow the natural &quot;breathing&quot; of forest soils, depending on the ecosystem&#039;s condition. The results reveal hidden tipping points that could affect how forests store carbon and cope with climate change.",
+      "section": "ScienceDaily",
+      "source": "ScienceDaily",
+      "date": "2026-06-02",
+      "models": [],
+      "sectors": []
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/06/260601025345.htm",
+      "title": "New hydrogen breakthrough turns waste heat into clean fuel",
+      "summary": "A breakthrough hydrogen-production method could make clean fuel far cheaper and easier to generate. Researchers at the University of Birmingham developed a perovskite-based catalyst that splits water into hydrogen at much lower temperatures than existing technologies, potentially allowing factories, steel plants, cement works, and renewable energy sites to turn waste heat into valuable hydrogen.",
+      "section": "ScienceDaily",
+      "source": "ScienceDaily",
+      "date": "2026-06-02",
+      "models": [],
+      "sectors": [
+        "Energy"
+      ]
+    },
+    {
+      "url": "https://eos.org/research-spotlights/rivers-in-the-antarctic-sky-captured-in-3d",
+      "title": "Rivers in the Antarctic Sky, Captured in 3D",
+      "summary": "A new study shows that atmospheric rivers may be responsible for up to 90% of Antarctica’s annual precipitation.",
+      "section": "Eos / AGU",
+      "source": "Eos / AGU",
+      "date": "2026-06-02",
+      "models": [],
+      "sectors": []
+    },
+    {
+      "url": "https://science.nasa.gov/earth/earth-observatory/gravity-waves-from-super-typhoon-sinlaku/",
+      "title": "Gravity Waves From Super Typhoon Sinlaku",
+      "summary": "Satellites observed striking upper-atmosphere phenomena generated by an intensifying tropical cyclone.\nThe post Gravity Waves From Super Typhoon Sinlaku appeared first on NASA Science.",
+      "section": "NASA Earth Observatory",
+      "source": "NASA Earth Observatory",
+      "date": "2026-06-01",
+      "models": [],
+      "sectors": []
+    },
+    {
+      "url": "https://eos.org/editor-highlights/model-of-complex-blanket-bog-improves-prediction-of-peat-expansion",
+      "title": "Model of Complex Blanket Bog Improves Prediction of Peat Expansion",
+      "summary": "Peat expansion is tightly coupled to the global climate cycle. As a nature-based solution to climate change, we need to know how they will respond to different climate scenarios.",
+      "section": "Eos / AGU",
+      "source": "Eos / AGU",
+      "date": "2026-06-01",
+      "models": [],
+      "sectors": [
+        "Carbon & Conservation"
+      ]
+    },
+    {
+      "url": "https://eos.org/agu-news/an-off-road-itinerary",
+      "title": "An Off-Road Itinerary",
+      "summary": "This month, we cover the work of scientists stepping out of their labs and into the field, from rugged lava expanses and volcanic summits to arid ice sheets and lake beds.",
+      "section": "Eos / AGU",
+      "source": "Eos / AGU",
+      "date": "2026-06-01",
+      "models": [],
+      "sectors": []
+    },
+    {
+      "url": "https://science.nasa.gov/earth/earth-observatory/painting-the-growing-season-in-the-maize-triangle/",
+      "title": "Painting the Growing Season in the Maize Triangle",
+      "summary": "Radar data from an agricultural area in South Africa, shown in a vivid color palette, reveal crop types and how they changed during the Southern Hemisphere's growing season.\nThe post Painting the Growing Season in the Maize Triangle appeared first on NASA Science.",
+      "section": "NASA Earth Observatory",
+      "source": "NASA Earth Observatory",
+      "date": "2026-05-29",
+      "models": [],
+      "sectors": [
+        "Agriculture"
+      ]
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/05/260528082455.htm",
+      "title": "Antarctica’s ice sheet hit a climate tipping point 1 million years ago",
+      "summary": "A new study suggests Antarctica’s ice sheet hit a climate tipping point about one million years ago, making it far more reactive to temperature and CO2 changes. Researchers warn this surprising sensitivity could offer clues about how the continent may respond to today’s warming world.",
+      "section": "ScienceDaily",
+      "source": "ScienceDaily",
+      "date": "2026-05-29",
+      "models": [],
+      "sectors": []
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/05/260528082457.htm",
+      "title": "Arctic Ocean passed a tipping point and scientists say it may never recover",
+      "summary": "The Arctic Ocean may have crossed a dangerous tipping point. Scientists say the rapid disappearance of sea ice is triggering a hidden chemical shift that is stripping the ocean of nitrate — a nutrient essential for the tiny plankton that support Arctic life. As nitrate levels plunge, the entire food web could feel the impact, from fish and seabirds to whales and polar ecosystems.",
+      "section": "ScienceDaily",
+      "source": "ScienceDaily",
+      "date": "2026-05-28",
+      "models": [],
+      "sectors": []
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/05/260522023132.htm",
+      "title": "Scientists just found a faster, cleaner way to extract lithium for EV batteries",
+      "summary": "A breakthrough lithium-extraction method could help solve one of clean energy’s dirtiest problems. Researchers at Columbia Engineering have developed a fast new technique that pulls lithium directly from salty underground brines using a temperature-sensitive solvent, avoiding the giant evaporation ponds that can take years and drain precious water supplies. Even better, the method works on low-qua",
+      "section": "ScienceDaily",
+      "source": "ScienceDaily",
+      "date": "2026-05-23",
+      "models": [],
+      "sectors": [
+        "Energy"
+      ]
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/05/260522023116.htm",
+      "title": "Sea level rise is speeding up and scientists now know exactly why",
+      "summary": "The world’s oceans are rising at an accelerating pace, and scientists now say they can fully explain what’s driving it. Warming seawater is the biggest factor, while melting glaciers and polar ice sheets are increasingly pouring more water into the oceans each year. Researchers also solved a puzzling mismatch in sea level measurements that had lingered for years.",
+      "section": "ScienceDaily",
+      "source": "ScienceDaily",
+      "date": "2026-05-22",
+      "models": [
+        "ISSM"
+      ],
+      "sectors": [
+        "Coastal & Sea Level"
+      ]
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/05/260521072359.htm",
+      "title": "Scientists discover towering red auroras reaching deep into space above Japan",
+      "summary": "Mysterious red auroras spotted over Japan were found reaching astonishingly high altitudes, even during space storms considered relatively mild. The discovery suggests hidden solar activity may be stronger than scientists realized — with potential consequences for satellites orbiting Earth.",
+      "section": "ScienceDaily",
+      "source": "ScienceDaily",
+      "date": "2026-05-22",
+      "models": [],
+      "sectors": []
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/05/260518041417.htm",
+      "title": "Antarctic glacier collapses at record speed as Hektoria retreats 15 miles in just 15 months",
+      "summary": "Antarctica’s Hektoria Glacier collapsed with shocking speed, retreating 15 miles in only 15 months and setting a modern record for grounded ice loss. Scientists say warming conditions and ocean-driven instability turned the glacier from seemingly stable to rapidly unraveling almost overnight.",
+      "section": "ScienceDaily",
+      "source": "ScienceDaily",
+      "date": "2026-05-19",
+      "models": [],
+      "sectors": []
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/05/260513221759.htm",
+      "title": "Scientists discover the strange way CO2 cools part of Earth’s atmosphere",
+      "summary": "Scientists have finally cracked the mystery behind one of climate change’s strangest fingerprints: while Earth’s surface heats up, the upper atmosphere is rapidly cooling. Researchers at Columbia University discovered that carbon dioxide acts very differently high above the planet, where it actually helps radiate heat into space instead of trapping it. The team found that certain infrared waveleng",
+      "section": "ScienceDaily",
+      "source": "ScienceDaily",
+      "date": "2026-05-14",
+      "models": [],
+      "sectors": []
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/05/260512202337.htm",
+      "title": "Scientists discover the Southern Ocean is “sweating” more as climate change intensifies",
+      "summary": "A remote island between Australia and Antarctica is showing signs of a dramatic climate transformation. Scientists found storms over Macquarie Island now unleash much heavier rainfall than they did decades ago, soaking ecosystems and altering fragile vegetation. The discovery hints that the Southern Ocean — one of Earth’s biggest climate regulators — may be changing faster than expected. Researche",
+      "section": "ScienceDaily",
+      "source": "ScienceDaily",
+      "date": "2026-05-13",
+      "models": [],
+      "sectors": []
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/05/260509210639.htm",
+      "title": "Scientists say a critical Atlantic ocean current is weakening and the world could feel the impact",
+      "summary": "Scientists have uncovered strong evidence that a major Atlantic Ocean current system tied to global climate is weakening. The slowdown has been detected across a vast region of the North Atlantic over nearly two decades. Since this ocean circulation helps regulate weather and temperatures, changes could affect storms, rainfall, sea levels, and even winter conditions in parts of Europe and North Am",
+      "section": "ScienceDaily",
+      "source": "ScienceDaily",
+      "date": "2026-05-10",
+      "models": [],
+      "sectors": []
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/05/260509210637.htm",
+      "title": "Antarctica is melting from below and scientists say it’s worse than expected",
+      "summary": "Scientists have uncovered a hidden Antarctic threat that could accelerate global sea level rise far faster than expected. Deep beneath floating ice shelves, long channels carved into the ice appear to trap warmer ocean water, dramatically speeding up melting from below. Even regions of East Antarctica once considered relatively stable may be far more vulnerable than scientists realized. Researcher",
+      "section": "ScienceDaily",
+      "source": "ScienceDaily",
+      "date": "2026-05-10",
+      "models": [
+        "ISSM"
+      ],
+      "sectors": [
+        "Coastal & Sea Level"
+      ]
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/05/260505234631.htm",
+      "title": "This town found clean energy deep inside old coal mines",
+      "summary": "Cumberland, B.C. is reimagining its coal mining past as a clean energy opportunity. Water trapped in abandoned mine tunnels could be used in a geothermal system to heat and cool buildings efficiently and with minimal emissions. The project could lower energy costs, support new development, and attract businesses. It’s a striking example of turning industrial leftovers into a sustainable community ",
+      "section": "ScienceDaily",
+      "source": "ScienceDaily",
+      "date": "2026-05-06",
+      "models": [],
+      "sectors": [
+        "Energy"
+      ]
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/05/260505234614.htm",
+      "title": "NASA captures wild swirling clouds and rare arctic storm over Alaska",
+      "summary": "Southern Alaska’s winter finale delivered a spectacular atmospheric display, captured by a NASA satellite. Cold Arctic air flowing over warmer ocean waters created long bands of clouds, swirling vortex patterns, and even a compact polar storm with powerful winds. As the air traveled offshore, it evolved into increasingly complex cloud formations. The result was a dramatic, ever-changing sky that h",
+      "section": "ScienceDaily",
+      "source": "ScienceDaily",
+      "date": "2026-05-06",
+      "models": [],
+      "sectors": []
+    }
+  ]
+}
