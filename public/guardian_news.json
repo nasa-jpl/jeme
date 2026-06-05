@@ -1,36 +1,86 @@
 {
-  "fetchedAt": "2026-06-02T10:00:05.625Z",
-  "fromDate": "2026-05-02",
-  "count": 22,
+  "fetchedAt": "2026-06-05T10:00:05.771Z",
+  "fromDate": "2026-05-05",
+  "count": 23,
   "articles": [
+    {
+      "url": "https://science.nasa.gov/photojournal/international-sea-level-satellite-observes-el-nino-precursor/",
+      "title": "International Sea Level Satellite Observes El Niño Precursor",
+      "summary": "Description Sea level height data from the international Sentinel-6 Michael Freilich satellite collected from March to May 2026 show higher, warmer water moving from the western Pacific Ocean to just off the coast of Colombia, Ecuador, and Peru. This phenomenon is known as a warm Kelvin wave, signified in this animation of the data by [&#8230;]\nThe post International Sea Level Satellite Observes E",
+      "section": "NASA Earth Observatory",
+      "source": "NASA Earth Observatory",
+      "date": "2026-06-03",
+      "models": [],
+      "sectors": []
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/06/260603023113.htm",
+      "title": "Super Typhoon Sinlaku triggered atmospheric gravity waves visible from space",
+      "summary": "One of the most powerful typhoons ever recorded this early in the Pacific season did more than unleash flooding and extreme winds—it sent enormous ripples all the way into the upper atmosphere. As Super Typhoon Sinlaku rapidly exploded into a category 5-equivalent storm, satellites captured rare gravity waves spreading outward like rings on a pond, visible high above Earth through a faint glow in ",
+      "section": "ScienceDaily",
+      "source": "ScienceDaily",
+      "date": "2026-06-03",
+      "models": [],
+      "sectors": []
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/06/260603023110.htm",
+      "title": "Typhoon Jangmi’s giant eye lights up the night as it approaches Japan",
+      "summary": "Typhoon Jangmi powered toward southern Japan with heavy rain, strong winds, and a striking appearance from space. Nighttime satellite images revealed a large eye and intricate swirling structures within the storm. As Jangmi intensified, its outer bands spread over land, raising concerns about flooding and prolonged downpours across parts of Japan.",
+      "section": "ScienceDaily",
+      "source": "ScienceDaily",
+      "date": "2026-06-03",
+      "models": [],
+      "sectors": []
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/06/260602021655.htm",
+      "title": "New discovery upends an 80-year-old theory of turbulence",
+      "summary": "Researchers discovered a way to reverse the direction of energy flow in turbulence, challenging a theory that has stood for more than 80 years. The finding could open new possibilities for controlling ocean currents, improving medical technologies, and enhancing climate forecasting.",
+      "section": "ScienceDaily",
+      "source": "ScienceDaily",
+      "date": "2026-06-03",
+      "models": [],
+      "sectors": []
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/06/260602021659.htm",
+      "title": "A hidden pollutant is changing how the world&#039;s forests breathe",
+      "summary": "A massive global analysis found that nitrogen pollution can either speed up or dramatically slow the natural &quot;breathing&quot; of forest soils, depending on the ecosystem&#039;s condition. The results reveal hidden tipping points that could affect how forests store carbon and cope with climate change.",
+      "section": "ScienceDaily",
+      "source": "ScienceDaily",
+      "date": "2026-06-02",
+      "models": [],
+      "sectors": []
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/06/260601025345.htm",
+      "title": "New hydrogen breakthrough turns waste heat into clean fuel",
+      "summary": "A breakthrough hydrogen-production method could make clean fuel far cheaper and easier to generate. Researchers at the University of Birmingham developed a perovskite-based catalyst that splits water into hydrogen at much lower temperatures than existing technologies, potentially allowing factories, steel plants, cement works, and renewable energy sites to turn waste heat into valuable hydrogen.",
+      "section": "ScienceDaily",
+      "source": "ScienceDaily",
+      "date": "2026-06-02",
+      "models": [],
+      "sectors": [
+        "Energy"
+      ]
+    },
+    {
+      "url": "https://eos.org/research-spotlights/rivers-in-the-antarctic-sky-captured-in-3d",
+      "title": "Rivers in the Antarctic Sky, Captured in 3D",
+      "summary": "A new study shows that atmospheric rivers may be responsible for up to 90% of Antarctica’s annual precipitation.",
+      "section": "Eos / AGU",
+      "source": "Eos / AGU",
+      "date": "2026-06-02",
+      "models": [],
+      "sectors": []
+    },
     {
       "url": "https://science.nasa.gov/earth/earth-observatory/gravity-waves-from-super-typhoon-sinlaku/",
       "title": "Gravity Waves From Super Typhoon Sinlaku",
       "summary": "Satellites observed striking upper-atmosphere phenomena generated by an intensifying tropical cyclone.\nThe post Gravity Waves From Super Typhoon Sinlaku appeared first on NASA Science.",
       "section": "NASA Earth Observatory",
       "source": "NASA Earth Observatory",
-      "date": "2026-06-01",
-      "models": [],
-      "sectors": []
-    },
-    {
-      "url": "https://www.nasa.gov/news-release/nasa-invites-media-to-see-roman-space-telescope-arrive-at-kennedy/",
-      "title": "NASA Invites Media to See Roman Space Telescope Arrive at Kennedy",
-      "summary": "Registration is open for media to cover the arrival of NASA’s Nancy Grace Roman Space Telescope at the agency’s Kennedy Space Center in Florida in the coming weeks. The observatory will arrive aboard NASA’s Pegasus barge from NASA’s Goddard Space Flight Center in Greenbelt, Maryland, where teams completed its construction, assembly, and testing. Credentialed media [&#8230;]",
-      "section": "NASA",
-      "source": "NASA",
-      "date": "2026-06-01",
-      "models": [
-        "GRACE"
-      ],
-      "sectors": []
-    },
-    {
-      "url": "https://www.nasa.gov/general/nasa-to-conduct-low-altitude-flights-near-houston/",
-      "title": "NASA to Conduct Low-Altitude Flights Near Houston",
-      "summary": "Five research&#160;aircraft&#160;will support a Student Airborne Research Program (SARP) mission out of Ellington Field in Houston. Flights are expected from Wednesday, June 3 to Saturday, June 13.&#160;During the mission, select maneuvers will be conducted at low altitudes over the Houston area.&#160; Pilots&#160;will&#160;fly remote sensing payloads in raster patterns,&#160;or&#160;parallel back",
-      "section": "NASA",
-      "source": "NASA",
       "date": "2026-06-01",
       "models": [],
       "sectors": []
@@ -80,26 +130,6 @@
       "sectors": []
     },
     {
-      "url": "https://eos.org/articles/repairing-the-ozone-layer-may-take-longer-than-expected",
-      "title": "Repairing the Ozone Layer May Take Longer Than Expected",
-      "summary": "A new study reveals that if left unchecked, unaccounted-for emissions of ozone-harming substances could delay the layer’s full recovery by almost a decade.",
-      "section": "Eos / AGU",
-      "source": "Eos / AGU",
-      "date": "2026-05-29",
-      "models": [],
-      "sectors": []
-    },
-    {
-      "url": "https://eos.org/thelandslideblog/sangneung-1",
-      "title": "The 19 July 2025 landslide at Sangneung village in South Korea",
-      "summary": "On 19 July 2025, record-breaking rainfall triggered a landslide that destroyed 26 buildings. Plans are now being developed to permanently relocate the community. On 19 July 2025, parts of South Korea suffered record-breaking rainfall. Flooding and landslides were the inevitable outcome. One location that was particularly severely impacted was a small rural village called Sangneung, [&#8230;]",
-      "section": "Eos / AGU",
-      "source": "Eos / AGU",
-      "date": "2026-05-29",
-      "models": [],
-      "sectors": []
-    },
-    {
       "url": "https://www.sciencedaily.com/releases/2026/05/260528082457.htm",
       "title": "Arctic Ocean passed a tipping point and scientists say it may never recover",
       "summary": "The Arctic Ocean may have crossed a dangerous tipping point. Scientists say the rapid disappearance of sea ice is triggering a hidden chemical shift that is stripping the ocean of nitrate — a nutrient essential for the tiny plankton that support Arctic life. As nitrate levels plunge, the entire food web could feel the impact, from fish and seabirds to whales and polar ecosystems.",
@@ -142,16 +172,6 @@
       "section": "ScienceDaily",
       "source": "ScienceDaily",
       "date": "2026-05-22",
-      "models": [],
-      "sectors": []
-    },
-    {
-      "url": "https://science.nasa.gov/earth/earth-observatory/new-eruption-in-the-bismarck-sea/",
-      "title": "New Eruption in the Bismarck Sea",
-      "summary": "Satellite imagery shows a surge of new volcanic activity in the ocean near Papua New Guinea.\nThe post New Eruption in the Bismarck Sea appeared first on NASA Science.",
-      "section": "NASA Earth Observatory",
-      "source": "NASA Earth Observatory",
-      "date": "2026-05-21",
       "models": [],
       "sectors": []
     },
@@ -228,16 +248,6 @@
       "section": "ScienceDaily",
       "source": "ScienceDaily",
       "date": "2026-05-06",
-      "models": [],
-      "sectors": []
-    },
-    {
-      "url": "https://www.sciencedaily.com/releases/2026/05/260504023852.htm",
-      "title": "Greenland ice melt has surged sixfold and scientists are alarmed",
-      "summary": "Greenland’s ice sheet is now melting in ways never seen before, with extreme events becoming more frequent, widespread, and intense. Since 1990, meltwater production has skyrocketed, and most record-breaking events have occurred in recent years. Scientists say warming temperatures are supercharging these episodes beyond natural climate patterns.",
-      "section": "ScienceDaily",
-      "source": "ScienceDaily",
-      "date": "2026-05-04",
       "models": [],
       "sectors": []
     }
