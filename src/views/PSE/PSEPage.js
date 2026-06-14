@@ -45,7 +45,7 @@ const STATUS_META = {
 
 // News is pre-fetched nightly by scripts/fetch_guardian_news.js (cron 10:00 UTC = 2am PT).
 // The React app reads the static file — instant load, no API key in client.
-const NEWS_JSON_URL = '/science-model-dashboard/guardian_news.json';
+const NEWS_JSON_URL = `${process.env.PUBLIC_URL}/guardian_news.json`;
 
 const autoTagModels = (text) => {
   const t = text.toLowerCase();
@@ -74,7 +74,7 @@ const autoTagSectors = (text) => {
   return tags;
 };
 
-const ALUMNI_JSON_URL = '/science-model-dashboard/jpl_alumni.json';
+const ALUMNI_JSON_URL = `${process.env.PUBLIC_URL}/jpl_alumni.json`;
 
 // Company name → regex for detecting mentions in news article text
 const COMPANY_PATTERNS = [
@@ -151,67 +151,67 @@ const ALL_MODELS = [
   {
     name: 'RAPID', type: 'model', color: '#3B82F6', domain: 'Hydrology',
     industryPitch: 'Forecast river discharge and flood risk across millions of stream reaches — from irrigation planning to parametric insurance triggers.',
-    path: '/science-model-dashboard/RAPID',
+    path: '/RAPID',
     website: 'http://rapid-hub.org/',
   },
   {
     name: 'CARDAMOM', type: 'model', color: '#10B981', domain: 'Carbon Cycle',
     industryPitch: 'Quantify terrestrial carbon stocks, soil moisture, and ecosystem dynamics for carbon markets, nature-based investment, and agricultural risk.',
-    path: '/science-model-dashboard/CARDAMOM',
+    path: '/CARDAMOM',
     website: 'https://cardamom-framework.github.io/CARDAMOM',
   },
   {
     name: 'CMS-Flux', type: 'model', color: '#F59E0B', domain: 'Carbon Flux',
     industryPitch: 'Satellite-verified CO₂ flux data for emissions accounting, carbon credit verification, ESG reporting, and regulatory compliance.',
-    path: '/science-model-dashboard/CMS-Flux',
+    path: '/CMS-Flux',
     website: 'https://cmsflux.jpl.nasa.gov/',
   },
   {
     name: 'ECCO', type: 'model', color: '#8B5CF6', domain: 'Oceanography',
     industryPitch: 'Full-depth ocean state data for maritime routing, offshore energy planning, coastal hazard assessment, and hurricane risk quantification.',
-    path: '/science-model-dashboard/ECCO',
+    path: '/ECCO',
     website: 'https://ecco-group.org/',
   },
   {
     name: 'ISSM', type: 'model', color: '#06B6D4', domain: 'Glaciology',
     industryPitch: 'Probabilistic sea-level rise projections from ice sheet dynamics for long-horizon coastal asset valuation and infrastructure planning.',
-    path: '/science-model-dashboard/ISSM',
+    path: '/ISSM',
     website: 'https://issm.jpl.nasa.gov/',
   },
   {
     name: 'MOMO-CHEM', type: 'model', color: '#EF4444', domain: 'Atmospheric Chemistry',
     industryPitch: 'Tropospheric pollutant reanalysis for air quality products, environmental liability underwriting, and health risk assessment.',
-    path: '/science-model-dashboard/MOMO-CHEM',
+    path: '/MOMO-CHEM',
     website: null,
   },
   {
     name: 'LES', type: 'model', color: '#2E8B57', domain: 'Atmospheric Modeling',
     industryPitch: 'High-fidelity boundary layer turbulence simulations for wind energy micrositing, structural load analysis, and atmospheric design standards.',
-    path: '/science-model-dashboard/LES',
+    path: '/LES',
     website: null,
   },
   {
     name: 'EDMF', type: 'model', color: '#FF6347', domain: 'Atmospheric Modeling',
     industryPitch: 'Turbulent mixing parameterizations that improve wind, solar, and precipitation forecasts for energy, agriculture, and grid operators.',
-    path: '/science-model-dashboard/EDMF',
+    path: '/EDMF',
     website: null,
   },
   {
     name: 'GRACE', type: 'mission', color: '#D946EF', domain: 'Geophysics & Geodesy',
     industryPitch: 'Monthly groundwater and ice mass change data for water stress monitoring, drought insurance design, and sea-level rise projections.',
-    path: '/science-model-dashboard/GRACE',
+    path: '/GRACE',
     website: 'https://gracefo.jpl.nasa.gov/',
   },
   {
     name: 'SWOT', type: 'mission', color: '#0EA5E9', domain: 'Ocean & Hydrology',
     industryPitch: 'First global sub-kilometer survey of surface water elevations for flood mapping, reservoir management, and coastal hazard early warning.',
-    path: '/science-model-dashboard/SWOT',
+    path: '/SWOT',
     website: 'https://swot.jpl.nasa.gov/',
   },
   {
     name: 'TROPESS', type: 'mission', color: '#F97316', domain: 'Atmospheric Chemistry',
     industryPitch: 'NASA CrIS/AIRS-based atmospheric profiling of ozone, CO, and other trace gases — enabling air quality forecasting, regulatory compliance, and pollution source attribution.',
-    path: '/science-model-dashboard/TROPESS',
+    path: '/TROPESS',
     website: 'https://tropess.gesdisc.eosdis.nasa.gov/',
   },
 ];
@@ -1709,7 +1709,7 @@ const PSEPage = () => {
     const favicon = document.querySelector('link[rel="icon"]');
     const prevHref = favicon?.href;
     document.title = 'PSE';
-    if (favicon) favicon.href = '/science-model-dashboard/favicon-pse.svg';
+    if (favicon) favicon.href = `${process.env.PUBLIC_URL}/favicon-pse.svg`;
     return () => {
       document.title = prev;
       if (favicon && prevHref) favicon.href = prevHref;

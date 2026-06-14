@@ -18,7 +18,7 @@ const PSENavBar = ({ activeTab, setActiveTab }) => {
       <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
         <Link to="/pse" className="flex items-center gap-3">
           <img
-            src="/science-model-dashboard/favicon-pse.svg"
+            src={`${process.env.PUBLIC_URL}/favicon-pse.svg`}
             alt="PSE"
             className="h-10 w-10 rounded-md"
           />
@@ -39,10 +39,10 @@ const PSENavBar = ({ activeTab, setActiveTab }) => {
             </button>
           ))}
 
-          <Link to="/science-model-dashboard" className={inactiveClass}>
+          <Link to="/" className={inactiveClass}>
             JEME
           </Link>
-          <Link to="/science-model-dashboard/JEOE" className={inactiveClass}>
+          <Link to="/JEOE" className={inactiveClass}>
             JEOE
           </Link>
         </div>
