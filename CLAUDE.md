@@ -206,6 +206,6 @@ Three-phase pipeline for quantifying classification confidence. Each phase adds 
 
 ## Deployment
 
-- Production site (JEME): `http://34.31.165.25:3000/science-model-dashboard/`
-- Production site (JEOE): `http://34.31.165.25:3000/science-model-dashboard/JEOE`
+- Default port: `3000` (set `PORT` in `.env` to override)
+- Set `PUBLIC_URL=/science-model-dashboard` when building for GCP (`npm run build:gcp`)
 - GitHub Pages is NOT used
