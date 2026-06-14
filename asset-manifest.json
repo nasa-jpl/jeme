@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/jeme/static/css/main.41cd4c61.css",
-    "main.js": "/jeme/static/js/main.7d887d75.js",
+    "main.js": "/jeme/static/js/main.5ef34013.js",
     "index.html": "/jeme/index.html",
     "main.41cd4c61.css.map": "/jeme/static/css/main.41cd4c61.css.map",
-    "main.7d887d75.js.map": "/jeme/static/js/main.7d887d75.js.map"
+    "main.5ef34013.js.map": "/jeme/static/js/main.5ef34013.js.map"
   },
   "entrypoints": [
     "static/css/main.41cd4c61.css",
-    "static/js/main.7d887d75.js"
+    "static/js/main.5ef34013.js"
   ]
 }
